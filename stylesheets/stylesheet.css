@@ -354,6 +354,13 @@ Full-Width Styles
   background: url(../images/sprite_download.png) no-repeat top right;
 }
 
+.header_nav a {
+  background-color: #0090ff;
+  padding: 10px 10px 10px 10px;
+  color: #fff;
+  border-radius: 2px;
+}
+
 #main_content_wrap {
   background: #f2f2f2;
   border-top: 1px solid #111;
