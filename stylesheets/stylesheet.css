@@ -137,15 +137,6 @@ img {
   position: relative;
   margin: 0 auto;
   max-width: 739px;
-  padding: 5px;
-  margin: 10px 0 10px 0;
-  border: 1px solid #ebebeb;
-
-  box-shadow: 0 0 5px #ebebeb;
-  -webkit-box-shadow: 0 0 5px #ebebeb;
-  -moz-box-shadow: 0 0 5px #ebebeb;
-  -o-box-shadow: 0 0 5px #ebebeb;
-  -ms-box-shadow: 0 0 5px #ebebeb;
 }
 
 p img {
@@ -375,6 +366,16 @@ Full-Width Styles
   background: #212121;
 }
 
+.footer-socialmedia-container {
+  min-width: 80px;
+  min-height: 150px;
+  float: right;
+}
+
+.footer-socialmedia-container img {
+  max-width: 2rem;
+  margin: 0.5rem;
+}
 
 
 /*******************************************************************************
