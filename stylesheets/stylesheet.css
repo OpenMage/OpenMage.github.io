@@ -350,6 +350,8 @@ Full-Width Styles
   padding: 10px 10px 10px 10px;
   color: #fff;
   border-radius: 2px;
+  display: inline-block;
+  margin-right: 0.3rem;
 }
 
 #main_content_wrap {
