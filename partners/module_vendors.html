@@ -1,0 +1,27 @@
+---
+layout: default
+title: Partner Module Vendors
+---
+
+Add yourself <a href="https://github.com/OpenMage/OpenMage.github.io/blob/master/partners/module_vendors.html">here</a>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>website</th>
+        <th>description</th>
+    </tr>
+    {% for row in site.data.partners.module_vendor %}
+    <tr>
+        <td>
+            {{ row.name }}
+        </td>
+        <td>
+            {{ row.url }}
+        </td>
+        <td>
+            {{ row.description | markdownify }}
+        </td>
+    </tr>
+    {% endfor %}
+</table>

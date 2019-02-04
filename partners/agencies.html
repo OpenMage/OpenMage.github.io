@@ -1,0 +1,35 @@
+---
+layout: default
+title: Partner Agencies
+---
+
+Add yourself <a href="https://github.com/OpenMage/OpenMage.github.io/blob/master/partners/agencies.html">here</a>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>website</th>
+        <th># of contributions</th>
+        <th>contributions</th>
+    </tr>
+    {% for row in site.data.partners.agency %}
+    <tr>
+        <td>
+            {{ row.name }}
+        </td>
+        <td>
+            {{ row.url }}
+        </td>
+        <td>
+            {{ row.contributions | size }}
+        </td>
+        <td>
+            <ul>
+                {% for contribution in row.contributions %}
+                <li>{{ contribution }}</li>
+                {% endfor %}
+            </ul>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
