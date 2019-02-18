@@ -1,4 +1,16 @@
 
+## Use this docs locally
+
+install jekyll:
+
+https://jekyllrb.com/docs/installation/
+
+install gems:
+
+```
+    bundle install
+```
+
 
 run local jekyll:  
 ```
