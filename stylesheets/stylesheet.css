@@ -380,6 +380,13 @@ Full-Width Styles
 }
 
 
+.boxed-content {
+  border: 1px silver solid;
+  border-radius: 5px;
+  padding: 0 1rem 1rem 1rem;
+}
+
+
 /*******************************************************************************
 Small Device Styles
 *******************************************************************************/
