@@ -1,11 +1,10 @@
 [
   {
-    "name": "placeholder Freelancer 1",
-    "url": "https://example.com",
+    "name": "eCommerceIT",
+    "url": "https://www.ecommerceit.co.uk",
     "contributions": [
       "documentation",
-      "bug reports",
-      "Pull Request #000"
+      "bug reports"
     ]
   }
 ]
