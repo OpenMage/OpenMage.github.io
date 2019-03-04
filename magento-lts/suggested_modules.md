@@ -29,3 +29,13 @@ by Ashley Schroder (aschroder.com)
 - Test your configuration from the Magento admin
 - View a log of all emails
 - Improve deliverability with an external SMTP server
+
+
+## avstudnitz/scopehint
+
+[https://github.com/avstudnitz/AvS_ScopeHint]()
+
+Whenever a configuration setting is overwritten by a lower level website or store view, an icon is displayed.
+On Mouseover, a list of all stores / websites which overwrite the setting is shown with the respective values.
+
+![Screenshot of AvS_ScopeHint](/images/AvS_ScopeHint.png)
