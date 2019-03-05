@@ -6,5 +6,14 @@
       "documentation",
       "bug reports"
     ]
+  },
+  {
+    "name": "Kevin Krieger",
+    "url": "https://kkrieger.de/",
+    "contributions": [
+      "documentation",
+      "bug reports",
+      "Pull Request #612"
+    ]
   }
 ]
