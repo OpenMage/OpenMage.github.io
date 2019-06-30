@@ -15,4 +15,5 @@ and constantly working on reinventing and improve themself.
 * [Agencies](agencies.html)
 * [Freelancer](freelancer.html)
 * [Modul Vendors](module_vendors.html)
+* [Store Fronts](storefronts.html)
      
