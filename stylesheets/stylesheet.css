@@ -387,6 +387,34 @@ Full-Width Styles
 }
 
 
+.content-navigation-element {
+  display: inline-block;
+  background-color: #77A6DA;
+  box-shadow: black 0rem 0rem 0.9rem 0;
+  color: #fff;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  border: 1px black solid;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  max-width: 44%;
+  min-width: 14rem;
+}
+
+.content-navigation-element h3,
+.content-navigation-element p,
+.content-navigation-element a
+{
+  display: block;
+  color: #fff
+}
+.content-navigation-element a {
+  text-decoration: underline;
+}
+.content-navigation-element a:hover {
+  font-weight: bold;
+}
+
 /*******************************************************************************
 Small Device Styles
 *******************************************************************************/
