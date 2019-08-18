@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Plan for the time after Magento 1 eol
+title: A new Home for Magento Connect Modules
 author: flyingmana
 ---
 
