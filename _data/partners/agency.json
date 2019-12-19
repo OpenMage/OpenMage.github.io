@@ -1,5 +1,15 @@
 [
   {
+      "name": "Webkul Software",
+      "url": "https://webkul.com",
+      "contributions": [
+          "Custom Solution Provider",
+          "Bug Reports",
+          "Modules Creator",
+          "Documentation"
+      ]
+  },
+  {
     "name": "Edmonds Commerce",
     "url": "https://www.edmondscommerce.co.uk",
     "contributions": []
