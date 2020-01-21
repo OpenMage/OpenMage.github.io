@@ -15,5 +15,15 @@
       "bug reports",
       "Pull Request #612"
     ]
+  },
+  {
+    "name": "SN Heukels",
+    "url": "https://overhemden.com",
+    "contributions": [
+      "documentation",
+      "multiple bug reports",
+      "10+ Pull Requests https://github.com/OpenMage/magento-lts/pulls?q=is%3Apr+seansan+author%3Aseansan"      
+    ]
   }
+  
 ]
