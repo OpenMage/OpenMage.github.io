@@ -1,12 +1,12 @@
 [
   {
-    "name": "placeholder Agency 1",
-    "url": "https://example.com",
-    "contributions": [
-      "documentation",
-      "bug reports",
-      "Pull Request #000"
-    ]
+      "name": "Webkul Software",
+      "url": "https://webkul.com",
+      "contributions": [
+          "Bug Reports",
+          "Modules Creator",
+          "Documentation"
+      ]
   },
   {
     "name": "Edmonds Commerce",
@@ -17,5 +17,24 @@
     "name": "Splendid Internet GmbH",
     "url": "https://www.splendid-internet.de/",
     "contributions": []
+  },
+  {
+    "name": "The Ecommerce Workroom",
+    "url": "https://ecommerceworkroom.co.uk",
+    "contributions": []
+  },
+  {
+    "name": "CopeX GmbH",
+    "url": "https://copex.io",
+    "contributions": []
+  },
+  {
+    "name": "placeholder Agency 1",
+    "url": "https://example.com",
+    "contributions": [
+      "documentation",
+      "bug reports",
+      "Pull Request #000"
+    ]
   }
 ]
