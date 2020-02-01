@@ -18,7 +18,8 @@ For this we know of two working installers with support for the magento core as 
         "openmage/magento-lts": "{{ site.data.versions.composer.latestStableBranch }}"
     },
     "extra": {
-        "magento-core-package-type": "magento-source"
+        "magento-core-package-type": "magento-source",
+        "magento-root-dir": "htdocs"
     }
     
 }
