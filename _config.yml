@@ -10,3 +10,9 @@ gems:
   - jekyll-feed
   - jekyll-redirect-from
 
+
+title: Magento-LTS
+description: An archive of Magento + Community driven bug fixes
+google_analytics: UA-62512293-1
+show_downloads: true
+theme: jekyll-theme-cayman
