@@ -1,47 +1,91 @@
-# Magento - Long Term Support
+---
+layout: default
+title: OpenMage LTS - A community-driven fork of Magento Community Edition
+---
+<p>Magento's massive success and leadership as an open-source ecommerce platform made history, but the book isn't closed yet.</p>
 
-This repository aims to be a dependably patched archive of the Magento CE core releases. These sources should stay as close to the sources released by Magento as possible (no new features).  **However, pull requests with unofficial bug fixes and security patches from the community are definitely encouraged.** It's our goal to apply patches available from Magento as quickly as possible, but these do not always cover all known issues.
+<ul>
+        <li class="content-navigation-element">
+            <h3>Goals</h3>
+            <p>Which Goals does OpenMage have</p>
+            <a href="/magento-lts/goals.html">
+                <p>Read more...</p>
+            </a>
+        </li>
+        <li class="content-navigation-element">
+            <h3>How you can help</h3>
+            <p>Because there is a lot to do</p>
+            <a href="/partners/what-you-can-do.html">
+                <p>Read more...</p>
+            </a>
+        </li>
+        <li class="content-navigation-element">
+            <h3>Migrate</h3>
+            <p>from Magento(1) to OpenMage LTS</p>
+            <a href="/magento-lts/migration-guide.html">
+                <p>Read more...</p>
+            </a>
+        </li>
+        <li class="content-navigation-element">
+            <h3>Changelog</h3>
+            <p>Magento 1.9.4.2 => OpenMage 20.0.0</p>
+            <a href="/magento-lts/changelog/magento1-openmage-20_0.html">
+                <p>Read more...</p>
+            </a>
+        </li>
+    <li class="content-navigation-element">
+        <h3>Partner</h3>
+        <p>Who are supporting us</p>
+        <a href="/partners/index.html">
+            <p>Read more...</p>
+        </a>
+    </li>
+    <li class="content-navigation-element">
+        <h3>Versions</h3>
+        <p>And their Support Timeframe</p>
+        <a href="/supported-versions.html">
+            <p>Read more...</p>
+        </a>
+    </li>
+</ul>
 
-Though Magento does not follow [Semantic Versioning](http://semver.org/) we aim to provide a workable system for dependancy definition.  A release version might look something like "1.9.1.0", but there may have been some functionality added since the "1.9.0.0" release.  There might also have been some patches released with no update to the currently available sources or version number.  
+<p>
+        The OpenMage LTS project is a community-supported fork of Magento CE. Our goal is to support the continued use of Magento
+        as an eCommerce platform for the thousands of merchants who have built their businesses on this incredible platform.
+</p>
+<p>
+        We strongly encourage participation from the community! If you have a bug fix, improvement or new feature that you think
+        belongs in the Magento core code, submit a pull request and we will discuss it with you, review the code and help you make it happen!
+        The idea of a robust, open-source eCommerce platform has never been more alive! Magento 1 offers a powerful set of features,
+        time-proven architecture, a mature code-base and an easy learning curve.
+</p>
+<p>
+        It's likely that you've invested more time and money into your Magento-based eCommerce platform than you even want to think about.
+        With your help, we'd like to make sure that investment continues to pay it's dividends. OpenMage LTS provides you with a better user experience,
+        a more transparent and open development process, bug fixes, performance improvements and a sound security vulnerability reporting program.
+</p>
+<p>
+        See our <a href="install.html">Installation Guide</a> to get started!
+</p>
 
-Because of this, we must define a slightly different system to define each decimal place.
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h2>
 
+<p><a href="http://opensource.org/licenses/OSL-3.0">OSL v3.0</a></p>
 
-##\#MageVer
-#####1 - UBER VERSION
-######.
-#####9 - Magento Major Version
-######.
-#####1 - Magento Minor Version
-######.
-#####0 - ? (maybe some patches)
+<h2>
+<a id="maintainers" class="anchor" href="#maintainers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Maintainers</h2>
 
+<ul>
+<li><a href="https://github.com/LeeSaferite">Lee Saferite</a></li>
+<li><a href="https://github.com/drobinson">David Robinson</a></li>
+<li><a href="https://github.com/Flyingmana">Daniel Fahlke aka Flyingmana</a></li>
+<li>Pull requests are welcome</li>
+</ul>
 
-Each Magento Minor Version release will get its own branch that will be independently maintained with patches and backported bug fixes.
+<h2>
+<a id="todo" class="anchor" href="#todo" aria-hidden="true"><span class="octicon octicon-link"></span></a>TODO</h2>
 
-
-## Installation
-This allows you to define your version dependencies safely in composer.json:
-
-```
-"openmage/magento-lts": "1.9.1.*"
-```
-
-Running `$ composer.phar update` will install the latest 1.9.1.* core sources under the htdocs directory.  This means that any time there are new patches available from Magento, and they've been imported into magento-lts, **all you have to do to patch your sources is run `$ composer.phar update` again.** If your build process already includes this step, then all you need to do is build and deploy, and you're patched!
-
-## Why (Yet Another) Magento Fork?
-
-This is only *technically* a fork. We are still aiming to run in parallel with the official Magento sources.  Any time there's a new release version, we'll create a new branch.  Any time there's a patch, we'll apply it.  The only difference is we're accepting bug fixes from the community.  This allows us to work off of stable sources without having to wait for official patches from Magento.  This also means that if you're running an older version of Magento, you'll still get all patches that apply to your version.
-
-## License
-[OSL v3.0](http://opensource.org/licenses/OSL-3.0)
-
-
-## Maintainers
-* [Lee Saferite](https://github.com/LeeSaferite)
-* [David Robinson](https://github.com/drobinson)
-* Pull requests are welcome
-
-
-## TODO
-* Travis CI tests to check for newly availble patches for each version
+<ul>
+<li>Travis CI tests to check for newly availble patches for each version</li>
+</ul>

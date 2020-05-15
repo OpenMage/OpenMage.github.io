@@ -3,7 +3,7 @@ layout: default
 title: How to install 
 ---
 
-# How to install Magento-LTS
+# How to install OpenMage LTS
 
 The suggested way to install this Magento 1 Fork is via composer.
 For this we know of two working installers with support for the magento core as dependency.
