@@ -1,6 +1,7 @@
 ---
 layout: default
 title: OpenMage LTS - A community-driven fork of Magento Community Edition
+redirect_from: "/magento-lts/"
 ---
 <p>Magento's massive success and leadership as an open-source ecommerce platform made history, but the book isn't closed yet.</p>
 
