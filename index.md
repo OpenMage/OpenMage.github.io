@@ -66,7 +66,7 @@ redirect_from: "/magento-lts/"
         a more transparent and open development process, bug fixes, performance improvements and a sound security vulnerability reporting program.
 </p>
 <p>
-        See our <a href="install.html">Installation Guide</a> to get started!
+        See our <a href="/magento-lts/install.html">Installation Guide</a> to get started!
 </p>
 
 <h2>
