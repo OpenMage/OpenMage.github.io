@@ -48,6 +48,13 @@ redirect_from: "/magento-lts/"
             <p>Read more...</p>
         </a>
     </li>
+    <li class="content-navigation-element">
+        <h3>PCI Compliance</h3>
+        <p>and related informations</p>
+        <a href="/security/pci-compliance.html">
+            <p>Read more...</p>
+        </a>
+    </li>
 </ul>
 
 <p>
