@@ -24,6 +24,14 @@
       "multiple bug reports",
       "10+ Pull Requests https://github.com/OpenMage/magento-lts/pulls?q=is%3Apr+seansan+author%3Aseansan"      
     ]
+  },
+  {
+    "name": "Sven Reichel",
+    "url": "github-sr@hotmail.com",
+    "contributions": [
+      "documentation",
+      "multiple bug reports",
+      "https://github.com/OpenMage/magento-lts/commits?author=sreichel"
+    ]
   }
-  
 ]
