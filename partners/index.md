@@ -1,19 +1,16 @@
 ---
-layout: default
+layout: partner
 title: Partners
 ---
 
+OpenMage is built and maintained by many passionate individuals. But OpenMage would not exist without our strategic partners. 
 
-OpenMage lives not only from the People contributing directly to it.
+Agencies, Freelancers, Module Vendors and Theme Creators play a vital role in this thriving ecosystem. They build and release shops, perform essential maintenance, and work constantly to improve and reinvent the building blocks that produced a superior ecommerce experience.
 
-The Agencies, the Freelancers, Module Vendors and Theme Creators 
-play an equal, maybe even more important role.
-They are the ones bringing the Shops online, do the maintenance,
-and constantly working on reinventing and improve themself.
-
+Visit our partners below
 
 * [Agencies](agencies.html)
 * [Freelancer](freelancer.html)
-* [Modul Vendors](module_vendors.html)
-* [Store Fronts](storefronts.html)
+* [Module vendors](module_vendors.html)
+* [Store fronts](storefronts.html)
      

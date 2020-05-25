@@ -1,23 +1,17 @@
 ---
-layout: default
+layout: partner
 title: Partner Agencies
 ---
-
-Add yourself <a href="https://github.com/OpenMage/OpenMage.github.io/blob/master/_data/partners/agency.json">here</a>
 
 <table>
     <tr>
         <th>Name</th>
-        <th>website</th>
         <th>contributions</th>
     </tr>
     {% for row in site.data.partners.agency %}
     <tr>
         <td>
-            {{ row.name }}
-        </td>
-        <td>
-            {{ row.url }}
+            <a href="{{row.url}}">{{ row.name }}</a>
         </td>
         <td>
             <ul>
