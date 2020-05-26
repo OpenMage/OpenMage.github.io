@@ -361,7 +361,12 @@ Full-Width Styles
 }
 
 #main_content {
-  padding-top: 40px;
+  /* padding-top: 40px; */
+  clear: both;
+}
+
+#main_content table {
+  width: 100%;
 }
 
 #footer_wrap {
