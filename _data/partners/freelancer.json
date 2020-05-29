@@ -33,5 +33,14 @@
       "multiple bug reports",
       "https://github.com/OpenMage/magento-lts/commits?author=sreichel"
     ]
+  },
+  {
+    "name": "Aike Kristian Terjung",
+    "url": "https://akt-web.de",
+    "contributions": [
+      "documentation",
+      "update logos, backend styles",
+      "https://github.com/OpenMage/magento-lts/commits?author=aterjung"
+    ]
   }
 ]
