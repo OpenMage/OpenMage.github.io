@@ -24,7 +24,7 @@ now we use git to create a patch file as described here https://stackoverflow.co
 In this example we have currently Magento 1.9.4.4 in use, and want a patch to migrate to 19.4.3
 
 ```
-git diff 1.9.4.4..v19.4.3 > migration.patch
+git diff --binary 1.9.4.4..v19.4.3 > migration.patch
 ```
 
 You can then use this patch with `git apply migration.patch`, possibly you can even use PHPStorm to apply it.
