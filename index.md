@@ -107,7 +107,7 @@ redirect_from: "/magento-lts/"
             <div class="col-lg-4 text-center">
                 <img class="newsletter__image" src="/assets/images/newsletter.png" alt="Newsletter">
             </div>
-            <div class="col-lg-8 mt-2 mt-lg-5 mb-4">
+            <div class="col-lg-8 mt-2 mt-lg-5 mb-4" id="newsletter">
                 <h2 class="newsletter__title title">Want OpenMage in your inbox?</h2>
                 <p class="newsletter__subtitle">Be the first to know about new paths fresh bug fixes, and co-op offers. We’re a good penpal. Promise.</p>
                 <iframe class="mj-w-res-iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://app.mailjet.com/widget/iframe/4iX1/iBI" width="100%"></iframe>
