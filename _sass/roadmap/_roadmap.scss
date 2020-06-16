@@ -1,0 +1,203 @@
+.roadmap {
+    padding: 7rem 0 4.8rem;
+
+    &__title {
+        font-size: 1.25rem;
+        line-height: 1.27;
+        color: $text-dark;
+        text-align: center;
+        padding-bottom: 1.5rem;
+    }
+
+    &__buttons {
+        margin-bottom: 2.2rem;
+    }
+
+    &__button {
+        display: block;
+        padding-left: 12px;
+        text-align: center;
+        margin-bottom: .5rem;
+
+        &--goals {
+            position: relative;
+        }
+
+        svg {
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+
+            .a {
+                @include transition();
+                stroke: $gray-600;
+            }
+        }
+    }
+
+    &__steps-item {
+        margin-bottom: 2.2rem;
+    }
+
+    &__steps-icon-wrapper {
+        background: #fff;
+        display: inline-block;
+        width: 88px;
+        height: 88px;
+        position: relative;
+        border: 1px solid $border-base;
+        border-radius: 0px 22px 0px 0px;
+        box-shadow: $icon-shadow-dark-1;
+        margin-bottom: 1rem;
+    }
+
+    &__steps-title {
+        font-size: 1.25rem;
+        line-height: 1.27;
+        color: $gray-600;
+        letter-spacing: 1px;
+        margin-bottom: .8rem;
+    }
+
+    &__steps-text {
+        padding-bottom: 1.7rem;
+    }
+
+    &__steps-icon {
+        @include center-item();
+    }
+
+    &__steps-link {
+        padding-top: 6px;
+        position: relative;
+
+        &:before {
+            content: '';
+            display: inline-block;
+            width: 70%;
+            height: 1px;
+            background-color: $gray-600;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .roadmap {
+        &__button {
+            margin-bottom: .8rem;
+        }
+
+        &__steps-link {
+            &:before {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .roadmap {
+        &__title {
+            padding-bottom: 2.5rem;
+        }
+
+        &__buttons {
+            margin-bottom: 1.2rem;
+        }
+
+        &__steps-item {
+            padding-top: 28px;
+            position: relative;
+
+            &:before {
+                content: '';
+                display: inline-block;
+                width: 100%;
+                height: 1px;
+                background-color: $gray-600;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+            &:first-of-type {
+                &:before {
+                    left: 15px;
+                }
+            }
+
+            &:last-of-type {
+                &:before {
+                    width: 65%;
+                }
+            }
+
+            &:last-of-type {
+                &:after {
+                    content: '';
+                    background: url('/assets/svg/arrow-right-thin.svg') center no-repeat;
+                    display: inline-block;
+                    width: 8px;
+                    height: 14px;
+                    position: absolute;
+                    top: -7px;
+                    left: calc(65% - 6px);
+                    overflow: hidden;
+                }
+            }
+        }
+
+        &__steps-icon-wrapper {
+            &:before {
+                content: '';
+                background: url('/assets/svg/indicator.svg') top center no-repeat;
+                display: inline-block;
+                width: 7px;
+                height: 32px;
+                position: absolute;
+                top: -32px;
+                left: 50%;
+                transform: translateX(-50%);
+                overflow: hidden;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .roadmap {
+        &__button-wrapper {
+            &--right {
+                text-align: right;
+            }
+        }
+
+        &__button {
+            display: inline-block;
+            margin-bottom: .9rem;
+
+            svg {
+                margin-right: 7px;
+                position: static;
+                transform: none;
+                margin-left: -3px;
+            }
+
+            &--goals {
+                min-width: 218px;
+            }
+
+            &--submit {
+                min-width: 183px;
+            }
+        }
+
+        &__button:hover svg .a {
+            stroke: #212529;
+        }
+    }
+}

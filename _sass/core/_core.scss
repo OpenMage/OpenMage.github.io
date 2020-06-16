@@ -1,0 +1,126 @@
+html {
+    font-size: 14px;
+
+    @include media-breakpoint-up(md) {
+        font-size: 16px;
+    }
+}
+
+.page-container {
+    padding-bottom: 1rem;
+}
+
+.bg-dark-gradient {
+    position: relative;
+    overflow: hidden;
+    background: $bg-gradient-1;
+
+    &:before {
+        content: '';
+        display: block;
+        width: 1280px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 85%;
+        position: absolute;
+        background: $bg-gradient-1;
+        background: -moz-radial-gradient(center, ellipse cover, $bg-gradient-2 0%, $bg-gradient-1 59%, $bg-gradient-1 100%);
+        background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, $bg-gradient-2), color-stop(59%, $bg-gradient-1), color-stop(100%, $bg-gradient-1));
+        background: -webkit-radial-gradient(center, ellipse cover, $bg-gradient-2 0%, $bg-gradient-1 59%, $bg-gradient-1 100%);
+        background: -o-radial-gradient(center, ellipse cover, $bg-gradient-2 0%, $bg-gradient-1 59%, $bg-gradient-1 100%);
+        background: -ms-radial-gradient(center, ellipse cover, $bg-gradient-2 0%, $bg-gradient-1 59%, $bg-gradient-1 100%);
+        background: radial-gradient(ellipse at center, $bg-gradient-2 0%, $bg-gradient-1 59%, $bg-gradient-1 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$bg-gradient-2}', endColorstr='#{$bg-gradient-1}', GradientType=1 );
+    }
+}
+
+.btn {
+    min-width: 225px;
+    text-align: left;
+    padding-left: 22px;
+}
+
+.btn-light {
+    background-color: #fff;
+    color: $gray-600;
+    border: 1px solid $border-light-1;
+    border-radius: 0;
+    padding-top: .55rem;
+    padding-bottom: .45rem;
+
+    &:focus,
+    &.focus,
+    &:active,
+    &:active:focus {
+        box-shadow: none !important;
+    }
+}
+
+.btn-lg {
+    min-width: 196px;
+}
+
+.btn-primary {
+    &:hover,
+    &:focus,
+    &.focus,
+    &:active,
+    &:active:focus {
+        color: #fff;
+        background: $secondary !important;
+        border-color: $secondary !important;
+        box-shadow: none !important;
+    }
+}
+
+table {
+    border: 1px solid $border-dark-1;
+    margin-bottom: 20px;
+    text-align: left;
+    border-spacing: 0;
+}
+
+th {
+    padding: 10px;
+    background: $border-dark-1;
+    color: $gray-600;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid $border-dark-1;
+
+    p {
+        margin: 0;
+    }
+}
+
+pre, code {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: $icon-shadow-dark-1;
+}
+
+pre {
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    overflow: auto;
+    border-radius: 0 22px 0 0;
+}
+
+code {
+    padding: 3px;
+    margin: 0 3px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+pre code {
+    display: block;
+    box-shadow: none;
+}
+
+img {
+    max-width: 100%;
+}

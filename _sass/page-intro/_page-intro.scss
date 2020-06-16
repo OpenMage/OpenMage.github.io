@@ -1,0 +1,64 @@
+.page-intro {
+    padding: 7rem 0 3.3rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+
+    &.bg-dark-gradient {
+        &:before {
+            height: 120%;
+        }
+    }
+
+    > * {
+        position: relative;
+    }
+
+    &__title-wrapper {
+        display: inline-block;
+        text-align: left;
+        background: url('../images/dotted-icon.png') no-repeat left 2px;
+        padding: 9px 0 9px 70px;
+    }
+
+    &__title {
+        @include title('big');
+        margin-bottom: 0;
+        font-weight: 400;
+        color: #fff;
+
+        b,
+        strong {
+            font-weight: 600;
+        }
+    }
+
+    &__author {
+        color: #fff;
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .page-intro {
+        &__title-wrapper {
+            padding: 6px 0 6px 70px;
+        }
+
+        &__title {
+            font-weight: 400;
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .page-intro {
+        &__title-wrapper {
+            background-position: left 7px;
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .page-intro {
+        padding: 3.3rem 0;
+    }
+}

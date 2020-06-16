@@ -1,0 +1,38 @@
+@import 'core/typography/vars';
+
+@mixin title($type: 'standard'){
+    @if $type == 'standard' {
+        font-size: $title-standard-s-font-size;
+        line-height: $title-standard-s-line-height;
+        font-weight: $title-standard-s-font-weight;
+        letter-spacing: $title-letter-spacing;
+
+        @include media-breakpoint-up(lg) {
+            font-size: $title-standard-l-font-size;
+            line-height: $title-standard-l-line-height;
+            font-weight: $title-standard-l-font-weight;
+        }
+    } @else if $type == 'big' {
+        font-size: $title-big-s-font-size;
+        line-height: $title-big-s-line-height;
+        font-weight: $title-big-s-font-weight;
+        letter-spacing: $title-big-letter-spacing;
+
+        @include media-breakpoint-up(sm) {
+            font-size: $title-big-sm-font-size;
+            line-height: $title-big-sm-line-height;
+            font-weight: $title-big-sm-font-weight;
+        }
+    } @else if $type == 'small' {
+        font-size: $title-small-s-font-size;
+        line-height: $title-small-s-line-height;
+        font-weight: $title-small-s-font-weight;
+        letter-spacing: $title-small-letter-spacing;
+
+        @include media-breakpoint-up(lg) {
+            font-size: $title-small-l-font-size;
+            line-height: $title-small-l-line-height;
+            font-weight: $title-small-l-font-weight;
+        }
+    }
+}

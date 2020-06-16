@@ -1,0 +1,184 @@
+.maintainers {
+    margin-bottom: 1.5rem;
+
+    &__wrapper {
+        background: $bg-light;
+        padding: 30px 20px 25px;
+    }
+
+    &__title {
+        @include title('small');
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    &__description {
+        text-align: center;
+        margin-bottom: 1.9rem;
+    }
+
+    &__box {
+        margin-bottom: 1.5rem;
+    }
+
+    &__person {
+        width: 230px;
+        margin: 0 auto 2rem;
+    }
+
+    &__view {
+        text-align: center;
+        margin-bottom: 1.2rem;
+    }
+
+    &__image {
+        max-width: 125px;
+    }
+
+    &__name {
+        color: $text-dark;
+        margin-top: -6px;
+    }
+
+    &__stats {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 1rem;
+    }
+
+    &__stats-item {
+        display: flex;
+        align-items: center;
+    }
+
+    &__stats-text {
+        color: $text-dark;
+        margin-left: 5px;
+    }
+
+    &__contacts {
+        padding: 13px 8px 0;
+        color: $text-gray-light-2;
+        border-top: 1px solid $border-dark-1;
+        letter-spacing: 0;
+    }
+
+    &__contacts-item {
+        padding-left: 30px;
+        background-position: left 2px;
+        background-repeat: no-repeat;
+        padding-top: 2px;
+        margin-bottom: 6px;
+        font-size: 0;
+
+        &--name {
+            background-image: url('/assets/svg/github.svg');
+        }
+
+        &--twitter {
+            background-image: url('/assets/svg/twitter.svg');
+            background-position: left 4px;
+        }
+
+        &--location {
+            background-image: url('/assets/svg/map-pin.svg');
+        }
+
+        &--email {
+            background-image: url('/assets/svg/mail.svg');
+            background-position: left 4px;
+        }
+
+        &--link {
+            background-image: url('/assets/svg/link.svg');
+            background-position: left 6px;
+        }
+    }
+
+    &__contacts-text {
+        font-size: 1rem;
+    }
+
+    &__contacts-link {
+        font-size: 1rem;
+        color: $text-gray-light-2;
+
+        &--limit {
+            display: inline-block;
+            overflow: hidden;
+            max-width: 192px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .maintainers {
+        &__person {
+            width: 260px;
+        }
+
+        &__contacts-link {
+            &--limit {
+                max-width: 212px;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .maintainers {
+        &__subtitle {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        &__box {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 0 70px;
+        }
+
+        &__person {
+            width: 230px;
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        &__contacts-item {
+            padding-top: 0;
+            margin-bottom: 5px;
+        }
+
+        &__contacts-link {
+            &--limit {
+                max-width: 188px;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .maintainers {
+        &__wrapper {
+            padding: 30px 30px 25px;
+        }
+
+        &__box {
+            justify-content: space-between;
+            padding: 0 15px;
+        }
+
+        &__person {
+            margin: 0;
+        }
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .maintainers {
+        margin-bottom: 0;
+    }
+}

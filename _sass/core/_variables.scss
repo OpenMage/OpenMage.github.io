@@ -1,0 +1,78 @@
+/*
+ * bootstrap variables
+ */
+// grid
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1310px
+);
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1280px
+);
+
+// fonts
+$font-family-base:              "Poppins", Arial;
+
+// colors
+$primary:                       #FB0E70;
+$secondary:                     #A447A4;
+$gray-600:                      #707070;
+$body-color:                    $gray-600;
+$body-bg:                       #F7FAFC;
+
+// buttons + forms
+$input-btn-padding-y-lg:        .7rem;
+
+// buttons
+$btn-font-size:                 1rem;
+$btn-font-size-lg:              $btn-font-size;
+$btn-font-size-sm:              $btn-font-size;
+$btn-border-radius:             0 0 0 8px;
+$btn-border-radius-lg:          $btn-border-radius;
+$btn-border-radius-sm:          $btn-border-radius;
+
+// navbar
+$navbar-light-color:            $body-color;
+$navbar-light-hover-color:      $secondary;
+$navbar-light-active-color:     $navbar-light-hover-color;
+$navbar-padding-y:              0;
+$navbar-padding-x:              0;
+
+/*
+ * custom variables
+ */
+//colors
+$bg-light:                      #fff;
+$bg-dark:                       #000537;
+$bg-base:                       $body-bg;
+$bg-gradient-1:                 $bg-dark;
+$bg-gradient-2:                 #3B449E;
+$border-highlight:              #5D66C2;
+$border-light-1:                #E1E1E1;
+$border-base:                   #F0F4F6;
+$border-dark-1:                 #DBDBDB;
+
+// text colors
+$text-gray-light-2:             #B8B8B8;
+$text-gray-light-1:             #909090;
+$text-gray:                     $gray-600;
+$text-dark:                     #202020;
+$text-highlight:                #a5cef3;
+
+//shadows
+$icon-shadow:                   0 0 12px #F4F7F9;
+$icon-shadow-dark-1:            0 0 12px #ECEFF1;
+
+// card
+$card-border-radius:            0 22px 0 0;
+$card-bg:                       #fff;
+$card-border-width:             1px;
+$card-border-color:             $border-base;
+$card-spacer-x:                 2rem;
+

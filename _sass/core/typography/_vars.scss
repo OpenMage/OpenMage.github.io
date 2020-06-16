@@ -1,0 +1,26 @@
+// standard title
+$title-standard-l-font-size:                        2.25rem;
+$title-standard-l-line-height:                      $title-standard-l-font-size + .5rem;
+$title-standard-l-font-weight:                      600; // semi-bold
+$title-standard-s-font-size:                        2rem;
+$title-standard-s-line-height:                      $title-standard-s-font-size + .5rem;
+$title-standard-s-font-weight:                      600; // semi-bold
+$title-letter-spacing:                              -0.72px;
+
+// big title
+$title-big-sm-font-size:                            2.875rem;
+$title-big-sm-line-height:                          1.3;
+$title-big-sm-font-weight:                          600; // semi-bold
+$title-big-s-font-size:                             2.5rem;
+$title-big-s-line-height:                           $title-big-sm-line-height;
+$title-big-s-font-weight:                           $title-big-sm-font-weight;
+$title-big-letter-spacing:                          -0.92px;
+
+// small title
+$title-small-l-font-size:                           1.375rem;
+$title-small-l-line-height:                         1.272727273;
+$title-small-l-font-weight:                         600; // semi-bold
+$title-small-s-font-size:                           $title-small-l-font-size;
+$title-small-s-line-height:                         $title-small-l-line-height;
+$title-small-s-font-weight:                         $title-small-l-font-weight;
+$title-small-letter-spacing:                        -0.44px;
