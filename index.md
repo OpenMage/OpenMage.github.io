@@ -82,7 +82,7 @@ redirect_from: "/magento-lts/"
         <div class="col-md-6 col-lg-5 offset-lg-1 mb-3">
             <h4 class="card-title">OpenMage LTS for store owners</h4>
             <p>
-                Сonsider updating your store to the newest branch and ask your developer to dig into our GitHub and now. OpenMage will keep updating Magento Community regularly and fix any critical vulnerabilities found.
+                Сonsider updating your store to the newest branch and ask your developer to dig into our GitHub now. OpenMage will keep updating Magento Community regularly and fix any critical vulnerabilities found.
             </p>
             <p>
                 <a href="#">read more</a>
