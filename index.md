@@ -31,7 +31,7 @@ redirect_from: "/magento-lts/"
                 <b>Stable and secure</b> e-commerce platform
             </h1>
             <h2 class="hero__subtitle">
-                Install OpenMage LTS and safely continue your e-commerce jurney.
+                Install OpenMage LTS and safely continue your e-commerce journey.
             </h2>
         </div>
     </div>
