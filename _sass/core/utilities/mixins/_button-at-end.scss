@@ -1,0 +1,15 @@
+@mixin button-at-end($type: 'normal') {
+    @if $type == 'normal' {
+        margin-bottom: -1.1rem;
+
+        @include media-breakpoint-up(lg) {
+            margin-bottom: -1.1rem;
+        }
+    } @else if $type == 'large' {
+        margin-bottom: -1.4rem;
+
+        @include media-breakpoint-up(lg) {
+            margin-bottom: -1.4rem;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.card {
+    box-shadow: 4px 4px 12px #E3EDF6BD;
+}
+
+.card-title {
+    color: $black;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.card-text {
+    line-height: 1.5625;
+}
+
+.card-header {
+    background: none;
+}
+
+.card-footer {
+    padding: 0 $card-spacer-x;
+    background: none;
+    border: none;
+    @include button-at-end();
+}
+
+// info cards
+.info-cards {
+    padding: 0 0 15px 0;
+
+    @include media-breakpoint-up(lg) {
+        padding: 55px 0;
+    }
+
+    .card {
+        height: 100%;
+    }
+}

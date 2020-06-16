@@ -1,11 +1,9 @@
 ---
-layout: default
-title: How to install 
+layout: page
+title: Suggested additional modules 
 ---
 
-# Suggested additional modules
-
-there are some modules which may be in general or at least for specific usecases a good choice.  
+There are some modules which may be in general or at least for specific usecases a good choice.  
 We list them here and let you decide yourself which of them you additionally install.
 
 

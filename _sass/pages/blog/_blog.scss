@@ -1,0 +1,21 @@
+.page-blog {
+    .blog {
+        background: none;
+        border: none;
+        margin-bottom: 1rem;
+
+        &__item {
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .page-blog {
+        .blog {
+            &__item {
+                margin-bottom: 3rem;
+            }
+        }
+    }
+}

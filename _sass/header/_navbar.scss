@@ -1,0 +1,102 @@
+.navbar-expand-lg {
+    @include media-breakpoint-up(lg) {
+        padding-bottom: 11px;
+    }
+
+    .navbar-collapse.collapsing {
+        -webkit-transition: none;
+        transition: none;
+        display: none;
+    }
+
+    .navbar-nav {
+        padding: 80px 20px 0;
+        text-align: center;
+        overflow: auto;
+        height: 100%;
+
+        @include media-breakpoint-up(lg) {
+            padding: 0;
+            margin-top: 5px;
+            height: auto;
+        }
+
+        .nav-item {
+            margin-bottom: 20px;
+
+            @include media-breakpoint-up(lg) {
+                margin-bottom: 0;
+            }
+        }
+
+        .nav-link {
+            font-size: 1.125rem;
+            line-height: 27px;
+            padding: 5px 0;
+            margin-left: .5rem;
+            margin-right: .5rem;
+            @include transition();
+            @include media-breakpoint-up(lg) {
+                margin-left: 15px;
+                margin-right: 15px;
+            }
+            @include media-breakpoint-up(xl) {
+                margin-left: 23px;
+                margin-right: 23px;
+            }
+
+            &.active {
+                border-bottom: 2px solid;
+                display: inline-block;
+            }
+        }
+    }
+}
+
+.navbar-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px 15px !important;
+    font-size: 39px;
+    line-height: 1;
+    font-weight: 400;
+
+    @include media-breakpoint-up(lg) {
+        display: none;
+    }
+}
+
+.navbar-light {
+    margin-right: -15px;
+
+    .navbar-toggler {
+        border: none;
+        border-radius: 0;
+        width: 62px;
+    }
+
+    .navbar-toggler-icon-part {
+        display: block;
+        width: 72%;
+        height: 4px;
+        background: #fff;
+        margin-bottom: 7px;
+
+        &:first-child {
+            width: 100%;
+        }
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .navbar-collapse {
+        position: fixed;
+        width: 100%;
+        z-index: 1080;
+        background: $white;
+        top: 0;
+        left: 0;
+        height: 100%;
+    }
+}
