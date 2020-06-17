@@ -42,5 +42,10 @@
     "name": "Sansec BV",
     "url": "https://sansec.io/?openmage",
     "contributions": []
+  },
+  {
+    "name": "AlterWeb",
+    "url": "https://www.alterweb.nl/openmage",
+    "contributions": []
   }
 ]
