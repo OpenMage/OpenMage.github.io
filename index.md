@@ -145,7 +145,7 @@ redirect_from: "/magento-lts/"
                     Support PHP 7.4 as they are still in the Review, but they should be ready with the next release.
                 </div>
                 <div class="roadmap__steps-more">
-                    <a class="roadmap__steps-link" href="#">read more on our blog</a>
+                    <a class="roadmap__steps-link" href="/blog.html">read more on our blog</a>
                 </div>
             </div>
 
@@ -172,7 +172,7 @@ redirect_from: "/magento-lts/"
                     Continue to build out a full test suite for OpenMage LTS.
                 </div>
                 <div class="roadmap__steps-more">
-                    <a class="roadmap__steps-link" href="#">read more on our blog</a>
+                    <a class="roadmap__steps-link" href="/blog.html">read more on our blog</a>
                 </div>
             </div>
 

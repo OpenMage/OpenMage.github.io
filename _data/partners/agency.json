@@ -1,12 +1,16 @@
 [
   {
-      "name": "Webkul Software",
-      "url": "https://webkul.com",
-      "contributions": [
-          "Bug Reports",
-          "Modules Creator",
-          "Documentation"
-      ]
+    "name": "Webkul Software",
+    "url": "https://webkul.com",
+    "contributions": [
+        "Bug Reports",
+        "Modules Creator",
+        "Documentation"
+    ]
+  },
+  {
+    "name": "MageBinary",
+    "url": "https://www.magebinary.com",
   },
   {
     "name": "Edmonds Commerce",
@@ -46,6 +50,11 @@
   {
     "name": "AlterWeb",
     "url": "https://www.alterweb.nl/openmage",
+    "contributions": []
+  },
+  {
+    "name": "Smartebusiness",
+    "url": "https://www.smartebusiness.co.uk",
     "contributions": []
   }
 ]
