@@ -1,0 +1,306 @@
+.check-list {
+    text-align: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+        position: relative;
+        color: $white;
+        font-weight: 400;
+        font-size: 1.1rem;
+        padding-left: 30px;
+        margin: 0 0 11px;
+
+        @include media-breakpoint-up(lg) {
+            font-size: 1.25rem;
+            margin: 0 0 7px;
+        }
+
+        &:before {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            content: '';
+            display: block;
+            width: 18px;
+            height: 23px;
+            border-style: solid;
+            border-width: 0 5px 5px 0;
+            border-color: #66e62f;
+            transform: rotate(45deg) translate(-50%, -50%);
+        }
+    }
+}
+
+.hero {
+    padding: 0 0 42px 0;
+    text-align: center;
+    position: relative;
+
+    &.bg-dark-gradient {
+        &:before {
+            margin-top: -20px;
+
+            @include media-breakpoint-up(lg) {
+                margin-top: -100px;
+            }
+        }
+    }
+
+    > * {
+        position: relative;
+    }
+
+    &__title-wrapper {
+        display: inline-block;
+        text-align: left;
+        background: url('../images/dotted-icon.png') no-repeat left 0;
+        padding-left: 70px;
+        padding-top: 8px;
+
+        @include media-breakpoint-up(mg) {
+            background-position: left 2px;
+        }
+    }
+
+    &__title {
+        font-size: 2.5rem;
+        line-height: 1;
+        letter-spacing: -.92px;
+        color: $white;
+        font-weight: 400;
+        width: auto;
+        margin: 0 0 40px;
+
+        b,
+        strong {
+            font-weight: 600;
+        }
+
+        @include media-breakpoint-up(sm) {
+            font-size: 2.875rem;
+        }
+
+        @include media-breakpoint-up(lg) {
+            margin-bottom: 13px;
+        }
+    }
+
+    &__subtitle {
+        color: $white;
+        font-size: 1.75rem;
+        line-height: 1.2;
+        letter-spacing: -.56px;
+        margin: 0;
+        font-weight: 400;
+    }
+
+    &__checklist {
+        margin-left: 50%;
+        max-width: 45%;
+        min-height: 330px;
+        padding-top: 150px;
+        margin-bottom: 82px;
+
+        @include media-breakpoint-up(sm) {
+            padding-top: 220px;
+            min-height: 380px;
+        }
+        @include media-breakpoint-up(lg) {
+            margin-left: 54%;
+            max-width: 45%;
+            margin-bottom: 30px;
+        }
+    }
+
+    &__sq {
+        width: 1.666667%;
+        height: 3.333333%;
+        background: #8b32a1;
+        position: absolute;
+        z-index: 2;
+
+        &:nth-child(1) {
+            left: 10.8%;
+            top: 3%;
+            opacity: 1;
+        }
+
+        &:nth-child(2) {
+            left: 7.5%;
+            top: 3%;
+            opacity: .3;
+        }
+
+        &:nth-child(3) {
+            left: 7.5%;
+            top: 9.5%;
+            opacity: .3;
+        }
+
+        &:nth-child(4) {
+            left: 10.8%;
+            top: 9.5%;
+            opacity: .3;
+        }
+
+        &:nth-child(5) {
+            left: 28.5%;
+            top: 10.4%;
+            opacity: .6;
+        }
+
+        &:nth-child(6) {
+            left: 32%;
+            top: 10.4%;
+            opacity: .6;
+        }
+
+        &:nth-child(7) {
+            left: 35.5%;
+            top: 10.4%;
+            opacity: .3;
+        }
+
+        &:nth-child(8) {
+            left: 28.5%;
+            top: 2.1%;
+            opacity: .6;
+        }
+
+        &:nth-child(9) {
+            left: 32%;
+            top: 2.1%;
+            opacity: .6;
+        }
+
+        &:nth-child(10) {
+            left: 35.5%;
+            top: 2.1%;
+            opacity: .6;
+        }
+
+        &:nth-child(11) {
+            left: 28.5%;
+            top: -6.2%;
+            opacity: .3;
+        }
+
+        &:nth-child(12) {
+            left: 32%;
+            top: -6.2%;
+            opacity: .3;
+        }
+
+        &:nth-child(13) {
+            left: 35.5%;
+            top: -6.2%;
+            opacity: .3;
+        }
+    }
+
+    &__bg-image.animate &__sq {
+        opacity: 1;
+        transition: all 1s;
+
+        &:nth-child(1) {
+            left: 30.7%;
+            top: 33.7%;
+        }
+
+        &:nth-child(2) {
+            left: 32.3%;
+            top: 33.7%;
+        }
+
+        &:nth-child(3) {
+            left: 33.9%;
+            top: 33.7%;
+        }
+
+        &:nth-child(4) {
+            left: 33.9%;
+            top: 36.6%;
+        }
+
+        &:nth-child(5) {
+            left: 32.3%;
+            top: 36.6%;
+        }
+
+        &:nth-child(6) {
+            left: 33.9%;
+            top: 36.6%;
+        }
+
+        &:nth-child(7) {
+            left: 33.9%;
+            top: 39%;
+        }
+
+        &:nth-child(8) {
+            left: 32.3%;
+            top: 39%;
+        }
+
+        &:nth-child(9) {
+            left: 33.9%;
+            top: 39%;
+        }
+
+        &:nth-child(10) {
+            left: 30.6%;
+            top: 36.3%;
+        }
+
+        &:nth-child(11) {
+            left: 30.6%;
+            top: 36.3%;
+        }
+
+        &:nth-child(12) {
+            left: 31.6%;
+            top: 38.3%;
+        }
+
+        &:nth-child(13) {
+            left: 30%;
+            top: 33.7%;
+        }
+    }
+
+    &__bg-image {
+        position: absolute;
+        z-index: 0;
+        width: 400px;
+        left: 50%;
+        top: 120px;
+        margin-left: -160px;
+
+        @include media-breakpoint-up(sm) {
+            width: 510px;
+            top: 150px;
+            margin-left: -206px;
+        }
+
+        @include media-breakpoint-up(md) {
+            width: 602px;
+            top: 103px;
+            margin-left: -245px;
+        }
+
+        @include media-breakpoint-up(lg) {
+            top: 72px;
+            margin-left: -217px;
+        }
+
+        img {
+            position: relative;
+            left: -32%;
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+}
+

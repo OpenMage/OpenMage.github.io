@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Comparision of OpenMage to alternatives
 ---
 

@@ -1,0 +1,147 @@
+.footer {
+    background: $bg-dark;
+    padding-top: 30px;
+
+    &__description {
+        color: #535677;
+        margin-bottom: 32px;
+    }
+
+    &__logo {
+        margin-bottom: 16px;
+    }
+
+    &__links {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    &__link {
+        display: inline-block;
+        min-width: 115px;
+        padding: 14px 0 13px;
+        margin: 2px 0;
+        font-size: .9rem;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+
+        &:hover,
+        &:focus {
+            background: #a447a4;
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+
+    &__socials {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+    }
+
+    &__coopyrights {
+        font-size: .875rem;
+        color: #535677;
+        text-align: left;
+        text-transform: uppercase;
+        padding-top: 12px;
+        padding-bottom: 18px;
+        margin-top: 22px;
+        border-top: 1px solid $border-highlight;
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .footer {
+        &__description {
+            text-align: right;
+            margin-bottom: 28px;
+        }
+
+        &__logo {
+            margin-top: 6px;
+            vertical-align: top;
+            float: left;
+        }
+
+        &__text {
+            display: inline-block;
+            width: calc(100% - 105px);
+            text-align: left;
+        }
+
+        &__links-wrapper {
+            display: inline-block;
+        }
+
+        &__socials {
+            justify-content: space-around;
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .footer {
+        &__logo {
+            margin-bottom: 0;
+        }
+
+        &__link {
+            font-size: .8rem;
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .footer {
+        padding-top: 44px;
+
+        &__description {
+            text-align: right;
+            margin-bottom: 0;
+        }
+
+        &__logo {
+            max-width: 45px;
+            margin-top: 6px;
+            vertical-align: top;
+            float: left;
+        }
+
+        &__text {
+            display: inline-block;
+            width: calc(100% - 55px);
+            text-align: left;
+        }
+
+        &__links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-bottom: 0;
+        }
+
+        &__socials {
+            margin-bottom: 0;
+            justify-content: space-between;
+        }
+
+        &__coopyrights {
+            text-align: right;
+        }
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .footer {
+        &__logo {
+            max-width: none;
+        }
+
+        &__text {
+            width: calc(100% - 105px);
+        }
+    }
+}

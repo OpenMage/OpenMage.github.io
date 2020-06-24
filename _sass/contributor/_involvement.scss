@@ -1,0 +1,62 @@
+.involvement {
+    &__wrapper {
+        background: $bg-light;
+        padding: 30px 20px 0;
+        border-radius: 0px 23px 0px 0px;
+    }
+
+    &__title {
+        @include title('small');
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    &__description {
+        text-align: left;
+    }
+
+    &__button-wrapper {
+        @include button-at-end();
+        padding-top: 1.5rem;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+    }
+
+    &__item-wrapper {
+        width: 63px;
+        height: 63px;
+        position: relative;
+        border: 1px solid $border-base;
+        border-radius: 0px 22px 0px 0px;
+        box-shadow: $icon-shadow;
+    }
+
+    &__item-icon {
+        @include center-item;
+    }
+
+    &__item-text {
+        width: calc(100% - 80px);
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .involvement {
+        &__item-text {
+            padding-right: 15px;
+        }
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .involvement {
+        &__item-text {
+            padding-right: 0;
+        }
+    }
+}

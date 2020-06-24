@@ -1,0 +1,35 @@
+---
+---
+// core variables and mixins
+@import "core/variables";
+@import "core/utilities/mixins/center-item";
+@import "core/utilities/mixins/button-at-end";
+
+// bootstrap
+@import "bootstrap/bootstrap";
+
+// core styles
+@import "core/core";
+@import "core/typography/typography";
+
+// skin styles
+@import "header/header";
+@import "header/navbar";
+@import "hero/hero";
+@import "page-intro/page-intro";
+@import "footer/footer";
+@import "footer/socials";
+@import "card/card";
+@import "roadmap/roadmap";
+@import "active-info/active-info";
+@import "contributor/contributor";
+@import "contributor/maintainers";
+@import "contributor/involvement";
+@import "quotation/quotation";
+@import "newsletter/newsletter";
+
+// homepage sections
+@import "blog/blog";
+
+// subpages
+@import "pages/blog/blog";
