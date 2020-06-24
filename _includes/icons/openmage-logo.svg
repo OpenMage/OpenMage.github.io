@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="257" height="63" viewBox="0 0 257 63" style="margin-top:15px">
+    <defs>
+        <style>
+            .ba{fill:#fb0e70;}
+            .bb{fill:#fff;font-size:45px;}
+            .bb,.bc{font-family:Poppins-SemiBold, Poppins;font-weight:600;letter-spacing:-0.05em;}
+            .bc{fill:#707070;font-size:38px;}
+        </style>
+    </defs>
+    <path class="ba" d="M0,0H34a8,8,0,0,1,8,8V42a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(11 5)"/>
+    <text class="bb" transform="translate(0 47)">
+        <tspan x="0" y="0">m</tspan>
+    </text>
+    <text class="bc" transform="translate(56 42)">
+        <tspan x="0" y="0">openmage</tspan>
+    </text>
+</svg>

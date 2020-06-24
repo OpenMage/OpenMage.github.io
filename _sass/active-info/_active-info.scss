@@ -1,0 +1,132 @@
+.active-info {
+    color: $text-highlight;
+    padding-top: 3.5rem;
+    padding-bottom: 1.7rem;
+
+    &__title {
+        @include title('big');
+        margin-bottom: 1.9rem;
+        color: #fff;
+    }
+
+    &__title-separator {
+        margin-bottom: 1rem;
+    }
+
+    &__title-item {
+        background-color: $primary;
+        display: inline-block;
+        position: relative;
+        border-radius: 0 10px 0 0;
+        padding: 4px 19px 1px 35px;
+
+        &:before {
+            background: url('/assets/svg/dost-primary.svg') center no-repeat;
+            content: '';
+            display: inline-block;
+            width: 16px;
+            height: 28px;
+            position: absolute;
+            left: 6px;
+            bottom: -9px;
+        }
+    }
+
+    &__text {
+        font-size: 1.55rem;
+        font-weight: 400;
+        letter-spacing: -0.56px;
+        margin-bottom: 1.9rem;
+
+        &--badge {
+            color: $primary;
+        }
+
+        &--strong {
+            color: #fff;
+            font-weight: 600;
+        }
+    }
+
+    &__stats {
+        text-align: center;
+    }
+
+    &__stats-item {
+        margin-bottom: 2.2rem;
+    }
+
+    &__stats-value {
+        font-size: 4.85rem;
+        line-height: 1.05;
+        font-weight: 200;
+        letter-spacing: -1.56px;
+    }
+
+    &__separator {
+        background-color: $border-highlight;
+        height: 1px;
+        position: relative;
+        margin-bottom: 2.2rem;
+    }
+
+    &__descriptions-item {
+        margin-bottom: 1.3rem;
+    }
+
+    &__annotation {
+        text-align: right;
+    }
+
+    &__annotation-text {
+        display: inline-block;
+        border-top: 1px solid $border-highlight;
+        padding-top: 5px;
+        padding-left: 35px;
+        position: relative;
+        font-size: .9rem;
+
+        &--badge {
+            color: $primary;
+        }
+
+        &--light {
+            color: #fff;
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .active-info {
+        &__text {
+            font-size: 1.75rem;
+        }
+
+        &__descriptions-item {
+            margin-bottom: 2.5rem;
+        }
+
+        &__annotation-text {
+            font-size: 1rem;
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .active-info {
+        padding-bottom: 1.1rem;
+
+        &__title {
+            text-align: center;
+        }
+
+        &__title-separator {
+            display: none;
+        }
+
+        &__text {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+    }
+}

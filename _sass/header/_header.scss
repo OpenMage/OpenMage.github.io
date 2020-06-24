@@ -1,0 +1,26 @@
+.header {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+
+    @include media-breakpoint-up(lg) {
+        background: $white;
+        position: relative;
+    }
+
+    &__forkme {
+        @include media-breakpoint-down(lg) {
+            overflow: hidden;
+            width: 73px;
+            height: 87px;
+        }
+
+        svg {
+            @include media-breakpoint-down(lg) {
+                max-width: 100%;
+                max-height: 100%;
+                height: 110px;
+            }
+        }
+    }
+}

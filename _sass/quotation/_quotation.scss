@@ -1,0 +1,30 @@
+.quotation {
+    text-align: center;
+    margin: 5.5rem 0 4.5rem;
+
+    &__icon {
+        margin-bottom: 1rem;
+    }
+
+    &__text {
+        font-size: 1.55rem;
+        letter-spacing: -0.56px;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .quotation {
+        &__text {
+            font-size: 1.75rem;
+        }
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .quotation {
+        &__text {
+            margin-left: -15px;
+            margin-right: -15px;
+        }
+    }
+}

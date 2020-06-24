@@ -1,0 +1,37 @@
+@import 'core/typography/mixins';
+
+body {
+    letter-spacing: -0.32px;
+}
+
+.title {
+    @include title();
+
+    &-big {
+        @include title(big);
+    }
+}
+
+.subtitle {
+    @include title(small);
+}
+
+a {
+    @include transition();
+    color: $secondary;
+
+    &:hover,
+    &:focus {
+        color: $primary;
+        text-decoration: none;
+    }
+
+    &.link-inverted {
+        color: $primary;
+
+        &:hover,
+        &:focus {
+            color: $secondary;
+        }
+    }
+}

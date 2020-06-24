@@ -1,24 +1,18 @@
 ---
-layout: default
+layout: partner
 title: Partner Freelancers
 ---
-
-Add yourself <a href="https://github.com/OpenMage/OpenMage.github.io/blob/master/_data/partners/freelancer.json">here</a>
 
 <table>
     <tr>
         <th>Name</th>
-        <th>website</th>
         <th># of contributions</th>
         <th>contributions</th>
     </tr>
     {% for row in site.data.partners.freelancer %}
     <tr>
         <td>
-            {{ row.name }}
-        </td>
-        <td>
-            {{ row.url }}
+            <a href="{{row.url}}">{{ row.name }}</a>
         </td>
         <td>
             {{ row.contributions | size }}

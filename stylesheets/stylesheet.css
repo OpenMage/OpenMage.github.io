@@ -361,31 +361,19 @@ Full-Width Styles
 }
 
 #main_content {
-  padding-top: 40px;
+  /* padding-top: 40px; */
+  clear: both;
 }
 
-#footer_wrap {
-  background: #212121;
+#main_content table {
+  width: 100%;
 }
-
-.footer-socialmedia-container {
-  min-width: 80px;
-  min-height: 150px;
-  float: right;
-}
-
-.footer-socialmedia-container img {
-  max-width: 2rem;
-  margin: 0.5rem;
-}
-
 
 .boxed-content {
   border: 1px silver solid;
   border-radius: 5px;
   padding: 0 1rem 1rem 1rem;
 }
-
 
 .content-navigation-element {
   display: inline-block;
