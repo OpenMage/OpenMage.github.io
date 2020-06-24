@@ -2,8 +2,7 @@
     padding: 7rem 0 4.8rem;
 
     &__title {
-        font-size: 1.25rem;
-        line-height: 1.27;
+        @include title('alternative');
         color: $text-dark;
         text-align: center;
         padding-bottom: 1.5rem;

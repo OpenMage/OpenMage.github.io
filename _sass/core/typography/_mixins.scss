@@ -34,5 +34,10 @@
             line-height: $title-small-l-line-height;
             font-weight: $title-small-l-font-weight;
         }
+    } @else if $type == 'alternative' {
+        font-size: $title-alternative-font-size;
+        line-height: $title-alternative-line-height;
+        font-weight: $title-alternative-font-weight;
+        letter-spacing: $title-alternative-letter-spacing;
     }
 }
