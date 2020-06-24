@@ -1,12 +1,16 @@
 [
   {
-      "name": "Webkul Software",
-      "url": "https://webkul.com",
-      "contributions": [
-          "Bug Reports",
-          "Modules Creator",
-          "Documentation"
-      ]
+    "name": "Webkul Software",
+    "url": "https://webkul.com",
+    "contributions": [
+        "Bug Reports",
+        "Modules Creator",
+        "Documentation"
+    ]
+  },
+  {
+    "name": "MageBinary",
+    "url": "https://www.magebinary.com",
   },
   {
     "name": "Edmonds Commerce",
