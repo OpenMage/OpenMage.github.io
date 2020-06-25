@@ -1,0 +1,44 @@
+.store-fronts {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+
+    &__wrapper {
+        padding: 20px;
+    }
+
+    &__intro {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+
+    &__title {
+        @include title('alternative');
+        color: $text-dark;
+        text-align: left;
+        margin-bottom: 0;
+        margin-left: 1.5rem;
+    }
+
+    &__subtitle {
+        @include title('alternative');
+        color: $text-dark;
+        margin-bottom: 1rem;
+    }
+
+    &__box {
+        padding: 20px 15px;
+    }
+
+    &__text {
+        margin-bottom: 1.5rem;
+
+        &:last-of-type {
+            margin-bottom: 2.5rem;
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    //
+}

@@ -1,0 +1,99 @@
+.graphic-info {
+    position: relative;
+
+    .container {
+        position: relative;
+    }
+
+    &__bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    &__image-wrapper {
+        text-align: center;
+        margin-bottom: .75rem;
+    }
+
+    &__image {
+        margin-top: -3rem;
+        margin-bottom: -1rem;
+        width: 357px;
+        max-width: 100%;
+    }
+
+    &__description-wrapper {
+        margin-bottom: 1.75rem;
+    }
+
+    &__title {
+        @include title();
+        margin-bottom: 1rem;
+        color: #fff;
+    }
+
+    &__wrapper {
+        text-align: center;
+    }
+
+    &__text {
+        color: $text-highlight;
+        text-align: left;
+        margin-bottom: 1.5rem;
+    }
+
+    &__button {
+        border-radius: 0;
+        text-align: center;
+        padding-left: 0.75rem;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .graphic-info {
+        &__image {
+            margin-top: 1rem;
+            margin-bottom: 0;
+        }
+
+        &__wrapper {
+            text-align: left;
+        }
+
+        &__description-wrapper {
+            margin-top: 3rem;
+        }
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .graphic-info {
+        &__image {
+            margin-top: -3rem;
+
+            &--github {
+                position: relative;
+                left: 40px;
+            }
+        }
+
+        &__wrapper {
+            display: flex;
+            align-items: center;
+        }
+
+        &__image-wrapper,
+        &__description-wrapper {
+            margin-bottom: 0;
+        }
+
+        &__text {
+            max-width: 500px;
+            margin-bottom: 0;
+            margin-right: 15px;
+        }
+    }
+}

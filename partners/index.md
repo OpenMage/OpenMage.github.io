@@ -49,3 +49,22 @@ title_thin: in OpenMage LTS project
     </div>
 </div>
 
+<div class="graphic-info">
+    <div class="graphic-info__bg bg-dark-gradient"></div>
+    <div class="container">
+        <div class="row">
+            <div class="graphic-info__image-wrapper col-lg-4">
+                <img class="graphic-info__image graphic-info__image--github" src="/assets/images/github.png" alt="Join Us">
+            </div>
+
+            <div class="graphic-info__description-wrapper col-lg-8">
+                <h2 class="graphic-info__title">Want to get listed?</h2>
+                <div class="graphic-info__wrapper">
+                    <p class="graphic-info__text">We need you! The idea of a robust, open-source eCommerce platform has never been more alive! Contribute to this page directly.</p>
+                    <a class="graphic-info__button btn btn-primary" href="https://github.com/OpenMage/OpenMage.github.io/blob/master/_data/partners" role="button" target="_blank">OpenMage.github.io</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
