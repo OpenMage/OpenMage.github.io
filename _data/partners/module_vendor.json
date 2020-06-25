@@ -29,4 +29,9 @@
     "url": "https://www.paradoxlabs.com/",
     "description": "ParadoxLabs is all about building you the eCommerce experience you need and your customers want and their certified developers and quality extensions deliver the results you need."
   }
+    {
+    "name": "Blackfire.io",
+    "url": "https://blackfire.io/",
+    "description": "Blackfire.io is a PHP code profiler which supports Magento 1 and 2. Offering advanced metrics capturing and visualizations, Blackfire enables Magento developers to understand how their code is executed, how it consumes server resources, and how to optimize its performance, quality and security."
+  }
 ]
