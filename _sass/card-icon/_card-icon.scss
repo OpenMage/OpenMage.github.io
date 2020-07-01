@@ -1,0 +1,22 @@
+.card-icon {
+    width: 68px;
+    height: 68px;
+    position: relative;
+    border: 1px solid $border-base;
+    border-radius: 0px 22px 0px 0px;
+    box-shadow: $icon-shadow;
+
+    &--small {
+        width: 63px;
+        height: 63px;
+    }
+
+    &--big {
+        width: 88px;
+        height: 88px;
+    }
+
+    &__img {
+        @include center-item;
+    }
+}

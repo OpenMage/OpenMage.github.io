@@ -135,8 +135,8 @@ redirect_from: "/magento-lts/"
 
         <div class="roadmap__steps row">
             <div class="roadmap__steps-item col-6 col-md-6 col-lg-3">
-                <div class="roadmap__steps-icon-wrapper">
-                    <img class="roadmap__steps-icon" src="/assets/svg/alert.svg" alt="Alert icon" />
+                <div class="roadmap__steps-icon-wrapper card-icon card-icon--big">
+                    <img class="card-icon__img" src="/assets/svg/alert.svg" alt="Alert icon" />
                 </div>
                 <div class="roadmap__steps-title">
                     PHP 7.4 Support
@@ -150,8 +150,8 @@ redirect_from: "/magento-lts/"
             </div>
 
             <div class="roadmap__steps-item col-6 col-md-6 col-lg-3">
-                <div class="roadmap__steps-icon-wrapper">
-                    <img class="roadmap__steps-icon" src="/assets/svg/shield.svg" alt="Shield icon" />
+                <div class="roadmap__steps-icon-wrapper card-icon card-icon--big">
+                    <img class="card-icon__img" src="/assets/svg/shield.svg" alt="Shield icon" />
                 </div>
                 <div class="roadmap__steps-title">
                     Innovations Lab: Security
@@ -162,8 +162,8 @@ redirect_from: "/magento-lts/"
             </div>
 
             <div class="roadmap__steps-item col-6 col-md-6 col-lg-3">
-                <div class="roadmap__steps-icon-wrapper">
-                    <img class="roadmap__steps-icon" src="/assets/svg/repeat.svg" alt="Repeat icon" />
+                <div class="roadmap__steps-icon-wrapper card-icon card-icon--big">
+                    <img class="card-icon__img" src="/assets/svg/repeat.svg" alt="Repeat icon" />
                 </div>
                 <div class="roadmap__steps-title">
                     Innovations Lab: Tests
@@ -177,8 +177,8 @@ redirect_from: "/magento-lts/"
             </div>
 
             <div class="roadmap__steps-item col-6 col-md-6 col-lg-3">
-                <div class="roadmap__steps-icon-wrapper">
-                    <img class="roadmap__steps-icon" src="/assets/svg/alert.svg" alt="Alert icon" />
+                <div class="roadmap__steps-icon-wrapper card-icon card-icon--big">
+                    <img class="card-icon__img" src="/assets/svg/alert.svg" alt="Alert icon" />
                 </div>
                 <div class="roadmap__steps-title">
                     PHP 8 Support
@@ -427,8 +427,8 @@ redirect_from: "/magento-lts/"
 
                     <div class="involvement__info row">
                         <div class="involvement__item col-md-6 col-lg-4 col-xl-12">
-                            <div class="involvement__item-wrapper">
-                                <img class="involvement__item-icon" src="/assets/svg/pull-request.svg" />
+                            <div class="card-icon card-icon--small">
+                                <img class="card-icon__img" src="/assets/svg/pull-request.svg" />
                             </div>
                             <div class="involvement__item-text">
                                 Participate in Code Reviews of Pull Requests
@@ -436,8 +436,8 @@ redirect_from: "/magento-lts/"
                         </div>
 
                         <div class="involvement__item col-md-6 col-lg-4 col-xl-12">
-                            <div class="involvement__item-wrapper">
-                                <img class="involvement__item-icon" src="/assets/svg/bug.svg" />
+                            <div class="card-icon card-icon--small">
+                                <img class="card-icon__img" src="/assets/svg/bug.svg" />
                             </div>
                             <div class="involvement__item-text">
                                 Provide Bug Reports and Bug Fixes
@@ -445,8 +445,8 @@ redirect_from: "/magento-lts/"
                         </div>
 
                         <div class="involvement__item col-md-6 col-lg-4 col-xl-12">
-                            <div class="involvement__item-wrapper">
-                                <img class="involvement__item-icon" src="/assets/svg/tag.svg" />
+                            <div class="card-icon card-icon--small">
+                                <img class="card-icon__img" src="/assets/svg/tag.svg" />
                             </div>
                             <div class="involvement__item-text">
                                 Tag your compatible Modules

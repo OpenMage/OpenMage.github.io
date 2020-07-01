@@ -15,6 +15,20 @@
     background: none;
 }
 
+.card-intro {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.card-intro-title {
+    @include title('alternative');
+    color: $text-dark;
+    text-align: left;
+    margin-bottom: 0;
+    margin-left: 1.5rem;
+}
+
 .card-footer {
     padding: 0 $card-spacer-x;
     background: none;

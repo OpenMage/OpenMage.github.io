@@ -31,16 +31,19 @@ title_thin: in OpenMage LTS project
                 <div class="card">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
-                            <a class="card-link" href="#agencies">Agencies</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a class="card-link" href="#freelancer">Freelancer</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a class="card-link" href="#module-vendors">Module vendors</a>
-                        </li>
-                        <li class="list-group-item">
                             <a class="card-link" href="#store-fronts">Store fronts</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="card-link" href="#agencies">Partner Agencies</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="card-link" href="/partners/freelancer.html">Freelancer</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="card-link" href="#module-vendors">Module Vendors</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="card-link" href="#payment-processors">Payment Processors</a>
                         </li>
                     </ul>
                 </div>
