@@ -1,10 +1,20 @@
 .card-icon {
+    display: inline-block;
     width: 68px;
     height: 68px;
     position: relative;
     border: 1px solid $border-base;
     border-radius: 0px 22px 0px 0px;
     box-shadow: $icon-shadow;
+
+    &--link {
+        width: 45px;
+        height: 45px;
+        border-radius: 0px 12px 0px 0px;
+        box-shadow: none;
+        background-color: $border-light-1;
+        border-color: $border-light-1;
+    }
 
     &--small {
         width: 63px;

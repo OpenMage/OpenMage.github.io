@@ -2,7 +2,9 @@
   {
     "name": "RedChamps",
     "url": "https://redchamps.com",
-    "description": "We develop unique & must have Magento 1 and Magento 2 extensions."
+    "description": "We develop unique & must have Magento 1 and Magento 2 extensions.",
+    "img_src": "/assets/images/module-vendors/redchamps-logo.png",
+    "classes": "redchamps"
   },
   {
     "name": "Meetanshi",
@@ -32,6 +34,8 @@
   {
     "name": "Blackfire.io",
     "url": "https://blackfire.io/",
-    "description": "Blackfire.io is a PHP code profiler which supports Magento 1 and 2. Offering advanced metrics capturing and visualizations, Blackfire enables Magento developers to understand how their code is executed, how it consumes server resources, and how to optimize its performance, quality and security."
+    "description": "Blackfire.io is a PHP code profiler which supports Magento 1 and 2. Offering advanced metrics capturing and visualizations, Blackfire enables Magento developers to understand how their code is executed, how it consumes server resources, and how to optimize its performance, quality and security.",
+    "img_src": "/assets/images/module-vendors/blackfire-logo.png",
+    "classes": "blackfire"
   }
 ]
