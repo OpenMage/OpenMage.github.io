@@ -10,8 +10,28 @@
     "description": "With 140+ top quality Magento extensions, 5000+ customers and 9+ years of experience in the niche, Meetanshi keeps expanding Magento horizons and exceeding Ecommerce Excellence since 2017!"
   },
   {
+    "name": "Firebear Studio",
+    "url": "https://firebearstudio.com",
+    "description": "We help people import and export data, teach people how they can do it, follow ecommerce agenda, and review the extensions developed by the Magento community."
+  },
+  {
     "name": "ModuleBazaar",
     "url": "https://www.modulebazaar.com/",
     "description": "Module Bazaar (MB) is an online marketplace for buying & selling extensions, themes and more for Magento and other eCommerce platforms."
+  },
+  {
+    "name": "OneStepCheckout",
+    "url": "https://www.onestepcheckout.com/magento-1/",
+    "description": "OneStepCheckout developed an unmatched expertise with over 20,000 Magento 1 merchants trusting them since 2010. They will be supporting the Magento 1 platform for as long as their customers need it."
+  },
+  {
+    "name": "ParadoxLabs",
+    "url": "https://www.paradoxlabs.com/",
+    "description": "ParadoxLabs is all about building you the eCommerce experience you need and your customers want and their certified developers and quality extensions deliver the results you need."
+  },
+  {
+    "name": "Blackfire.io",
+    "url": "https://blackfire.io/",
+    "description": "Blackfire.io is a PHP code profiler which supports Magento 1 and 2. Offering advanced metrics capturing and visualizations, Blackfire enables Magento developers to understand how their code is executed, how it consumes server resources, and how to optimize its performance, quality and security."
   }
 ]
