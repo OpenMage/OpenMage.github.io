@@ -1,7 +1,45 @@
 .payment-processors {
-    margin-bottom: 3rem;
+    &__logo {
+        margin-bottom: 20px;
 
-    &__wrapper {
-        padding: 20px;
+        &--heartland {
+            width: 165px;
+        }
+
+        &--paypal {
+            width: 172px;
+        }
+
+        &--stripe {
+            width: 138px;
+        }
+
+        &--authorizenet {
+            width: 220px;
+        }
+
+        &--windcave {
+            width: 208px;
+        }
+    }
+
+    &__label {
+        color: $text-dark;
+    }
+
+    &__link {
+        color: $gray-600;
+    }
+
+    &__name,
+    &__website {
+        margin-bottom: 8px;
+    }
+
+    &__compatibilities {
+        max-width: none;
+        padding-top: 0;
+        padding-left: 15px;
+        margin: 0 0 12px;
     }
 }

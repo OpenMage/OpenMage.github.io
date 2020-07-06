@@ -172,9 +172,9 @@
             </div>
         </div>
 
-        <div id="agencies" class="agencies">
+        <div id="agencies" class="partners">
             <div class="container">
-                <div class="agencies__wrapper card">
+                <div class="partners__wrapper card">
                     <div class="card-intro">
                         <div class="card-icon">
                             <img class="card-icon__img" src="/assets/svg/feather.svg">
@@ -183,30 +183,42 @@
                         <h2 class="card-intro-title">Partner Agencies</h2>
                     </div>
 
-                    <div class="agencies__box row">
+                    <div class="partners__box row">
                         {% for row in site.data.partners.agency %}
-                        <a class="agencies__item col-12 col-sm-6 col-lg-4 col-xl-3" href="{{row.url}}" target="_blank">
-                            {% if row.img_src %}
-                            <div class="agencies__logo-wrapper">
-                                <img class="agencies__logo{% if row.classes %} agencies__logo--{{row.classes}}{% endif %}" src="{{ row.img_src }}" alt="{{ row.name }} logo"/>
-                            </div>
+                        <div class="partners__item col-12 col-sm-6 col-lg-4 col-xl-3">
+                            <a class="partners__link" href="{{row.url}}" target="_blank">
+                                {% if row.img_src %}
+                                <div class="partners__logo-wrapper">
+                                    <img class="partners__logo{% if row.classes %} partners__logo--{{row.classes}}{% endif %}" src="{{ row.img_src }}" alt="{{ row.name }} logo"/>
+                                </div>
+                                {% endif %}
+                                {% if row.name %}
+                                <div class="partners__name">
+                                    {{ row.name }}
+                                </div>
+                                {% endif %}
+                                <div class="partners__link-icon card-icon card-icon--link">
+                                    <img class="card-icon__img" src="/assets/svg/link-rotated.svg">
+                                </div>
+                            </a>
+
+                            {% if row.contributions %}
+                            <ul class="partners__description-list">
+                                {% for contribution in row.contributions %}
+                                <li class="partners__description-list-item">{{ contribution }}</li>
+                                {% endfor %}
+                            </ul>
                             {% endif %}
-                            <div class="agencies__name">
-                                {{ row.name }}
-                            </div>
-                            <div class="agencies__link card-icon card-icon--link">
-                                <img class="card-icon__img" src="/assets/svg/link-rotated.svg">
-                            </div>
-                        </a>
+                        </div>
                         {% endfor %}
                     </div>
                 </div>
             </div>
         </div>
 
-        <div id="module-vendors" class="module-vendors">
+        <div id="module-vendors" class="partners">
             <div class="container">
-                <div class="module-vendors__wrapper card">
+                <div class="partners__wrapper card">
                     <div class="card-intro">
                         <div class="card-icon">
                             <img class="card-icon__img" src="/assets/svg/squares.svg">
@@ -215,41 +227,79 @@
                         <h2 class="card-intro-title">Module Vendors</h2>
                     </div>
 
-                    <div class="module-vendors__box row">
+                    <div class="partners__box row">
                         {% for row in site.data.partners.module_vendor %}
-                        <a class="module-vendors__item col-12 col-sm-6 col-lg-4 col-xl-3" href="{{row.url}}" target="_blank">
-                            {% if row.img_src %}
-                            <div class="module-vendors__logo-wrapper">
-                                <img class="module-vendors__logo{% if row.classes %} module-vendors__logo--{{row.classes}}{% endif %}" src="{{ row.img_src }}" alt="{{ row.name }} logo"/>
-                            </div>
-                            {% endif %}
-                            <div class="module-vendors__name">
-                                {{ row.name }}
-                            </div>
-                            <div class="module-vendors__link card-icon card-icon--link">
-                                <img class="card-icon__img" src="/assets/svg/link-rotated.svg">
-                            </div>
+                        <div class="partners__item partners__item--with-border col-12 col-sm-6 col-lg-4 col-xl-3">
+                            <a class="partners__link" href="{{row.url}}" target="_blank">
+                                {% if row.img_src %}
+                                <div class="partners__logo-wrapper">
+                                    <img class="partners__logo{% if row.classes %} partners__logo--{{row.classes}}{% endif %}" src="{{ row.img_src }}" alt="{{ row.name }} logo"/>
+                                </div>
+                                {% endif %}
+                                {% if row.name %}
+                                <div class="partners__name">
+                                    {{ row.name }}
+                                </div>
+                                {% endif %}
+                                <div class="partners__link-icon card-icon card-icon--link">
+                                    <img class="card-icon__img" src="/assets/svg/link-rotated.svg">
+                                </div>
+                            </a>
+
                             {% if row.description %}
-                            <div class="module-vendors__description">
+                            <div class="partners__description">
                                 {{ row.description | markdownify }}
                             </div>
                             {% endif %}
-                        </a>
+                        </div>
                         {% endfor %}
                     </div>
                 </div>
             </div>
         </div>
 
-        <div id="payment-processors" class="payment-processors">
+        <div id="payment-processors" class="payment-processors partners">
             <div class="container">
-                <div class="payment-processors__wrapper card">
+                <div class="partners__wrapper card">
                     <div class="card-intro">
                         <div class="card-icon">
                             <img class="card-icon__img" src="/assets/svg/credit-card.svg">
                         </div>
 
                         <h2 class="card-intro-title">Payment Processors</h2>
+                    </div>
+
+                    <div class="partners__box row">
+                        {% for row in site.data.partners.payment_processors %}
+                        <div class="payment-processors__item col-12 col-sm-6 col-lg-4">
+                            {% if row.img_src %}
+                            <img class="payment-processors__logo{% if row.classes %} payment-processors__logo--{{row.classes}}{% endif %}" src="{{ row.img_src }}" alt="{{ row.name }} logo"/>
+                            {% endif %}
+                            {% if row.name %}
+                            <div class="payment-processors__name">
+                                <span class="payment-processors__label">Name:</span> <span class="payment-processors__value">{{ row.name }}</span>
+                            </div>
+                            {% endif %}
+                            {% if row.url %}
+                            <div class="payment-processors__website">
+                                <span class="payment-processors__label">Website:</span> <a class="payment-processors__link payment-processors__value" href="{{ row.url }}" target="_blank">{{ row.url_text }}</a>
+                            </div>
+                            {% endif %}
+                            {% if row.compatibilities %}
+                            <div class="payment-processors__compatibilities-label payment-processors__label">PCI-DSS compatibility:</div>
+                            <ul class="payment-processors__compatibilities partners__description-list">
+                                {% for compatibility in row.compatibilities %}
+                                <li class="partners__description-list-item">{{ compatibility }}</li>
+                                {% endfor %}
+                            </ul>
+                            {% endif %}
+                            {% if row.extension_url %}
+                            <div class="payment-processors__website">
+                                <span class="payment-processors__label">Extension:</span> <a class="payment-processors__link payment-processors__value" href="{{ row.extension_url }}" target="_blank">{{ row.extension_text }}</a>
+                            </div>
+                            {% endif %}
+                        </div>
+                        {% endfor %}
                     </div>
                 </div>
             </div>
