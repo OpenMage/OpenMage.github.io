@@ -1,6 +1,38 @@
 .payment-processors {
+    &__item {
+        padding-top: 2.8rem;
+        padding-bottom: 2.75rem;
+        padding-left: 0;
+        padding-right: 0;
+        color: $gray-600;
+        position: relative;
+
+        &:after {
+            background-color: $border-dark-1;
+            content: '';
+            display: inline-block;
+            height: 1px;
+            width: 45%;
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+        }
+    }
+
+    &__item:last-of-type {
+        &:after {
+            display: none;
+        }
+    }
+
+    &__logo-wrapper {
+        text-align: left;
+        margin-bottom: 1rem;
+    }
+
     &__logo {
-        margin-bottom: 20px;
+        max-height: 65px;
 
         &--heartland {
             width: 165px;
@@ -41,5 +73,40 @@
         padding-top: 0;
         padding-left: 15px;
         margin: 0 0 12px;
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .payment-processors {
+        &__item {
+            margin-bottom: 2.8rem;
+            padding-top: 0;
+            //padding-bottom: 0;
+            //border-bottom: none;
+
+            //&:after {
+            //    display: none;
+            //}
+
+            &:after {
+                width: 85%;
+                left: 0;
+                transform: translateX(0);
+            }
+        }
+
+        &__item:last-of-type {
+            &:after {
+                display: block;
+            }
+        }
+
+        &__logo-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 65px;
+            margin-bottom: .75rem;
+        }
     }
 }

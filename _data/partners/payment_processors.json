@@ -11,5 +11,54 @@
     "extension_text": "heartland-magento-extension",
     "img_src": "/assets/images/payment-processors/heartland-logo.svg",
     "classes": "heartland"
+  },
+  {
+    "name": "PayPal",
+    "url": "https://www.heartlandpaymentsystems.com/",
+    "url_text": "heartlandpaymentsystems.com",
+    "compatibilities": [
+      "SAQ A",
+      "SAQ A-EP",
+      "SAQ A-EP",
+      "SAQ A-EP"
+    ],
+    "extension_url": "https://github.com/hps/heartland-magento-extension",
+    "extension_text": "paypal-magento-extension",
+    "img_src": "/assets/images/payment-processors/paypal-logo.jpg",
+    "classes": "paypal"
+  },
+  {
+    "name": "Stripe",
+    "url": "https://www.heartlandpaymentsystems.com/",
+    "url_text": "heartlandpaymentsystems.com",
+    "extension_url": "https://github.com/hps/heartland-magento-extension",
+    "extension_text": "stripe-magento-extension",
+    "img_src": "/assets/images/payment-processors/stripe-logo.jpg",
+    "classes": "stripe"
+  },
+  {
+    "name": "Authorize",
+    "url": "https://www.heartlandpaymentsystems.com/",
+    "url_text": "heartlandpaymentsystems.com",
+    "compatibilities": [
+      "SAQ A",
+      "SAQ A-EP"
+    ],
+    "extension_url": "https://github.com/hps/heartland-magento-extension",
+    "extension_text": "authorize-net-magento-extension",
+    "img_src": "/assets/images/payment-processors/authorizenet-logo.jpg",
+    "classes": "authorizenet"
+  },
+  {
+    "name": "Windcave’s Payment Gateway",
+    "url": "https://www.heartlandpaymentsystems.com/",
+    "url_text": "windcave.com",
+    "compatibilities": [
+      "SAQ A"
+    ],
+    "extension_url": "https://github.com/hps/heartland-magento-extension",
+    "extension_text": "windcave-magento-extension",
+    "img_src": "/assets/images/payment-processors/windcave-logo.jpg",
+    "classes": "windcave"
   }
 ]
