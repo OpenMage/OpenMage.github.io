@@ -4,6 +4,7 @@ title: A new Home for Magento Connect Modules
 category: Patches & addons
 thumbnail: /assets/images/blog/modules.png
 author: flyingmana
+permalink: /:year/:month/:day/:title:output_ext
 ---
 
 One essential part of the Magento Ecosystem are the Marketplace and the big number of Modules
