@@ -153,7 +153,7 @@
     }
 
     &__description {
-        padding: 15px 30px 0;
+        padding: 15px 10px 0 15px;
 
         p {
             &:last-of-type {
@@ -172,6 +172,14 @@
         background: url('/assets/svg/check.svg') left 4px no-repeat;
         list-style-type: none;
         padding-left: 25px;
+    }
+}
+
+@media (min-width: 480px) {
+    .partners {
+        &__description {
+            padding: 15px 13px 0 15px;
+        }
     }
 }
 
@@ -210,6 +218,10 @@
 
         &__name {
             margin-top: 5px;
+        }
+
+        &__description {
+            padding: 15px 30px 0;
         }
 
         &__link,

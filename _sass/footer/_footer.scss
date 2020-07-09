@@ -8,7 +8,9 @@
     }
 
     &__logo {
-        margin-bottom: 16px;
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 10px;
     }
 
     &__links {
@@ -61,8 +63,8 @@
 
         &__logo {
             margin-top: 6px;
+            margin-bottom: 16px;
             vertical-align: top;
-            float: left;
         }
 
         &__text {

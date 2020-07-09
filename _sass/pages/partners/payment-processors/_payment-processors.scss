@@ -1,9 +1,6 @@
 .payment-processors {
     &__item {
-        padding-top: 2.8rem;
-        padding-bottom: 2.75rem;
-        padding-left: 0;
-        padding-right: 0;
+        padding: 2.8rem 15px;
         color: $gray-600;
         position: relative;
 
@@ -79,25 +76,16 @@
 @include media-breakpoint-up(sm) {
     .payment-processors {
         &__item {
-            margin-bottom: 2.8rem;
-            padding-top: 0;
-            //padding-bottom: 0;
-            //border-bottom: none;
+            padding: 0 25px;
+            margin-bottom: 4rem;
+            border-right: 1px solid $border-dark-1;
 
-            //&:after {
-            //    display: none;
-            //}
-
-            &:after {
-                width: 85%;
-                left: 0;
-                transform: translateX(0);
+            &:nth-of-type(2n+2) {
+                border-right: none;
             }
-        }
 
-        &__item:last-of-type {
             &:after {
-                display: block;
+                display: none;
             }
         }
 
@@ -107,6 +95,28 @@
             justify-content: flex-start;
             min-height: 65px;
             margin-bottom: .75rem;
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .payment-processors {
+        &__item {
+            margin-bottom: 5rem;
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .payment-processors {
+        &__item {
+            &:nth-of-type(2n+2) {
+                border-right: 1px solid $border-dark-1;
+            }
+
+            &:nth-of-type(3n+3) {
+                border-right: none;
+            }
         }
     }
 }
