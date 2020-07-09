@@ -1,0 +1,285 @@
+.partners {
+    margin-bottom: 3rem;
+
+    &__wrapper {
+        padding: 20px;
+    }
+
+    &__box {
+        margin: 0;
+    }
+
+    &__item {
+        padding-top: 2.8rem;
+        padding-bottom: 2.75rem;
+        padding-left: 0;
+        padding-right: 0;
+        color: $gray-600;
+        position: relative;
+
+        &:after {
+            background-color: $border-dark-1;
+            content: '';
+            display: inline-block;
+            height: 1px;
+            width: 45%;
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+        }
+    }
+
+    &__item:last-of-type {
+        &:after {
+            display: none;
+        }
+    }
+
+    &__link {
+        text-align: center;
+        position: relative;
+        color: $gray-600;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 2px;
+    }
+
+    &__link-icon {
+        @include transition();
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        display: none;
+    }
+
+    &__link:hover &__link-icon {
+        opacity: 1;
+    }
+
+    &__logo-wrapper {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    &__logo {
+        max-height: 85px;
+
+        // Agencies:
+        &--webkul-software {
+            width: 74px;
+        }
+
+        &--splendid {
+            width: 182px;
+        }
+
+        &--sansec {
+            width: 156px;
+        }
+
+        &--copex {
+            width: 124px;
+        }
+
+        &--ecommerce-workroom {
+            width: 100px;
+        }
+
+        &--brosolutions {
+            width: 90px;
+        }
+
+        &--edmonds-commerce {
+            width: 180px;
+        }
+
+        &--magebinary {
+            width: 200px;
+        }
+
+        &--burgesscommerce {
+            width: 200px;
+        }
+
+        &--alterweb {
+            width: 169px;
+        }
+
+        &--smartebusiness {
+            width: 200px;
+        }
+
+        // Module Vendors:
+        &--blackfire {
+            width: 68px;
+        }
+
+        &--redchamps {
+            width: 32px;
+        }
+
+        &--onestepcheckout {
+            width: 259px;
+        }
+
+        &--meetanshi {
+            width: 230px;
+        }
+
+        &--firebear-studio {
+            width: 165px;
+        }
+
+        &--module-bazaar {
+            width: 120px;
+        }
+
+        &--paradoxlabs {
+            width: 200px;
+        }
+    }
+
+    &__name {
+        font-size: 1.25rem;
+        letter-spacing: 1px;
+        line-height: 1.2;
+        margin-top: 12px;
+    }
+
+    &__description {
+        padding: 15px 10px 0 15px;
+
+        p {
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    &__description-list {
+        padding: 15px 0 0;
+        max-width: 180px;
+        margin: 0 auto;
+    }
+
+    &__description-list-item {
+        background: url('/assets/svg/check.svg') left 4px no-repeat;
+        list-style-type: none;
+        padding-left: 25px;
+    }
+}
+
+@media (min-width: 480px) {
+    .partners {
+        &__description {
+            padding: 15px 13px 0 15px;
+        }
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .partners {
+        &__box {
+            margin-top: 1rem;
+        }
+
+        &__item {
+            margin-bottom: 4rem;
+            padding-top: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+
+            &:after {
+                display: none;
+            }
+        }
+
+        &__link {
+            min-height: 126px;
+        }
+
+        &__logo-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 85px;
+            margin-bottom: .75rem;
+        }
+
+        &__link-icon {
+            display: block;
+        }
+
+        &__name {
+            margin-top: 5px;
+        }
+
+        &__description {
+            padding: 15px 30px 0;
+        }
+
+        &__link,
+        &__item--with-border {
+            border-right: 1px solid $border-dark-1;
+        }
+
+        &__item:nth-of-type(2n+2) &__link,
+        &__item--with-border:nth-of-type(2n+2) {
+            border-right: none;
+        }
+
+        &__item--with-border &__link {
+            border-right: none !important;
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .partners {
+        &__item {
+            margin-bottom: 5rem;
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .partners {
+        &__item:nth-of-type(2n+2) &__link,
+        &__item--with-border:nth-of-type(2n+2) {
+            border-right: 1px solid $border-dark-1;
+        }
+
+        &__item:nth-of-type(3n+3) &__link,
+        &__item--with-border:nth-of-type(3n+3){
+            border-right: none;
+        }
+
+        &__item--with-border &__link {
+            border-right: none !important;
+        }
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .partners {
+        &__item:nth-of-type(3n+3) &__link,
+        &__item--with-border:nth-of-type(3n+3) {
+            border-right: 1px solid $border-dark-1;
+        }
+
+        &__item:nth-of-type(4n+4) &__link,
+        &__item--with-border:nth-of-type(4n+4) {
+            border-right: none;
+        }
+
+        &__item--with-border &__link {
+            border-right: none !important;
+        }
+    }
+}

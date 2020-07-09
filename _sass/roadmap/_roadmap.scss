@@ -2,8 +2,7 @@
     padding: 7rem 0 4.8rem;
 
     &__title {
-        font-size: 1.25rem;
-        line-height: 1.27;
+        @include title('alternative');
         color: $text-dark;
         text-align: center;
         padding-bottom: 1.5rem;
@@ -43,12 +42,6 @@
     &__steps-icon-wrapper {
         background: #fff;
         display: inline-block;
-        width: 88px;
-        height: 88px;
-        position: relative;
-        border: 1px solid $border-base;
-        border-radius: 0px 22px 0px 0px;
-        box-shadow: $icon-shadow-dark-1;
         margin-bottom: 1rem;
     }
 
@@ -62,10 +55,6 @@
 
     &__steps-text {
         padding-bottom: 1.7rem;
-    }
-
-    &__steps-icon {
-        @include center-item();
     }
 
     &__steps-link {

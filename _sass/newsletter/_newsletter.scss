@@ -16,13 +16,14 @@
     &__image {
         margin-top: -4rem;
         max-width: 100%;
+        width: 357px;
 
         @include media-breakpoint-up(lg) {
-            margin-top: 0;
+            margin-top: 1rem;
         }
 
         @include media-breakpoint-up(xl) {
-            margin-top: -3rem;
+            margin-top: -3.75rem;
         }
     }
 
