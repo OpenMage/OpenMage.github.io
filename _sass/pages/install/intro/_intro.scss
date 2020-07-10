@@ -1,0 +1,20 @@
+.install-intro {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+
+    &__title {
+        @include title();
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    &__subtitle {
+        @include title('small');
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    //
+}

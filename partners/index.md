@@ -12,7 +12,7 @@ title_thin: in OpenMage LTS project
                     Meet our partners
                 </h2>
                 <h3 class="meet-partners__subtitle">
-                    OpenMage is built and maintained by many passionate individuals. But OpenMage would not exist without our strategic partners.
+                    OpenMage is built and maintained by many passionate individuals. <br> But OpenMage would not exist without our strategic partners.
                 </h3>
             </div>
         </div>
