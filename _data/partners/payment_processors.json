@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Heartland Payment Systems",
+    "url": "https://www.heartlandpaymentsystems.com/",
+    "url_text": "heartlandpaymentsystems.com",
+    "compatibilities": [
+      "SAQ A",
+      "SAQ A-EP"
+    ],
+    "extension_url": "https://github.com/hps/heartland-magento-extension",
+    "extension_text": "heartland-magento-extension",
+    "img_src": "/assets/images/payment-processors/heartland-logo.svg",
+    "classes": "heartland"
+  }
+]

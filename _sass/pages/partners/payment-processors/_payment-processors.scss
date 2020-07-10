@@ -1,0 +1,122 @@
+.payment-processors {
+    &__item {
+        padding: 2.8rem 15px;
+        color: $gray-600;
+        position: relative;
+
+        &:after {
+            background-color: $border-dark-1;
+            content: '';
+            display: inline-block;
+            height: 1px;
+            width: 45%;
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+        }
+    }
+
+    &__item:last-of-type {
+        &:after {
+            display: none;
+        }
+    }
+
+    &__logo-wrapper {
+        text-align: left;
+        margin-bottom: 1rem;
+    }
+
+    &__logo {
+        max-height: 65px;
+
+        &--heartland {
+            width: 165px;
+        }
+
+        &--paypal {
+            width: 172px;
+        }
+
+        &--stripe {
+            width: 138px;
+        }
+
+        &--authorizenet {
+            width: 220px;
+        }
+
+        &--windcave {
+            width: 208px;
+        }
+    }
+
+    &__label {
+        color: $text-dark;
+    }
+
+    &__link {
+        color: $gray-600;
+    }
+
+    &__name,
+    &__website {
+        margin-bottom: 8px;
+    }
+
+    &__compatibilities {
+        max-width: none;
+        padding-top: 0;
+        padding-left: 15px;
+        margin: 0 0 12px;
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .payment-processors {
+        &__item {
+            padding: 0 25px;
+            margin-bottom: 4rem;
+            border-right: 1px solid $border-dark-1;
+
+            &:nth-of-type(2n+2) {
+                border-right: none;
+            }
+
+            &:after {
+                display: none;
+            }
+        }
+
+        &__logo-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 65px;
+            margin-bottom: .75rem;
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .payment-processors {
+        &__item {
+            margin-bottom: 5rem;
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .payment-processors {
+        &__item {
+            &:nth-of-type(2n+2) {
+                border-right: 1px solid $border-dark-1;
+            }
+
+            &:nth-of-type(3n+3) {
+                border-right: none;
+            }
+        }
+    }
+}

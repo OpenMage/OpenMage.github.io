@@ -20,6 +20,7 @@
 @import "footer/footer";
 @import "footer/socials";
 @import "card/card";
+@import "card-icon/card-icon";
 @import "roadmap/roadmap";
 @import "active-info/active-info";
 @import "contributor/contributor";
@@ -27,9 +28,15 @@
 @import "contributor/involvement";
 @import "quotation/quotation";
 @import "newsletter/newsletter";
+@import "graphic-info/graphic-info";
 
 // homepage sections
 @import "blog/blog";
 
 // subpages
 @import "pages/blog/blog";
+@import "pages/partners/partners/partners";
+@import "pages/partners/meet-partners/meet-partners";
+@import "pages/partners/store-fronts/store-fronts";
+@import "pages/partners/payment-processors/payment-processors";
+

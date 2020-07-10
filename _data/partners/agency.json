@@ -2,6 +2,8 @@
   {
     "name": "Webkul Software",
     "url": "https://webkul.com",
+    "img_src": "/assets/images/agencies/webkul-software-logo.png",
+    "classes": "webkul-software",
     "contributions": [
         "Bug Reports",
         "Modules Creator",
@@ -11,50 +13,61 @@
   {
     "name": "MageBinary",
     "url": "https://www.magebinary.com",
+    "img_src": "/assets/images/agencies/magebinary-logo.jpg",
+    "classes": "magebinary"
   },
   {
     "name": "Edmonds Commerce",
     "url": "https://www.edmondscommerce.co.uk",
-    "contributions": []
+    "img_src": "/assets/images/agencies/edmonds-commerce-logo.png",
+    "classes": "edmonds-commerce"
   },
   {
     "name": "Splendid Internet GmbH",
     "url": "https://www.splendid-internet.de/",
-    "contributions": []
+    "img_src": "/assets/images/agencies/splendid-logo.jpg",
+    "classes": "splendid"
   },
   {
     "name": "The Ecommerce Workroom",
     "url": "https://ecommerceworkroom.co.uk",
-    "contributions": []
+    "img_src": "/assets/images/agencies/the-ecommerce-workroom-logo.jpg",
+    "classes": "ecommerce-workroom"
   },
   {
     "name": "CopeX GmbH",
     "url": "https://copex.io",
-    "contributions": []
+    "img_src": "/assets/images/agencies/copex-logo.png",
+    "classes": "copex"
   },
   {
     "name": "Burgess Commerce",
     "url": "https://BurgessCommerce.com",
-    "contributions": []
+    "img_src": "/assets/images/agencies/burgesscommerce-logo.png",
+    "classes": "burgesscommerce"
   },
   {
     "name": "BroSolutions",
     "url": "https://www.brosolutions.net/",
-    "contributions": []
+    "img_src": "/assets/images/agencies/brosolutions-logo.png",
+    "classes": "brosolutions"
   },
   {
     "name": "Sansec BV",
     "url": "https://sansec.io/?openmage",
-    "contributions": []
+    "img_src": "/assets/images/agencies/sansec-logo.png",
+    "classes": "sansec"
   },
   {
     "name": "AlterWeb",
     "url": "https://www.alterweb.nl/openmage",
-    "contributions": []
+    "img_src": "/assets/images/agencies/alterweb-logo.png",
+    "classes": "alterweb"
   },
   {
     "name": "Smartebusiness",
     "url": "https://www.smartebusiness.co.uk",
-    "contributions": []
+    "img_src": "/assets/images/agencies/smartebusiness-logo.png",
+    "classes": "smartebusiness"
   }
 ]

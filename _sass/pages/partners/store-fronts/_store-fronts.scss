@@ -1,0 +1,60 @@
+.store-fronts {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+    &__wrapper {
+        padding: 20px;
+    }
+
+    &__subtitle {
+        @include title('alternative');
+        color: $text-dark;
+        margin-bottom: 1rem;
+    }
+
+    &__box {
+        padding: 20px 15px;
+    }
+
+    &__text {
+        margin-bottom: 1.5rem;
+
+        &:last-of-type {
+            margin-bottom: 2.5rem;
+        }
+    }
+
+    &__logo {
+        width: 210px;
+        margin-bottom: 1.15rem;
+    }
+
+    &__separator {
+        background-color: $border-dark-1;
+        height: 1px;
+        margin-top: -1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    &__description {
+        color: $text-dark;
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .store-fronts {
+        &__separator {
+            margin-top: -1.25rem;
+            margin-bottom: 1.25rem;
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .store-fronts {
+        &__separator {
+            margin-top: -1.75rem;
+            margin-bottom: .75rem;
+        }
+    }
+}
