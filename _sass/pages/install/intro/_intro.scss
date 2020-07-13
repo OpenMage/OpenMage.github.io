@@ -1,6 +1,10 @@
 .install-intro {
     margin-top: 3rem;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
+
+    &__item {
+        margin-bottom: 1rem;
+    }
 
     &__title {
         @include title();
@@ -16,5 +20,7 @@
 }
 
 @include media-breakpoint-up(md) {
-    //
+    .install-intro {
+        margin-bottom: 5rem;
+    }
 }

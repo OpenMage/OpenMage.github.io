@@ -35,7 +35,10 @@ title_thin: in OpenMage LTS project
                         </li>
                         <li class="list-group-item">
                             <a class="card-link" href="#agencies">Partner Agencies</a>
-                        </li>                       
+                        </li>
+                        <li class="list-group-item">
+                            <a class="card-link" href="/partners/freelancer.html">Freelancer</a>
+                        </li>
                         <li class="list-group-item">
                             <a class="card-link" href="#module-vendors">Module Vendors</a>
                         </li>

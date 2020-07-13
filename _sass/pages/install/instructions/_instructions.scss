@@ -1,0 +1,22 @@
+.install-instructions {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+    &__item {
+        margin-bottom: 1.5rem;
+    }
+
+    &__title {
+        margin-bottom: 1rem;
+    }
+
+    &__warning {
+        margin-top: 1.5rem;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .install-instructions {
+        margin-bottom: 4.5rem;
+    }
+}
