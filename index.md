@@ -460,7 +460,7 @@ redirect_from: "/magento-lts/"
 
                     <div class="row">
                         <div class="involvement__button-wrapper col">
-                            <a class="btn btn-primary" href="/partners/what-you-can-do.html" role="button">Start now</a>                            
+                            <a class="btn btn-primary" href="/partners/what-you-can-do.html" role="button">Get details</a>                            
                         </div>
                     </div>
                 </div>

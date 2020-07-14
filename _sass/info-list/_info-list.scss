@@ -1,0 +1,42 @@
+.info-list {
+    &__item {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-bottom: .5rem;
+    }
+
+    &__icon {
+        margin-top: 24px;
+    }
+
+    &__description {
+        width: calc(100% - 72px);
+    }
+
+    &__title {
+        margin-bottom: 0;
+        font-weight: normal;
+        color: $text-dark;
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .info-list {
+        &__item {
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .info-list {
+        &__item {
+            margin-bottom: .5rem;
+        }
+
+        &__icon {
+            margin-top: 29px;
+        }
+    }
+}
