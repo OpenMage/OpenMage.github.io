@@ -38,14 +38,23 @@ function getProjectStats() {
     });
 }
 
-jQuery(document).ready(function( $ ) {
-    setTimeout(function(){
-        $('.js-hero-image-animation').addClass('animate');
-    }, 500);
+// Homepage scripts
+if (jQuery('#js-homepage').length) {
+    jQuery(document).ready(function( $ ) {
+        setTimeout(function(){
+            $('.js-hero-image-animation').addClass('animate');
+        }, 500);
 
-    getProjectStats();
-});
+        getProjectStats();
+    });
 
-jQuery(window).on('load', function(){
-    getContributorsList();
-});
+    jQuery(window).on('load', function( $ ){
+        getContributorsList();
+    });
+}
+
+// Partners page scripts
+if (jQuery('#js-partners-page').length) {
+    jQuery('.navbar-nav .nav-link[href$="partners/index.html"]').addClass('active');
+}
+

@@ -20,7 +20,7 @@
         "url": "/magento-lts/suggested_modules.html"
     },
     {
-        "label": "Newsletter",
-        "url": "/#newsletter"
+        "label": "About Project",
+        "url": "/magento-lts/about.html"
     }
 ]
