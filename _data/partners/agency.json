@@ -69,5 +69,11 @@
     "url": "https://www.smartebusiness.co.uk",
     "img_src": "/assets/images/agencies/smartebusiness-logo.png",
     "classes": "smartebusiness"
+  },
+  {
+    "name": "ITPDX",
+    "url": "https://www.itpdx.com",
+    "img_src": "/assets/images/agencies/itpdx-logo.png",
+    "classes": "itpdx"
   }
 ]
