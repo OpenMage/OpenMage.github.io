@@ -2,11 +2,11 @@
     margin-bottom: 3rem;
 
     &--store-owners {
-        margin-top: 7rem;
+        margin-top: 4rem;
     }
 
     &--developers {
-        margin-bottom: 5rem;
+        margin-bottom: 3rem;
     }
 
     &__wrapper {
@@ -171,6 +171,14 @@
 
 @include media-breakpoint-up(xl) {
     .destination {
+        &--store-owners {
+            margin-top: 7rem;
+        }
+
+        &--developers {
+            margin-bottom: 5rem;
+        }
+
         &__wrapper {
             padding: 35px 35px 20px;
         }
