@@ -1,0 +1,30 @@
+---
+layout: partner_de
+title: Partner Freelancer
+excerpt: Partner Freelancer OpenMage. Hier zur Übersicht!
+---
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th># der Beiträge</th>
+        <th>Beiträge</th>
+    </tr>
+    {% for row in site.data.partners.freelancer_de %}
+    <tr>
+        <td>
+            <a href="{{row.url}}">{{ row.name }}</a>
+        </td>
+        <td>
+            {{ row.contributions | size }}
+        </td>
+        <td>
+            <ul>
+                {% for contribution in row.contributions %}
+                <li>{{ contribution }}</li>
+                {% endfor %}
+            </ul>
+        </td>
+    </tr>
+    {% endfor %}
+</table>

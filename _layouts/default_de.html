@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <meta name="description" {% if page.excerpt %} content="{{ page.excerpt | strip_html | truncatewords: 50 }}" {% else %} content="OpenMage LTS: A community-driven fork of Magento Community Edition" {% endif %} >
+
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/styles.css">
+
+        <title>{% if page.title %} {{ page.title }} - OpenMage LTS {% else %} OpenMage LTS {% endif %} </title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132624331-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-62512293-1');
+            gtag('config', 'UA-132624331-1');
+        </script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="canonical" href="{{ site.baseurl }}{{ page.url | remove:'index.html'}}" />
+
+        {% feed_meta %}
+    </head>
+
+    <body>
+        <!-- HEADER -->
+        <div id="header_wrap" class="header">
+            <header class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topNavigation" aria-controls="topNavigation" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon-part"></span>
+                        <span class="navbar-toggler-icon-part"></span>
+                        <span class="navbar-toggler-icon-part"></span>
+                    </button>
+
+                    <a class="navbar-brand d-none d-lg-block" href="/de">
+                        {% include icons/openmage-logo.svg %}
+                    </a>
+
+                    <div class="collapse navbar-collapse" id="topNavigation">
+                        <button class="navbar-close close" type="button" data-toggle="collapse" data-target="#topNavigation" aria-controls="topNavigation" aria-expanded="false" aria-label="Close navigation">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <ul class="navbar-nav ml-auto mr-auto">
+                            {% for item in site.data.nav_de %}
+                                <li class="nav-item">
+                                    <a class="nav-link{% if page.url == item.url %} active{% endif %}" href="{{ item.url }}">{{ item.label }}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+
+                    <a id="forkme_banner" href="https://github.com/OpenMage/magento-lts" class="header__forkme">
+                        {% include icons/view-on-github.svg %}
+                    </a>
+                </nav>
+            </header>
+        </div>
+        <!-- MAIN CONTENT -->
+        <div id="main_content_wrap" class="outer">
+            {{ content }}
+        </div>
+
+        <!-- FOOTER  -->
+        <div class="footer">
+            <div class="container">
+                <div class="footer__info row">
+                    <div class="footer__description col-lg">
+                        <img class="footer__logo" src="/assets/svg/footer-logo.svg" />
+                        <div class="footer__text">
+                            Magento and all related logos are either registered trademarks or trademarks of Adobe Inc. in the United States and/or other Countries. Use of such trademarks is under license and does not imply any affiliation, endorsement, or sponsorship by Adobe Inc.
+                        </div>
+                    </div>
+
+                    <div class="footer__links col-lg">
+                        <div class="footer__links-wrapper">
+                            <a class="footer__link" href="/de/partners/index.html">Partner</a>
+                        </div>
+
+                        <div class="footer__links-wrapper">
+                            <a class="footer__link" href="/de/magento-lts/changelog/magento1-openmage-20_0.html">Changelog</a>
+                        </div>
+
+                        <div class="footer__links-wrapper">
+                            <a class="footer__link" href="/de/supported-versions.html">Versionen</a>
+                        </div>
+                    </div>
+
+                    <div class="footer__socials col-lg">
+                        <a class="socials__item" href="https://www.facebook.com/OpenMage-1374303459372150" target="_blank">
+                            <img class="socials__icon" src="/assets/svg/social/facebook.svg" alt="Facebook" />
+                            <div class="socials__square socials__square--top"></div>
+                            <div class="socials__square socials__square--bottom" ></div>
+                        </a>
+
+                        <a class="socials__item" href="https://www.linkedin.com/groups/13655485/" target="_blank">
+                            <img class="socials__icon" src="/assets/svg/social/linkedin.svg" alt="LinkedIn" />
+                            <div class="socials__square socials__square--top"></div>
+                            <div class="socials__square socials__square--bottom" ></div>
+                        </a>
+
+                        <a class="socials__item" href="https://discord.com/invite/EV8aNbU" target="_blank">
+                            <img class="socials__icon" src="/assets/svg/social/discord.svg" alt="Discord" />
+                            <div class="socials__square socials__square--top"></div>
+                            <div class="socials__square socials__square--bottom" ></div>
+                        </a>
+
+                        <a class="socials__item" href="https://twitter.com/OpenMageProject" target="_blank">
+                            <img class="socials__icon" src="/assets/svg/social/twitter.svg" alt="Twitter" />
+                            <div class="socials__square socials__square--top"></div>
+                            <div class="socials__square socials__square--bottom" ></div>
+                        </a>
+
+                        <a class="socials__item" href="https://github.com/OpenMage/magento-lts" target="_blank">
+                            <img class="socials__icon" src="/assets/svg/social/github.svg" alt="GitHub" />
+                            <div class="socials__square socials__square--top"></div>
+                            <div class="socials__square socials__square--bottom" ></div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="footer__coopyrights">
+                            Ⓒ 2020, OpenMage LTS is maintained by OpenMage
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- scripts -->
+        <script src="/assets/js/jquery-3.5.1.min.js"></script>
+        <script src="/assets/js/bootstrap.min.js"></script>
+        <script src="/assets/js/scripts.js"></script>
+    </body>
+</html>

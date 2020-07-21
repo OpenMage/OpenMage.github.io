@@ -1,0 +1,284 @@
+---
+layout: partner_de
+title: Partners
+title_thin: im OpenMage LTS ProjeKt
+---
+
+<div class="meet-partners">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+                <h2 class="meet-partners__title">
+                    Triff unsere Partner
+                </h2>
+                <h3 class="meet-partners__subtitle">
+			OpenMage wird von vielen leidenschaftlichen Menschen gebaut und gepflegt. Aber OpenMage würde ohne unsere strategischen Partner nicht existieren. 
+                </h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="meet-partners__info col-lg-6 offset-lg-1 col-xl-7">
+                <div class="meet-partners__info-title">
+                    Ökosystem
+                </div>
+                <div class="meet-partners__info-description">
+			Agenturen, Freiberufler, Modulverkäufer und Themenersteller spielen in diesem blühenden Ökosystem eine wichtige Rolle. Sie bauen und veröffentlichen Shops, führen die notwendige Wartung durch und arbeiten ständig daran, die Bausteine zu verbessern und neu zu erfinden, die zu einem überlegenen E-Commerce-Erlebnis geführt haben. 
+                </div>
+            </div>
+
+            <div class="meet-partners__list col-lg-4 col-xl-3">
+                <div class="card">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <a class="card-link" href="#store-fronts">Store fronts</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="card-link" href="#agencies">Partner Agenturen</a>
+                        </li>                       
+                        <li class="list-group-item">
+                            <a class="card-link" href="#module-vendors">Module Verkäufe</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="card-link" href="#payment-processors">Zahlungsabwickler</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="graphic-info">
+    <div class="graphic-info__bg bg-dark-gradient"></div>
+    <div class="container">
+        <div class="row">
+            <div class="graphic-info__image-wrapper col-lg-4">
+                <img class="graphic-info__image graphic-info__image--github" src="/assets/images/github.png" alt="Mach mit">
+            </div>
+
+            <div class="graphic-info__description-wrapper col-lg-8">
+                <h2 class="graphic-info__title">Willst Du in die Liste aufgenommen werden?</h2>
+                <div class="graphic-info__wrapper">
+                    <p class="graphic-info__text">
+			Wir brauchen Dich! Die Idee einer robusten, quelloffenen eCommerce-Plattform war noch nie so lebendig wie heute! Trage direkt zu dieser Seite bei.</p>
+                    <a class="graphic-info__button btn btn-primary" href="https://github.com/OpenMage/OpenMage.github.io/blob/master/_data/partners" role="button" target="_blank">OpenMage.github.io</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="store-fronts" class="store-fronts">
+    <div class="container">
+        <div class="store-fronts__wrapper card">
+            <div class="card-intro">
+                <div class="card-icon">
+                    <img class="card-icon__img" src="/assets/svg/shopping-bag.svg">
+                </div>
+
+                <h2 class="card-intro-title">Store fronts</h2>
+            </div>
+
+            <div class="store-fronts__box row">
+                <div class="col-lg-6">
+                    <h3 class="store-fronts__subtitle">Storefronts und progressive Web Apps</h3>
+                    <p class="store-fronts__text">
+			 Mit dem Aufkommen von Progressive Web Apps (PWAs) wurden auch mehrere Storefront-Projekte ins Leben gerufen. Der Unterschied zwischen einer Storefront und dem, was OpenMage ausmacht, ist die Tatsache, dass eine Storefront nur den Frontend-Teil abdecken soll und kein Backend oder Admin Interface hat. Daher verbinden sich die Storefronts in der Regel mit einem der vorhandenen eCommerce-Systeme und nutzen diese über APIs als sogenanntes Headless-System.
+                    </p>
+                    <p class="store-fronts__text">
+			Da eine der Stärken von OpenMage die Admin-Schnittstelle ist und der Aufbau einer PWA ein immenser Arbeitsaufwand ist, ist es nur natürlich, dass wir uns mit den Storefront-Projekten da draußen zusammenschließen. Auf diese Weise können wir uns mehr auf den Backend- und API-Teil konzentrieren und Ihnen mehr Flexibilität bei der Wahl der Frontend-Technologien bieten. 
+                    </p>
+                </div>
+
+                <div class="col-lg-6">
+                    <h3 class="store-fronts__subtitle"> Partnerschaften mit Anbietern von Storefronts</h3>
+                    <p class="store-fronts__text">
+			Im Rahmen der Partnerschaft werden wir bei unseren Änderungen die Bedürfnisse der aufgelisteten Storefronts im Auge behalten und sicherstellen, dass die Funktionalität für diese Storefronts nicht beeinträchtigt wird. 
+                    </p>
+
+                    <p class="store-fronts__text">
+			Zusätzlich werden wir genau zuhören und die Teile, die sie verwenden, optimieren und auch langsam spezifische Funktionen einführen, um den Aufwand für sie zu verringern, so genannte "Brückenmodule" für die Kommunikation zu unterhalten. 
+                    </p>
+                </div>
+            </div>
+
+            <div class="store-fronts__separator"></div>
+
+            <div class="store-fronts__box row">
+                <div class="col-12">
+                    <img class="store-fronts__logo" src="/assets/images/logo/fc-logo.png" alt="Front-Commerce">
+                </div>
+
+                <div class="col-lg-4">
+                    <p class="store-fronts__description">
+			Front-Commerce® ist eine fortschrittliche StoreFront-Lösung, die in Frankreich mit voller Unterstützung von OpenMage entwickelt wurde.
+                    </p>
+
+                    <p class="store-fronts__description">
+			Es ist sofort einsatzbereit und ermöglicht es, einen bestehenden oder neuen Shop in eine <abbr title="Progressive Web Application">PWA</abbr> zu verwandeln und die Vorteile der <abbr title="Single Page Application">SPA</abbr> Architektur zu nutzen.
+                        Dies wird konkret eine erstaunliche Geschwindigkeit zur Steigerung der Verkäufe bringen, während die SEO auf hohen Standards bleibt (dank <abbr title="Server Side Rendering">SSR</abbr>).
+                    </p>
+                </div>
+
+                <div class="col-lg-4">
+                    <p class="store-fronts__description">
+			Front-Commerce wurde von Entwicklern entworfen, was ihnen völlige Freiheit bei der Benutzeroberfläche und die Entkopplung des Front-Ends vom Magento-Templating-System bringt. Der Stack bringt React, Node und GraphQL mit den neuesten Tools und Standards für Code-Qualität und Best Practices für die Wartung, wie Unit-Tests und Design System. Mit einer Mikro-Dienste-Architektur ist das Zusammenführen von Inhalten und Daten aus verschiedenen Quellen in Echtzeit einfacher als Synchronisierungen der alten Schule über flache Dateien.
+                    </p>
+                </div>
+
+                <div class="col-lg-4">
+                    <p class="store-fronts__description">
+			Dank der kommerziellen Lizenz erhalten Sie korrigierende Unterstützung in Echtzeit und das Versprechen eines aktuellen Javascript-Stacks, der den Entwicklern diese komplexe Aufgabe abnimmt. 
+                    </p>
+                    <p class="store-fronts__description">
+			Front-Commerce ist seit Anfang 2018 in Produktion, ist auch mit Magento 2 kompatibel und zielt je nach Kundenwunsch auf die Öffnung zu anderen Plattformen ab. 
+                    </p>
+                </div>
+
+                <div class="col-12">
+                    <p class="store-fronts__description">
+                        <a href="https://www.front-commerce.com/" target="_blank">front-commerce.com</a><br>
+                        <a href="https://twitter.com/Front_Commerce" target="_blank">@Front_Commerce</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="agencies" class="partners">
+    <div class="container">
+        <div class="partners__wrapper card">
+            <div class="card-intro">
+                <div class="card-icon">
+                    <img class="card-icon__img" src="/assets/svg/feather.svg">
+                </div>
+
+                <h2 class="card-intro-title">Partner Agenturen</h2>
+            </div>
+
+            <div class="partners__box row">
+                {% for row in site.data.partners.agency_de %}
+                <div class="partners__item col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <a class="partners__link" href="{{row.url}}" target="_blank">
+                        {% if row.img_src %}
+                        <div class="partners__logo-wrapper">
+                            <img class="partners__logo{% if row.classes %} partners__logo--{{row.classes}}{% endif %}" src="{{ row.img_src }}" alt="{{ row.name }} logo"/>
+                        </div>
+                        {% endif %}
+                        {% if row.name %}
+                        <div class="partners__name">
+                            {{ row.name }}
+                        </div>
+                        {% endif %}
+                        <div class="partners__link-icon card-icon card-icon--link">
+                            <img class="card-icon__img" src="/assets/svg/link-rotated.svg">
+                        </div>
+                    </a>
+
+                    {% if row.contributions %}
+                    <ul class="partners__description-list">
+                        {% for contribution in row.contributions %}
+                        <li class="partners__description-list-item">{{ contribution }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="module-vendors" class="partners">
+    <div class="container">
+        <div class="partners__wrapper card">
+            <div class="card-intro">
+                <div class="card-icon">
+                    <img class="card-icon__img" src="/assets/svg/squares.svg">
+                </div>
+
+                <h2 class="card-intro-title">Module Verkäufer</h2>
+            </div>
+
+            <div class="partners__box row">
+                {% for row in site.data.partners.module_vendor_de %}
+                <div class="partners__item partners__item--with-border col-12 col-sm-6 col-lg-4 col-xl-3">
+                    <a class="partners__link" href="{{row.url}}" target="_blank">
+                        {% if row.img_src %}
+                        <div class="partners__logo-wrapper">
+                            <img class="partners__logo{% if row.classes %} partners__logo--{{row.classes}}{% endif %}" src="{{ row.img_src }}" alt="{{ row.name }} logo"/>
+                        </div>
+                        {% endif %}
+                        {% if row.name %}
+                        <div class="partners__name">
+                            {{ row.name }}
+                        </div>
+                        {% endif %}
+                        <div class="partners__link-icon card-icon card-icon--link">
+                            <img class="card-icon__img" src="/assets/svg/link-rotated.svg">
+                        </div>
+                    </a>
+
+                    {% if row.description %}
+                    <div class="partners__description">
+                        {{ row.description | markdownify }}
+                    </div>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="payment-processors" class="payment-processors partners">
+    <div class="container">
+        <div class="partners__wrapper card">
+            <div class="card-intro">
+                <div class="card-icon">
+                    <img class="card-icon__img" src="/assets/svg/credit-card.svg">
+                </div>
+
+                <h2 class="card-intro-title">Zahlungsabwickler</h2>
+            </div>
+
+            <div class="partners__box row">
+                {% for row in site.data.partners.payment_processors %}
+                <div class="payment-processors__item col-12 col-sm-6 col-lg-4">
+                    {% if row.img_src %}
+                    <div class="payment-processors__logo-wrapper">
+                        <img class="payment-processors__logo{% if row.classes %} payment-processors__logo--{{row.classes}}{% endif %}" src="{{ row.img_src }}" alt="{{ row.name }} logo"/>
+                    </div>                  
+                    {% endif %}
+                    {% if row.name %}
+                    <div class="payment-processors__name">
+                        <span class="payment-processors__label">Name:</span> <span class="payment-processors__value">{{ row.name }}</span>
+                    </div>
+                    {% endif %}
+                    {% if row.url %}
+                    <div class="payment-processors__website">
+                        <span class="payment-processors__label">Website:</span> <a class="payment-processors__link payment-processors__value" href="{{ row.url }}" target="_blank">{{ row.url_text }}</a>
+                    </div>
+                    {% endif %}
+                    {% if row.compatibilities %}
+                    <div class="payment-processors__compatibilities-label payment-processors__label">PCI-DSS compatibility:</div>
+                    <ul class="payment-processors__compatibilities partners__description-list">
+                        {% for compatibility in row.compatibilities %}
+                        <li class="partners__description-list-item">{{ compatibility }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                    {% if row.extension_url %}
+                    <div class="payment-processors__extension">
+                        <span class="payment-processors__label">Extension:</span> <a class="payment-processors__link payment-processors__value" href="{{ row.extension_url }}" target="_blank">{{ row.extension_text }}</a>
+                    </div>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,26 @@
+[
+    {
+        "label": "Start",
+        "url": "/de"
+    },
+    {
+        "label": "Installation",
+        "url": "/de/magento-lts/install.html"
+    },
+    {
+        "label": "Blog",
+        "url": "/de/blog.html"
+    },
+    {
+        "label": "Partner",
+        "url": "/de/partners/index.html"
+    },
+    {
+        "label": "Module",
+        "url": "/de/magento-lts/suggested_modules.html"
+    },
+    {
+        "label": "Newsletter",
+        "url": "/de/#newsletter"
+    }
+]
