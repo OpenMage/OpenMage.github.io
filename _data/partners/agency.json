@@ -70,4 +70,10 @@
     "img_src": "/assets/images/agencies/smartebusiness-logo.png",
     "classes": "smartebusiness"
   }
+  {
+    "name": "eCommerceIT",
+    "url": "https://www.ecommerceit.co.uk",
+    "img_src": "/assets/images/agencies/ecommerceit-logo.png",
+    "classes": "ecommerceit"
+  }
 ]
