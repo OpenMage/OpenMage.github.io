@@ -7,8 +7,16 @@ body {
 .title {
     @include title();
 
+    &-small {
+        @include title('small');
+    }
+
     &-big {
-        @include title(big);
+        @include title('big');
+    }
+
+    &-alternative {
+        @include title('alternative');
     }
 }
 
