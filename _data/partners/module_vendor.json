@@ -1,5 +1,12 @@
 [
   {
+    "name": "XTENTO",
+    "url": "https://www.xtento.com",
+    "description": "Flexible. Stable. Trusted by thousands of merchants. XTENTO provides Magento 1 and Magento 2 extensions mainly in the import/export space and is known for its great customer support.",
+    "img_src": "/assets/images/module-vendors/xtento-logo.png",
+    "classes": "xtento"
+  },
+  {
     "name": "RedChamps",
     "url": "https://redchamps.com",
     "description": "We develop unique & must have Magento 1 and Magento 2 extensions.",

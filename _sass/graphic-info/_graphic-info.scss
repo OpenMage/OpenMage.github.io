@@ -94,6 +94,10 @@
             max-width: 500px;
             margin-bottom: 0;
             margin-right: 15px;
+
+            &--wide {
+                max-width: 680px;
+            }
         }
     }
 }

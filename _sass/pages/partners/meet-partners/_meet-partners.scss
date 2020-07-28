@@ -12,6 +12,10 @@
         @include title('small');
         text-align: center;
         margin-bottom: 3rem;
+
+        br {
+            display: none;
+        }
     }
 
     &__info-title {
@@ -66,6 +70,16 @@
     .meet-partners {
         &__list {
             display: block;
+        }
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .meet-partners {
+        &__subtitle {
+            br {
+                display: block;
+            }
         }
     }
 }

@@ -12,7 +12,7 @@ title_thin: in OpenMage LTS project
                     Meet our partners
                 </h2>
                 <h3 class="meet-partners__subtitle">
-                    OpenMage is built and maintained by many passionate individuals. But OpenMage would not exist without our strategic partners.
+                    OpenMage is built and maintained by many passionate individuals. <br> But OpenMage would not exist without our strategic partners.
                 </h3>
             </div>
         </div>
@@ -35,7 +35,10 @@ title_thin: in OpenMage LTS project
                         </li>
                         <li class="list-group-item">
                             <a class="card-link" href="#agencies">Partner Agencies</a>
-                        </li>                       
+                        </li>
+                        <li class="list-group-item">
+                            <a class="card-link" href="/partners/freelancer.html">Freelancer</a>
+                        </li>
                         <li class="list-group-item">
                             <a class="card-link" href="#module-vendors">Module Vendors</a>
                         </li>
