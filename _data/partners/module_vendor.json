@@ -1,5 +1,12 @@
 [
   {
+    "name": "Mirasvit",
+    "url": "https://www.mirasvit.com.com",
+    "description": "Mirasvit is one of the top worldwide Magento Extension Providers. Owing to helpful customers' feedback, we utterly understand the pains and needs of merchants. All these allow us to produce probably the best 'value for money' solutions on the market.",
+    "img_src": "/assets/images/module-vendors/mirasvit-logo.png",
+    "classes": "mirasvit"
+  },
+  {
     "name": "XTENTO",
     "url": "https://www.xtento.com",
     "description": "Flexible. Stable. Trusted by thousands of merchants. XTENTO provides Magento 1 and Magento 2 extensions mainly in the import/export space and is known for its great customer support.",
