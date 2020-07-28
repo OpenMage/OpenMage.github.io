@@ -22,6 +22,15 @@
 
     .info-list {
         margin-top: 2.5rem;
+        margin-bottom: .75rem;
+    }
+
+    &__img-wrapper {
+        text-align: center;
+    }
+
+    &__img {
+        width: 593px;
     }
 }
 
@@ -29,6 +38,13 @@
     .about-intro {
         .info-list {
             margin-top: 0;
+            margin-bottom: 0;
         }
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .about-intro {
+        margin-bottom: 7rem;
     }
 }
