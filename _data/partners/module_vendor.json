@@ -1,24 +1,17 @@
 [
   {
-    "name": "Mirasvit",
-    "url": "https://www.mirasvit.com",
-    "description": "We are one of the top worldwide Magento Extension Providers. Owing to helpful customers' feedback, we utterly understand the pains and needs of merchants. All these allow us to produce probably the best 'value for money' solutions on the market.",
-    "img_src": "/assets/images/module-vendors/mirasvit-logo.png",
-    "classes": "mirasvit"
+    "name": "Blackfire.io",
+    "url": "https://blackfire.io/",
+    "description": "Blackfire.io is a PHP code profiler which supports Magento 1 and 2. Offering advanced metrics capturing and visualizations, Blackfire enables Magento developers to understand how their code is executed, how it consumes server resources, and how to optimize its performance, quality and security.",
+    "img_src": "/assets/images/module-vendors/blackfire-logo.png",
+    "classes": "blackfire"
   },
   {
-    "name": "XTENTO",
-    "url": "https://www.xtento.com",
-    "description": "Flexible. Stable. Trusted by thousands of merchants. XTENTO provides Magento 1 and Magento 2 extensions mainly in the import/export space and is known for its great customer support.",
-    "img_src": "/assets/images/module-vendors/xtento-logo.png",
-    "classes": "xtento"
-  },
-  {
-    "name": "RedChamps",
-    "url": "https://redchamps.com",
-    "description": "We develop unique & must have Magento 1 and Magento 2 extensions.",
-    "img_src": "/assets/images/module-vendors/redchamps-logo.png",
-    "classes": "redchamps"
+    "name": "Firebear Studio",
+    "url": "https://firebearstudio.com",
+    "description": "We help people import and export data, teach people how they can do it, follow ecommerce agenda, and review the extensions developed by the Magento community.",
+    "img_src": "/assets/images/module-vendors/firebear-studio-logo.png",
+    "classes": "firebear-studio"
   },
   {
     "name": "Meetanshi",
@@ -28,11 +21,11 @@
     "classes": "meetanshi"
   },
   {
-    "name": "Firebear Studio",
-    "url": "https://firebearstudio.com",
-    "description": "We help people import and export data, teach people how they can do it, follow ecommerce agenda, and review the extensions developed by the Magento community.",
-    "img_src": "/assets/images/module-vendors/firebear-studio-logo.png",
-    "classes": "firebear-studio"
+    "name": "Mirasvit",
+    "url": "https://www.mirasvit.com",
+    "description": "We are one of the top worldwide Magento Extension Providers. Owing to helpful customers' feedback, we utterly understand the pains and needs of merchants. All these allow us to produce probably the best 'value for money' solutions on the market.",
+    "img_src": "/assets/images/module-vendors/mirasvit-logo.png",
+    "classes": "mirasvit"
   },
   {
     "name": "ModuleBazaar",
@@ -56,10 +49,17 @@
     "classes": "paradoxlabs"
   },
   {
-    "name": "Blackfire.io",
-    "url": "https://blackfire.io/",
-    "description": "Blackfire.io is a PHP code profiler which supports Magento 1 and 2. Offering advanced metrics capturing and visualizations, Blackfire enables Magento developers to understand how their code is executed, how it consumes server resources, and how to optimize its performance, quality and security.",
-    "img_src": "/assets/images/module-vendors/blackfire-logo.png",
-    "classes": "blackfire"
+    "name": "RedChamps",
+    "url": "https://redchamps.com",
+    "description": "We develop unique & must have Magento 1 and Magento 2 extensions.",
+    "img_src": "/assets/images/module-vendors/redchamps-logo.png",
+    "classes": "redchamps"
+  },
+  {
+    "name": "XTENTO",
+    "url": "https://www.xtento.com",
+    "description": "Flexible. Stable. Trusted by thousands of merchants. XTENTO provides Magento 1 and Magento 2 extensions mainly in the import/export space and is known for its great customer support.",
+    "img_src": "/assets/images/module-vendors/xtento-logo.png",
+    "classes": "xtento"
   }
 ]
