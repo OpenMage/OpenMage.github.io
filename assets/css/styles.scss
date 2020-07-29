@@ -18,9 +18,9 @@
 @import "hero/hero";
 @import "page-intro/page-intro";
 @import "footer/footer";
-@import "footer/socials";
 @import "card/card";
 @import "card-icon/card-icon";
+@import "custom-icon/custom-icon";
 @import "roadmap/roadmap";
 @import "active-info/active-info";
 @import "contributor/contributor";
@@ -29,6 +29,7 @@
 @import "quotation/quotation";
 @import "newsletter/newsletter";
 @import "graphic-info/graphic-info";
+@import "info-list/info-list";
 
 // homepage sections
 @import "blog/blog";
@@ -41,4 +42,9 @@
 @import "pages/partners/payment-processors/payment-processors";
 @import "pages/install/intro/intro";
 @import "pages/install/instructions/instructions";
-
+@import "pages/about/about/about";
+@import "pages/about/intro/intro";
+@import "pages/about/more-about/more-about";
+@import "pages/about/eol/eol";
+@import "pages/about/destination/destination";
+@import "pages/about/gallery/gallery";
