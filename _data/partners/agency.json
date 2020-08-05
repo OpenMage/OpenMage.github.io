@@ -76,4 +76,10 @@
     "img_src": "/assets/images/agencies/itpdx-logo.png",
     "classes": "itpdx"
   }
+  {
+    "name": "eCommerceIT",
+    "url": "https://www.ecommerceit.co.uk",
+    "img_src": "/assets/images/agencies/ecommerceit-logo.png",
+    "classes": "ecommerceit"
+  }
 ]
