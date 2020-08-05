@@ -68,7 +68,7 @@ redirect_from: "/magento-lts/"
                     <p class="card-text">OpenMage hat eine Reihe von Zusatzmodulen genehmigt, die vollständig kompatibel sind. Schaue  sie dir jetzt an!</p>
                 </div>
                 <div class="card-footer">
-                    <a href="/de/magento-lts/suggested_modules.html" class="btn btn-primary">Module üverprüfen</a>
+                    <a href="/de/magento-lts/suggested_modules.html" class="btn btn-primary">Module überprüfen</a>
                 </div>
             </div>
         </div>
@@ -91,7 +91,7 @@ redirect_from: "/magento-lts/"
         <div class="col-md-6 col-lg-5 mb-3">
 	    <h4 class="card-title">OpenMage LTS für Entwicklung</h4>
             <p>
-                Wir integrieren Verbesserungen direkt aus der Gemeinschaft, d.h. wenn Du irgendwelche Fehler behoben oder Verbesserungen bereit hast - reiche eine Pull-Anfrage ein. Nach einer Überprüfung wird Dein PR dazu verwendet, Magento CE in der neuen Version am Leben zu erhalten.
+                Wir integrieren Verbesserungen direkt aus der Gemeinschaft, d. h. wenn Du irgendwelche Fehler behoben oder Verbesserungen bereit hast - reiche eine Pull-Anfrage ein. Nach einer Überprüfung wird Dein PR dazu verwendet, Magento CE in der neuen Version am Leben zu erhalten.
             </p>
             <p>
                 <a href="#">Mehr lesen</a>
@@ -224,14 +224,18 @@ redirect_from: "/magento-lts/"
             </div>
 
             <div class="active-info__stats-item col-6 col-lg-3">
-                <div id="js-active-info__stats-value--forks" class="active-info__stats-value"></div>
+                <div id="js-active-info__stats-value--forks" class="active-info__stats-value">
+		    244
+		</div>
                 <div class="active-info__stats-text">
                     Direkte Forks auf Github
                 </div>
             </div>
 
             <div class="active-info__stats-item col-6 col-lg-3">
-                <div id="js-active-info__stats-value--stars" class="active-info__stats-value"></div>
+                <div id="js-active-info__stats-value--stars" class="active-info__stats-value">
+		    505
+		</div>
                 <div class="active-info__stats-text">
                     Sterne auf Github
                 </div>
@@ -246,7 +250,7 @@ redirect_from: "/magento-lts/"
             </div>
 
             <div class="active-info__descriptions-item col-12 col-md-6 col-lg-3">
-                <b>Community getrieben</b> jede Aktualisierung und eine neue Version wurden von Fachleuten entwickelt, der jahrelang mit Magento 1 gearbeitet haben.
+                <b>Community getrieben</b> jede Aktualisierung und eine neue Version wurden von Fachleuten entwickelt, die jahrelang mit Magento 1 gearbeitet haben.
             </div>
 
             <div class="active-info__descriptions-item col-12 col-md-6 col-lg-3">
@@ -274,7 +278,7 @@ redirect_from: "/magento-lts/"
                     Werde Mitwirkender
                 </h2>
                 <h3 class="contributor__subtitle">
-                    Schaue hinter die Kulissen, fügen Deinen Baustein zu einer stabilen E-Commerce-Plattform hinzu.
+                    Schaue hinter die Kulissen, füge Deinen Baustein zu einer stabilen E-Commerce-Plattform hinzu.
                 </h3>
             </div>
         </div>
@@ -285,7 +289,7 @@ redirect_from: "/magento-lts/"
                     <div class="row">
                         <div class="col-xl-10 offset-xl-1">
                             <div class="maintainers__title">
-                                Treffe unsere Mantainer
+                                Treffe unsere Maintainer
                             </div>
                             <div class="maintainers__description">
                                 Im Interesse der Förderung einer offenen und einladenden Umgebung verpflichten wir uns als Mitwirkende und Betreuer, die Teilnahme an OpenMage und unserer Gemeinschaft zu einer belästigungsfreien Erfahrung für alle zu machen.
@@ -397,7 +401,7 @@ redirect_from: "/magento-lts/"
                                     Über 100 Beitragende
                                 </div>
                                 <div class="contributor__list-description">
-                                    Wir ermutigen nachdrücklich zur Teilnahme der Gemeinschaft! Wenn Du eine Fehlerbehebung, eine Verbesserung oder eine neue Funktion hast, die Deiner Meinung nach in den Magento-Kerncode gehört, reichen sie als eine Pull-Anfrage ein, und wir werden sie mit Dir besprechen, den Code überprüfen und Dir dabei helfen!
+                                    Wir ermutigen nachdrücklich zur Teilnahme der Gemeinschaft! Wenn Du eine Fehlerbehebung, eine Verbesserung oder eine neue Funktion hast, die Deiner Meinung nach in den Magento-Kerncode gehört, reiche sie als eine Pull-Anfrage ein, und wir werden sie mit Dir besprechen, den Code überprüfen und Dir dabei helfen!
                                 </div>
                             </div>
                         </div>

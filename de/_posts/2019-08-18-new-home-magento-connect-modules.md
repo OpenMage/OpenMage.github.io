@@ -8,7 +8,8 @@ author: flyingmana
 lang: de
 ---
 
-Ein wesentlicher Bestandteil des Magento Ecosystems sind der Marktplatz und die große Anzahl von Modulen für jeden Anwendungsfall. Aber mit der Einführung von Magento(1) wird auch der Marktplatz von allen Magento(1)-Modulen gereinigt werden. Dies ist schon einmal vor einigen Jahren geschehen, als viele ältere Module vom Marktplatz entfernt wurden.
+Wesentliche Bestandteile des Magento Ökosystems sind der Marktplatz und die große Anzahl von Modulen für jeden Anwendungsfall. 
+Aber mit dem Eol (End of Life) von Magento(1) ist zu erwarten, dass auch der Marktplatz von allen Magento(1)-Modulen gereinigt wird. Dies ist schon einmal vor einigen Jahren geschehen, als viele ältere Module vom Marktplatz entfernt wurden.
 
 <!--more-->
 
@@ -21,10 +22,10 @@ Dies wird auch dazu beitragen, sie alle mit dem zukünftigen PHP8 kompatibel zu 
 
 Wenn Du uns bei der Wartung unterstützen möchtest, nehme Kontakt mit uns auf Github, Twitter oder über Discord auf.
 
-Sage uns auch, was Du Dir sonst noch wünschst?
+Sage uns auch, was Deiner Meinung nach noch geschehen soll.
 
 Du möchtest mehr darüber erfahren, wie wir das geschafft haben? Viel Spaß beim Durchlesen des Codes über unser [Tooling](https://github.com/OpenMageModuleFostering/Tooling).
-Behalte ihn im Auge, wir werden weiterhin Tooling hinzufügen und uns dabei helfen, Änderungen an allen Modulen auf einmal vorzunehmen.
+Behalte es im Auge, wir werden weiterhin Tooling hinzufügen, das uns dabei hilft, Änderungen an allen Modulen auf einmal vorzunehmen.
 
 
  

@@ -23,7 +23,7 @@ title_thin: im OpenMage LTS ProjeKt
                     Ökosystem
                 </div>
                 <div class="meet-partners__info-description">
-			Agenturen, Freiberufler, Modulverkäufer und Themenersteller spielen in diesem blühenden Ökosystem eine wichtige Rolle. Sie bauen und veröffentlichen Shops, führen die notwendige Wartung durch und arbeiten ständig daran, die Bausteine zu verbessern und neu zu erfinden, die zu einem überlegenen E-Commerce-Erlebnis geführt haben. 
+			Agenturen, Freiberufler, Modulverkäufer und Themenersteller spielen in diesem blühenden Ökosystem eine wichtige Rolle. Sie bauen und veröffentlichen Shops, führen die notwendige Wartung durch und arbeiten ständig daran, die Bausteine zu verbessern und neu zu erfinden, die zu einem überlegenen eCommerce-Erlebnis geführt haben. 
                 </div>
             </div>
 
@@ -37,7 +37,7 @@ title_thin: im OpenMage LTS ProjeKt
                             <a class="card-link" href="#agencies">Partner Agenturen</a>
                         </li>                       
                         <li class="list-group-item">
-                            <a class="card-link" href="#module-vendors">Module Verkäufe</a>
+                            <a class="card-link" href="#module-vendors">Module Verkäufer</a>
                         </li>
                         <li class="list-group-item">
                             <a class="card-link" href="#payment-processors">Zahlungsabwickler</a>
@@ -84,10 +84,10 @@ title_thin: im OpenMage LTS ProjeKt
                 <div class="col-lg-6">
                     <h3 class="store-fronts__subtitle">Storefronts und progressive Web Apps</h3>
                     <p class="store-fronts__text">
-			 Mit dem Aufkommen von Progressive Web Apps (PWAs) wurden auch mehrere Storefront-Projekte ins Leben gerufen. Der Unterschied zwischen einer Storefront und dem, was OpenMage ausmacht, ist die Tatsache, dass eine Storefront nur den Frontend-Teil abdecken soll und kein Backend oder Admin Interface hat. Daher verbinden sich die Storefronts in der Regel mit einem der vorhandenen eCommerce-Systeme und nutzen diese über APIs als sogenanntes Headless-System.
+			 Mit dem Aufkommen von Progressive Web Apps (PWAs) wurden auch mehrere Storefront-Projekte ins Leben gerufen. Der Unterschied zwischen einem Storefront und dem, was OpenMage ausmacht, ist die Tatsache, dass ein Storefront nur den Frontend-Teil abdecken soll und kein Backend oder Admin Interface hat. Daher verbinden sich die Storefronts in der Regel mit einem der vorhandenen eCommerce-Systeme und nutzen diese über APIs als sogenanntes Headless-System.
                     </p>
                     <p class="store-fronts__text">
-			Da eine der Stärken von OpenMage die Admin-Schnittstelle ist und der Aufbau einer PWA ein immenser Arbeitsaufwand ist, ist es nur natürlich, dass wir uns mit den Storefront-Projekten da draußen zusammenschließen. Auf diese Weise können wir uns mehr auf den Backend- und API-Teil konzentrieren und Ihnen mehr Flexibilität bei der Wahl der Frontend-Technologien bieten. 
+			Da eine der Stärken von OpenMage die Admin-Schnittstelle ist und der Aufbau einer PWA ein immenser Arbeitsaufwand ist, ist es nur natürlich, dass wir uns mit den Storefront-Projekten da draußen zusammenschließen. Auf diese Weise können wir uns mehr auf den Backend- und API-Teil konzentrieren und Euch mehr Flexibilität bei der Wahl der Frontend-Technologien bieten. 
                     </p>
                 </div>
 
@@ -123,7 +123,7 @@ title_thin: im OpenMage LTS ProjeKt
 
                 <div class="col-lg-4">
                     <p class="store-fronts__description">
-			Front-Commerce wurde von Entwicklern entworfen, was ihnen völlige Freiheit bei der Benutzeroberfläche und die Entkopplung des Front-Ends vom Magento-Templating-System bringt. Der Stack bringt React, Node und GraphQL mit den neuesten Tools und Standards für Code-Qualität und Best Practices für die Wartung, wie Unit-Tests und Design System. Mit einer Mikro-Dienste-Architektur ist das Zusammenführen von Inhalten und Daten aus verschiedenen Quellen in Echtzeit einfacher als Synchronisierungen der alten Schule über flache Dateien.
+			Front-Commerce wurde von Entwicklern entworfen, was ihnen völlige Freiheit bei der Benutzeroberfläche und die Entkopplung des Front-Ends vom Magento-Templating-System bringt. Der Stack bringt React, Node und GraphQL mit den neuesten Tools und Standards für Code-Qualität und Best Practices für die Wartung, wie Unit-Tests und Design System, mit. Mit einer Mikro-Dienste-Architektur ist das Zusammenführen von Inhalten und Daten aus verschiedenen Quellen in Echtzeit einfacher als Synchronisierungen der alten Schule über flache Dateien.
                     </p>
                 </div>
 

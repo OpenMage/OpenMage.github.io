@@ -5,7 +5,7 @@ excerpt: Vorgeschlagene Ergänzungsmodule für OpenMage. Hier zur Übersicht der
 ---
 
 Es gibt einige Module, die im Allgemeinen oder zumindest für spezielle Anwendungsfälle eine gute Wahl sein können. 
-Wir listen sie hier auf und entscheide selbst, welches von den Du zusätzlich installierst.
+Wir listen sie hier auf und Du kannst selbst entscheiden, welches von ihnen Du zusätzlich installierst.
 
 
 ## ikonoshirt/pbkdf2
