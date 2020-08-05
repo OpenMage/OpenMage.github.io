@@ -5,10 +5,10 @@
 
 #### An Code-Reviews von Pull-Anfragen teilnehmen
 
-Wir erhalten bereits eine Menge Patches, aber sie richtig zu überprüfen, braucht Zeit, und je mehr Leute wir überprüfen müssen, desto weniger muss jeder von uns tun.
+Wir erhalten bereits eine Menge Patches, aber sie richtig zu überprüfen, braucht Zeit, und je mehr Leute überprüfen, desto weniger muss jeder von uns tun.
 
 
-Normalerweise benötigen wir mindestens 2 genehmigende Reviews für jeden PullRequest, um die Qualität zu sichern und potenzielle Fehler frühzeitig zu erkennen. 
+Normalerweise benötigen wir mindestens 2 genehmigende Reviews für jeden PR, um die Qualität zu sichern und mögliche Fehler frühzeitig zu erkennen. 
 Dies hat bereits viele Male geholfen, kleinere Probleme zu erfassen, bevor sie zusammengeführt wurden.
 
 
@@ -17,11 +17,11 @@ Dies hat bereits viele Male geholfen, kleinere Probleme zu erfassen, bevor sie z
 Denn wir können nur verbessern, was wir wissen, was verbesserungsbedürftig ist. Und wenn sie schon mit Patches kommen, sogar noch besser.
 
 
-#### Markieren Deine kompatiblen Module
+#### Markiere Deine kompatiblen Module
 
 füge  auf Github das Thema "openmage" hinzu, damit es auf [https://github.com/topics/openmage](https://github.com/topics/openmage) aufgeführt wird.
 
-in Deinem composer.json füge "openmage" unter "keywords", damit es auf [https://packagist.org/search/?tags=openmage](https://packagist.org/search/?tags=openmage) gelistet wird.
+in Deiner composer.json füge "openmage" unter "keywords" ein, damit es auf [https://packagist.org/search/?tags=openmage](https://packagist.org/search/?tags=openmage) gelistet wird.
 
 ### Organisation
 
@@ -29,14 +29,14 @@ in Deinem composer.json füge "openmage" unter "keywords", damit es auf [https:/
 Helfe uns, unsere Zukunft zu gestalten, indem Du Dich am RFC-Prozess beteiligst. 
 [https://github.com/OpenMage/rfcs](https://github.com/OpenMage/rfcs)
 
-Da für einige Änderungen Rückwärtskompatibilitätspausen erforderlich sein werden, sollten diese nicht nur von 3 Personen, sondern von 
+Da für einige Änderungen Rückwärtskompatibilitätslücken erforderlich sein werden, sollten diese nicht nur von 3 Personen, sondern von 
 der Mehrheit der Gemeinschaft beschlossen werden. (Der RFC-Prozess ist also so aufgebaut, dass er den Prozess verlangsamt, um es 
-viel mehr Leuten zu ermöglichen, daran teilzunehmen)
+viel mehr Leuten zu ermöglichen, daran teilzunehmen.)
 
 
 #### Offizieller Partner werden
 
-Weitere Informationen darüber, wie Du Partner werden kannst, findest Du auf den entsprechenden Seiten [/partners/index.html](/partners/index.html)
+Weitere Informationen darüber, wie Du Partner werden kannst, findest Du auf den entsprechenden Seiten [/de/partners/index.html](/de/partners/index.html)
 
 
 
@@ -52,7 +52,7 @@ oder alternativ, die magento m1 devdocs in unsere Org zu integrieren
 
 #### Blogposts schreiben
 
-Die Sichtbarkeit des Projekts zu verbessern, da viele noch immer nicht wissen, dass es existiert.
+Die Sichtbarkeit des Projektsverbessern, da viele noch immer nicht wissen, dass es existiert
 
 #### Diese Seite erweitern
 
