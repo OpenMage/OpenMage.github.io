@@ -245,7 +245,7 @@ title_thin: im OpenMage LTS ProjeKt
             </div>
 
             <div class="partners__box row">
-                {% for row in site.data.partners.payment_processors %}
+                {% for row in site.data.partners.payment_processors_de %}
                 <div class="payment-processors__item col-12 col-sm-6 col-lg-4">
                     {% if row.img_src %}
                     <div class="payment-processors__logo-wrapper">
@@ -273,6 +273,11 @@ title_thin: im OpenMage LTS ProjeKt
                     {% if row.extension_url %}
                     <div class="payment-processors__extension">
                         <span class="payment-processors__label">Extension:</span> <a class="payment-processors__link payment-processors__value" href="{{ row.extension_url }}" target="_blank">{{ row.extension_text }}</a>
+                    </div>
+                    {% endif %}
+                    {% if row.description %}
+                    <div class="partners__description">
+                        {{ row.description | markdownify }}
                     </div>
                     {% endif %}
                 </div>
