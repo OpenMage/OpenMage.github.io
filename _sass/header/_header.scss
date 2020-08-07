@@ -27,5 +27,11 @@
 .lang_switch {
     position:absolute; 
     top:0;
-    right:0;
+    left:0;
+    @media screen and (max-width:800px) {
+        color: $white;
+        a {
+            color: $white;
+        }
+    }
 }

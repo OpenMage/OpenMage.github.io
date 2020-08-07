@@ -22,7 +22,6 @@
     "extension_url": "https://github.com/PAYONE-GmbH/magento-1",
     "extension_text": "PAYONE-magento-1",
     "img_src": "/assets/images/payment-processors/PAYONE-logo.png",
-    "description": "PAYONE GmbH is one of the leading payment service providers in Germany. With FinanceGate, the PCI DSS certified company sells one of the currently most innovative ePayment platforms for the fully automated processing of all payment transactions with comprehensive risk, debtor and accounts receivables management, through which millions of transactions are processed. With the payment module for Magento, Payone offers all payment methods relevant in Germany as an easy-to-install extension for e-commerce."
+    "description": "Die PAYONE GmbH ist einer der führenden Payment Service Provider in Deutschland. Mit FinanceGate vertreibt das nach PCI DSS zertifizierte Unternehmen eine der derzeit innovativsten ePayment-Plattformen zur voll automatisierten Abwicklung des gesamten Zahlungsverkehrs mit umfassendem Risiko-, Debitoren- und Forderungs-Management, über die Millionen Transaktionen abgewickelt werden. Mit dem Payment Modul für Magento bietet Payone alle in Deutschland relevanten Zahlarten als einfach zu installierende Erweiterung für den E-Commerce an."
   }
-
 ]

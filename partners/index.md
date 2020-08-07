@@ -280,6 +280,11 @@ title_thin: in OpenMage LTS project
                             <span class="payment-processors__label">Extension:</span> <a class="payment-processors__link payment-processors__value" href="{{ row.extension_url }}" target="_blank">{{ row.extension_text }}</a>
                         </div>
                         {% endif %}
+                        {% if row.description %}
+                        <div class="partners__description">
+                            {{ row.description | markdownify }}
+                        </div>
+                        {% endif %}
                     </div>
                     {% endfor %}
                 </div>
