@@ -81,5 +81,11 @@
     "url": "https://www.ecommerceit.co.uk",
     "img_src": "/assets/images/agencies/ecommerceit-logo.png",
     "classes": "ecommerceit"
+  },
+  {
+    "name": "Function Digital",
+    "url": "https://functiondigital.io/",
+    "img_src": "",
+    "classes": "ecommerceit"
   }
 ]
