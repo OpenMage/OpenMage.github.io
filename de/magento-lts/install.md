@@ -1,0 +1,98 @@
+---
+layout: page_de
+title: Wie man OpenMage LTS installiert
+excerpt: Installation von Magento LTS. Der vorgeschlagene Weg, diesen Magento 1 Fork zu installieren, ist über den Composer.
+---
+<div class="install-intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+                <h2 class="install-intro__title">
+                    Du bist auf dem richtigen Weg
+                </h2>
+                <h3 class="install-intro__subtitle">
+			OpenMage LTS bietet Dir eine bessere Benutzererfahrung, einen transparenteren und offeneren 
+			Entwicklungsprozess, Fehlerbehebungen, Leistungsverbesserungen und ein solides Programm zur Meldung von Sicherheitslücken. 
+                </h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="install-intro__item col-md-6 col-lg-5 offset-lg-1">
+                <h4 class="card-title">Was ist OpenMage LTS</h4>
+                <p>
+		    Das OpenMage LTS-Projekt ist eine von der Gemeinschaft unterstützte Abspaltung von Magento CE. 
+		    Unser Ziel ist es, die weitere Nutzung von Magento als E-Commerce-Plattform für die Tausende von Händlern 
+		    zu unterstützen, die ihre Geschäfte auf dieser unglaublichen Plattform aufgebaut haben.
+                </p>
+            </div>
+            <div class="install-intro__item col-md-6 col-lg-5">
+                <h4 class="card-title">OpenMage LTS sichert Deine Investition</h4>
+                <p>
+		    Es ist wahrscheinlich, dass Du mehr Zeit und Geld in Deine Magento-basierte eCommerce-Plattform investiert hast, 
+		    als Du überhaupt daran denken willst. Mit Deiner Hilfe möchten wir sicherstellen, dass sich diese Investition auch weiterhin auszahlt.                 </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="graphic-info">
+    <div class="graphic-info__bg bg-dark-gradient"></div>
+    <div class="container">
+        <div class="row">
+            <div class="graphic-info__image-wrapper col-lg-4">
+                <img class="graphic-info__image graphic-info__image--github" src="/assets/images/brackets.png" alt="Installiere OpenMage">
+            </div>
+
+            <div class="graphic-info__description-wrapper col-lg-8">
+                <h2 class="graphic-info__title">Installation über Composer</h2>
+                <div class="graphic-info__wrapper">
+                    <p class="graphic-info__text graphic-info__text--wide">
+			Der vorgeschlagene Weg, diesen Magento 1 Fork zu installieren, ist über den Composer. Hierfür sind uns zwei 
+			funktionierende Installationsprogramme mit Unterstützung für den Magento-Kern als Abhängigkeit bekannt.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="install-instructions">
+    <div class="container">
+        <div class="row">
+            <div class="install-instructions__item col-lg-10 offset-lg-1 col-xl-6 offset-xl-0">
+                <h3 class="install-instructions__title">aydin-hassan/magento-core-composer-installer</h3>
+                <div class="install-instructions__code">
+<pre><code>{
+    "require": {
+        "aydin-hassan/magento-core-composer-installer": "*",
+        "openmage/magento-lts": "{{ site.data.versions.composer.latestStableBranch }}"
+    },
+    "extra": {
+        "magento-core-package-type": "magento-source",
+        "magento-root-dir": "htdocs"
+    }
+}</code></pre>
+                </div>
+            </div>
+        
+            <div class="install-instructions__item col-lg-10 offset-lg-1 col-xl-6 offset-xl-0">
+                <h3 class="install-instructions__title">aoepeople/composer-installers</h3>
+                <div class="install-instructions__code">
+<pre><code>{
+    "require": {
+        "aoepeople/composer-installers": "*",
+        "openmage/magento-lts": "{{ site.data.versions.composer.latestStableBranch }}"
+    }
+}
+</code></pre>
+                </div>
+                
+                <p class="install-instructions__warning">
+                    <strong>Warnhinweis:</strong> 
+Der Wechsel zum AOEs Composer-Installationsprogramm löscht Deinen htdocs-Ordner, es werden nicht nur die magento-lts-Dateien kopiert. 
+Wenn Du bereits symlinks auf local.xml, media und var-Ordner hast - dann mache einfach weiter.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+

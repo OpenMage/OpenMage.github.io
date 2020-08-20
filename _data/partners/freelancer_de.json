@@ -1,0 +1,47 @@
+[
+  {
+    "name": "eCommerceIT",
+    "url": "https://www.ecommerceit.co.uk",
+    "contributions": [
+      "Dokumentation",
+      "Fehler Berichte"
+    ]
+  },
+  {
+    "name": "Kevin Krieger",
+    "url": "https://kkrieger.de/",
+    "contributions": [
+      "Dokumentation",
+      "Fehler Berichte",
+      "Pull Request #612"
+    ]
+  },
+  {
+    "name": "SN Heukels",
+    "url": "https://overhemden.com",
+    "contributions": [
+      "Dokumentation",
+      "mehrere Fehler Berichte",
+      "10+ Pull Requests https://github.com/OpenMage/magento-lts/pulls?q=is%3Apr+seansan+author%3Aseansan"      
+    ]
+  },
+  {
+    "name": "Sven Reichel",
+    "url": "github-sr@hotmail.com",
+    "contributions": [
+      "Dokumentation",
+      "mehrere Fehler Berichte",
+      "https://github.com/OpenMage/magento-lts/commits?author=sreichel"
+    ]
+  },
+  {
+    "name": "Aike Kristian Terjung",
+    "url": "https://akt-web.de",
+    "contributions": [
+      "Dokumentation",
+      "Logos aktualisieren, backend styles",
+      "https://github.com/OpenMage/magento-lts/commits?author=aterjung"
+    ]
+  }
+]
+

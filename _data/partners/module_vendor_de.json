@@ -1,0 +1,51 @@
+[
+  {
+    "name": "RedChamps",
+    "url": "https://redchamps.com",
+    "description": "Wir entwickeln einzigartige & must have Magento 1 und Magento 2 Erweiterungen.",
+    "img_src": "/assets/images/module-vendors/redchamps-logo.png",
+    "classes": "redchamps"
+  },
+  {
+    "name": "Meetanshi",
+    "url": "https://meetanshi.com",
+    "description": "Mit mehr als 140 hochqualitativen Magento-Erweiterungen, mehr als 5000 Kunden und mehr als 9 Jahren Erfahrung in der Nische erweitert Meetanshi seit 2017 immer wieder den Magento-Horizont und übertrifft Ecommerce Excellence!",
+    "img_src": "/assets/images/module-vendors/meetanshi-logo.jpg",
+    "classes": "meetanshi"
+  },
+  {
+    "name": "Firebear Studio",
+    "url": "https://firebearstudio.com",
+    "description": "Wir helfen Menschen beim Importieren und Exportieren von Daten, bringen Menschen bei, wie sie es tun können, verfolgen die E-Commerce-Agenda und überprüfen die von der Magento-Community entwickelten Erweiterungen.",
+    "img_src": "/assets/images/module-vendors/firebear-studio-logo.png",
+    "classes": "firebear-studio"
+  },
+  {
+    "name": "ModuleBazaar",
+    "url": "https://www.modulebazaar.com/",
+    "description": "Module Bazaar (MB) ist ein Online-Marktplatz für den Kauf und Verkauf von Erweiterungen, Themes und mehr für Magento und andere eCommerce-Plattformen.",
+    "img_src": "/assets/images/module-vendors/module-bazaar-logo.jpg",
+    "classes": "module-bazaar"
+  },
+  {
+    "name": "OneStepCheckout",
+    "url": "https://www.onestepcheckout.com/magento-1/",
+    "description": "OneStepCheckout hat eine unübertroffene Expertise entwickelt, der seit 2010 über 20.000 Magento 1-Händler vertrauen. Sie werden die Magento 1-Plattform so lange unterstützen, wie ihre Kunden sie benötigen.",
+    "img_src": "/assets/images/module-vendors/onestepcheckout-logo.png",
+    "classes": "onestepcheckout"
+  },
+  {
+    "name": "ParadoxLabs",
+    "url": "https://www.paradoxlabs.com/",
+    "description": "Bei ParadoxLabs dreht sich alles darum, Euch die eCommerce-Erfahrung zu vermitteln, die Du und Deine Kunden benötigen, und unsere zertifizierten Entwickler und Qualitätserweiterungen liefern die Ergebnisse, die sie benötigen.",
+    "img_src": "/assets/images/module-vendors/paradoxlabs-logo.jpg",
+    "classes": "paradoxlabs"
+  },
+  {
+    "name": "Blackfire.io",
+    "url": "https://blackfire.io/",
+    "description": "Blackfire.io ist ein PHP-Code-Profiler, der Magento 1 und 2 unterstützt. Blackfire bietet eine erweiterte Erfassung und Visualisierung von Metriken und ermöglicht es Magento-Entwicklern zu verstehen, wie ihr Code ausgeführt wird, wie er Serverressourcen verbraucht und wie Leistung, Qualität und Sicherheit optimiert werden können.",
+    "img_src": "/assets/images/module-vendors/blackfire-logo.png",
+    "classes": "blackfire"
+  }
+]

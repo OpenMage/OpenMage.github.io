@@ -24,6 +24,12 @@
     "classes": "copex"
   },
   {
+    "name": "eCommerceIT",
+    "url": "https://www.ecommerceit.co.uk",
+    "img_src": "/assets/images/agencies/ecommerceit-logo.png",
+    "classes": "ecommerceit"
+  },
+  {
     "name": "Edmonds Commerce",
     "url": "https://www.edmondscommerce.co.uk",
     "img_src": "/assets/images/agencies/edmonds-commerce-logo.png",

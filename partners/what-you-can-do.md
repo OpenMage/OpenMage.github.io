@@ -1,45 +1,45 @@
 
-## What you can do to support us
+# What you can do to support us
 
+Thanks for your interest in supporting the OpenMage project and community!
 
-### on the Code Side
+## Programmers
 
-#### Participate in Code Reviews of Pull Requests
+#### Participate in Pull Requests
 
-We get a lot of Patches already, but Reviewing them properly takes time, and the more people we have to Review,
-the less Reviews each one of us has to do.
+We receive many Pull Requests and these take time to review and discuss. Join the discussion, let us know what PRs you
+like and don't like, and check out the code and test it out! Your code reviews and comments will truly have an impact!
 
-We usually require at least 2 approving Reviews for each PullRequest to ensure the quality and to catch potencial bugs early.
-This has helped already many times to catch smaller Issues before they got merged.
+You can setup a Docker-based development environment in literally [one easy step](https://github.com/OpenMage/magento-lts/blob/1.9.4.x/dev/openmage/README.md) so you can easily checkout a PR and help test it!
 
+#### Develop Features
 
-#### Provide Bug Reports and Bug Fixes
+Browse the [issues](https://github.com/OpenMage/magento-lts/issues) list and tackle a problem! The community will forever be grateful and you may become featured on our home page!
 
-Because we can only improve, what we know needs improvement.
-And If they come with Patches already, even better.
+#### Report and Fix Bugs
 
+If you find a bug, please report it! We stronly prefer that you start a Pull Request with your suggested fix as well; this will really speed up the process to get a fix merged.
 
 #### Tag your compatible Modules
 
-on Github, add the topic "openmage", so it is listed on [https://github.com/topics/openmage](https://github.com/topics/openmage)
+Add the topic "openmage" to your GitHub-hosted extensions so they will be listed on [https://github.com/topics/openmage](https://github.com/topics/openmage).
 
-in your composer.json, add "openmage" under "keywords", so its listed on [https://packagist.org/search/?tags=openmage](https://packagist.org/search/?tags=openmage)
+Also, add "openmage" under "keywords" in your `composer.json` file, so its listed on [https://packagist.org/search/?tags=openmage](https://packagist.org/search/?tags=openmage).
 
-### Organization
+## Organization
 
 #### RFC Process
+
 Help us form our future, by participating in the RFC Process.
 [https://github.com/OpenMage/rfcs](https://github.com/OpenMage/rfcs)
 
 Because some changes will need Backwards Compatibility Breaks, this ones should not be decided by just 3 people, but by the majority of theCommunity. (So the RFC Process is build to slow the process down, to make it possible for a lot more people to participate)
 
-#### become an official Partner
+#### Become an official Partner
 
 Find more Information on how to become a partner one the according Pages [/partners/index.html](/partners/index.html)
 
-
-
-#### Helping with the creation of Documentation
+#### Help with the creation of Documentation
 
 [https://github.com/OpenMage/documentation](https://github.com/OpenMage/documentation)
 
@@ -47,13 +47,11 @@ or alternatively, to integrate the magento m1 devdocs into our Org
 
 [https://github.com/magento/devdocs-m1](https://github.com/magento/devdocs-m1)
 
-
-
-#### Writing Blogposts
+#### Write Blogposts
 
 To Improve the visibility of the Project, as many still do not know it exists.
 
-#### Extending this Page
+#### Extend this Page
 
 because it takes time to find and describe all the different ways to help
 
