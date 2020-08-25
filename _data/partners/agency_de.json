@@ -81,5 +81,11 @@
     "url": "https://www.ecommerceit.co.uk",
     "img_src": "/assets/images/agencies/ecommerceit-logo.png",
     "classes": "ecommerceit"
+  },
+  {
+    "name": "huettenmueller.de",
+    "url": "https://www.huettenmueller.de",
+    "img_src": "/assets/images/agencies/huettenmueller-logo.png",
+    "classes": "huettenmueller"
   }
 ]
