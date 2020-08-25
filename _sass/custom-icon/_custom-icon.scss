@@ -1,0 +1,47 @@
+.custom-icon {
+    background: $primary;
+    position: relative;
+    display: inline-block;
+    width: 54px;
+    height: 54px;
+    -webkit-border-top-right-radius: 6px;
+    -moz-border-radius-topright: 6px;
+    border-top-right-radius: 6px;
+
+    &__icon {
+        @include center-item;
+    }
+
+    &__square {
+        width: 5px;
+        height: 5px;
+        position: absolute;
+        left: 5px;
+
+        &--top {
+            background: #ffa7af;
+            bottom: 3px;
+        }
+
+        &--bottom {
+            background: $primary;
+            bottom: -8px;
+        }
+    }
+}
+
+a.custom-icon {
+    &:hover,
+    &:focus {
+        background: $secondary;
+        text-decoration: none;
+    }
+
+    &:hover &__square--top {
+        background: #df85df;
+    }
+
+    &:hover &__square--bottom {
+        background: $secondary;
+    }
+}

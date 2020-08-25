@@ -1,0 +1,13 @@
+.about {
+    .eol-and-involvement {
+        margin-bottom: 5rem;
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .about {
+        .eol-and-involvement {
+            margin-bottom: 2rem;
+        }
+    }
+}

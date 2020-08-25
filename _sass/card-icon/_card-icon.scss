@@ -16,6 +16,15 @@
         border-color: $border-light-1;
     }
 
+    &--link-small {
+        width: 40px;
+        height: 40px;
+        border-radius: 0px 12px 0px 0px;
+        box-shadow: none;
+        background-color: $border-light-1;
+        border-color: $border-light-1;
+    }
+
     &--small {
         width: 63px;
         height: 63px;

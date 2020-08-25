@@ -1,0 +1,26 @@
+---
+layout: partner_de
+title: Partner Agenturen
+excerpt: Partner Agenturen OpenMage. Hier zur Übersicht!
+---
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Beiträge</th>
+    </tr>
+    {% for row in site.data.partners.agency_de %}
+    <tr>
+        <td>
+            <a href="{{row.url}}">{{ row.name }}</a>
+        </td>
+        <td>
+            <ul>
+                {% for contribution in row.contributions %}
+                <li>{{ contribution }}</li>
+                {% endfor %}
+            </ul>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
