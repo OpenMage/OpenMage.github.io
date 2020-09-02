@@ -81,5 +81,11 @@
     "url": "https://www.ecommerceit.co.uk",
     "img_src": "/assets/images/agencies/ecommerceit-logo.png",
     "classes": "ecommerceit"
+  },
+  {
+    "name": "Makers",
+    "url": "https://makers.dk/",
+    "img_src": "/assets/images/agencies/makers-logo.png",
+    "classes": "makers"
   }
 ]
