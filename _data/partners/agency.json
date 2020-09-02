@@ -85,7 +85,7 @@
   {
     "name": "Makers",
     "url": "https://makers.dk/",
-    "img_src": "/assets/images/agencies/makers-logo.png",
+    "img_src": "https://makers.dk/wp-content/themes/makers/assets/images/logoM.png",
     "classes": "makers"
   }
 ]
