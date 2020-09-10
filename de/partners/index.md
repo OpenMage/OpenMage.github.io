@@ -297,7 +297,7 @@ title_thin: im OpenMage LTS ProjeKt
                 </div>
     
                 <div class="partners__box row">
-                    {% for row in site.data.hosting_providers.module_vendor %}
+                    {% for row in site.data.partners.hosting_provider %}
                     <div class="partners__item partners__item--with-border col-12 col-sm-6 col-lg-4 col-xl-3">
                         <a class="partners__link" href="{{row.url}}" target="_blank">
                             {% if row.img_src %}
