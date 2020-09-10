@@ -89,6 +89,12 @@
     "classes": "ecommerceit"
   },
   {
+    "name": "Makers",
+    "url": "https://makers.dk/",
+    "img_src": "https://makers.dk/wp-content/themes/makers/assets/images/logoM.png",
+    "classes": "makers"
+  },
+  {
     "name": "huettenmueller.de",
     "url": "https://www.huettenmueller.de",
     "img_src": "/assets/images/agencies/huettenmueller-logo.png",
