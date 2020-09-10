@@ -9,14 +9,14 @@ excerpt: Partner Agenturen OpenMage. Hier zur Übersicht!
         <th>Name</th>
         <th>Beiträge</th>
     </tr>
-    {% for row in site.data.partners.agency_de %}
+    {% for row in site.data.partners.agency %}
     <tr>
         <td>
             <a href="{{row.url}}">{{ row.name }}</a>
         </td>
         <td>
             <ul>
-                {% for contribution in row.contributions %}
+                {% for contribution in row.contributions_de %}
                 <li>{{ contribution }}</li>
                 {% endfor %}
             </ul>

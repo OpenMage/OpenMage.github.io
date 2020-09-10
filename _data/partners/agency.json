@@ -8,6 +8,11 @@
         "Bug Reports",
         "Modules Creator",
         "Documentation"
+    ],
+    "contributions_de": [
+      "Fehler Berichte",
+      "Module Ersteller",
+      "DoKumentation"
     ]
   },
   {
@@ -85,7 +90,7 @@
   {
     "name": "Function Digital",
     "url": "https://functiondigital.io/",
-    "img_src": "",
+    "img_src": "https://functiondigital.io/wp-content/uploads/2019/05/logo_with_text_no_padding.png",
     "classes": "ecommerceit"
   },
   {

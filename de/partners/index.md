@@ -159,7 +159,7 @@ title_thin: im OpenMage LTS ProjeKt
             </div>
 
             <div class="partners__box row">
-                {% for row in site.data.partners.agency_de %}
+                {% for row in site.data.partners.agency %}
                 <div class="partners__item col-12 col-sm-6 col-lg-4 col-xl-3">
                     <a class="partners__link" href="{{row.url}}" target="_blank">
                         {% if row.img_src %}
@@ -177,9 +177,9 @@ title_thin: im OpenMage LTS ProjeKt
                         </div>
                     </a>
 
-                    {% if row.contributions %}
+                    {% if row.contributions_de %}
                     <ul class="partners__description-list">
-                        {% for contribution in row.contributions %}
+                        {% for contribution in row.contributions_de %}
                         <li class="partners__description-list-item">{{ contribution }}</li>
                         {% endfor %}
                     </ul>
@@ -282,6 +282,47 @@ title_thin: im OpenMage LTS ProjeKt
                     {% endif %}
                 </div>
                 {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div id="hosting-providers" class="partners">
+        <div class="container">
+            <div class="partners__wrapper card">
+                <div class="card-intro">
+                    <div class="card-icon">
+                        <img class="card-icon__img" src="/assets/svg/squares.svg">
+                    </div>
+    
+                    <h2 class="card-intro-title">Hosting Provider</h2>
+                </div>
+    
+                <div class="partners__box row">
+                    {% for row in site.data.hosting_providers.module_vendor %}
+                    <div class="partners__item partners__item--with-border col-12 col-sm-6 col-lg-4 col-xl-3">
+                        <a class="partners__link" href="{{row.url}}" target="_blank">
+                            {% if row.img_src %}
+                            <div class="partners__logo-wrapper">
+                                <img class="partners__logo{% if row.classes %} partners__logo--{{row.classes}}{% endif %}" src="{{ row.img_src }}" alt="{{ row.name }} logo"/>
+                            </div>
+                            {% endif %}
+                            {% if row.name %}
+                            <div class="partners__name">
+                                {{ row.name }}
+                            </div>
+                            {% endif %}
+                            <div class="partners__link-icon card-icon card-icon--link">
+                                <img class="card-icon__img" src="/assets/svg/link-rotated.svg">
+                            </div>
+                        </a>
+    
+                        {% if row.description %}
+                        <div class="partners__description">
+                            {{ row.description | markdownify }}
+                        </div>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+                </div>
             </div>
         </div>
     </div>
