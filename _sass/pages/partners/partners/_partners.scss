@@ -103,7 +103,8 @@
             width: 200px;
         }
 
-        &--burgesscommerce {
+        &--burgesscommerce,
+        &--smartebusiness {
             width: 200px;
         }
 
@@ -111,8 +112,8 @@
             width: 169px;
         }
 
-        &--smartebusiness {
-            width: 200px;
+        &--itpdx {
+            width: 220px;
         }
 
         // Module Vendors:
@@ -172,6 +173,10 @@
         background: url('/assets/svg/check.svg') left 4px no-repeat;
         list-style-type: none;
         padding-left: 25px;
+    }
+
+    .partners__logo--ecommerceit {
+        background-color: gray;
     }
 }
 

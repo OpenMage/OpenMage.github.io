@@ -1,0 +1,14 @@
+.more-about {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+
+    &__item {
+        margin-bottom: 1rem;
+    }
+
+    &__title {
+        @include title('alternative');
+        color: $text-dark;
+        margin-bottom: .9rem;
+    }
+}

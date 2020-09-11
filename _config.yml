@@ -13,6 +13,9 @@ exclude:
   - README.md
 sass:
   style: compressed
+languages: 
+  de:
+    baseurl: "de"
 defaults:
   - scope:
       path: "assets/images"

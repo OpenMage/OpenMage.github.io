@@ -11,5 +11,18 @@
     "extension_text": "heartland-magento-extension",
     "img_src": "/assets/images/payment-processors/heartland-logo.svg",
     "classes": "heartland"
+  },
+  {
+    "name": "PAYONE GmbH",
+    "url": "https://www.payone.com/",
+    "url_text": "www.payone.com",
+    "compatibilities": [
+      "Level 1"
+    ],
+    "extension_url": "https://github.com/PAYONE-GmbH/magento-1",
+    "extension_text": "PAYONE-magento-1",
+    "img_src": "/assets/images/payment-processors/PAYONE-logo.png",
+    "description": "PAYONE GmbH is one of the leading payment service providers in Germany. With FinanceGate, the PCI DSS certified company sells one of the currently most innovative ePayment platforms for the fully automated processing of all payment transactions with comprehensive risk, debtor and accounts receivables management, through which millions of transactions are processed. With the payment module for Magento, PAYONE offers all payment methods relevant in Germany as an easy-to-install extension for e-commerce."
   }
+
 ]

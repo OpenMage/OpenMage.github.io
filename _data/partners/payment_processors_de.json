@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Heartland Payment Systems",
+    "url": "https://www.heartlandpaymentsystems.com/",
+    "url_text": "heartlandpaymentsystems.com",
+    "compatibilities": [
+      "SAQ A",
+      "SAQ A-EP"
+    ],
+    "extension_url": "https://github.com/hps/heartland-magento-extension",
+    "extension_text": "heartland-magento-extension",
+    "img_src": "/assets/images/payment-processors/heartland-logo.svg",
+    "classes": "heartland"
+  },
+  {
+    "name": "PAYONE GmbH",
+    "url": "https://www.payone.com/",
+    "url_text": "www.payone.com",
+    "compatibilities": [
+      "Level 1"
+    ],
+    "extension_url": "https://github.com/PAYONE-GmbH/magento-1",
+    "extension_text": "PAYONE-magento-1",
+    "img_src": "/assets/images/payment-processors/PAYONE-logo.png",
+    "description": "Die PAYONE GmbH ist einer der führenden Payment Service Provider in Deutschland. Mit FinanceGate vertreibt das nach PCI DSS zertifizierte Unternehmen eine der derzeit innovativsten ePayment-Plattformen zur voll automatisierten Abwicklung des gesamten Zahlungsverkehrs mit umfassendem Risiko-, Debitoren- und Forderungs-Management, über die Millionen Transaktionen abgewickelt werden. Mit dem Payment Modul für Magento bietet PAYONE alle in Deutschland relevanten Zahlarten als einfach zu installierende Erweiterung für den E-Commerce an."
+  }
+]

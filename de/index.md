@@ -1,0 +1,531 @@
+---
+layout: homepage_de
+title: OpenMage LTS - Eine Community-getriebene Abspaltung von Magento Community Edition
+redirect_from: "/magento-lts/"
+---
+<div class="hero bg-dark-gradient">
+    <div class="container">
+        <div class="hero__bg-image js-hero-image-animation">
+            <i class="hero__sq"></i>
+            <i class="hero__sq"></i>
+            <i class="hero__sq"></i>
+            <i class="hero__sq"></i>
+            <i class="hero__sq"></i>
+            <i class="hero__sq"></i>
+            <i class="hero__sq"></i>
+            <i class="hero__sq"></i>
+            <i class="hero__sq"></i>
+            <i class="hero__sq"></i>
+            <i class="hero__sq"></i>
+            <i class="hero__sq"></i>
+            <i class="hero__sq"></i>
+            <img src="/assets/images/hero-image.png" alt="" />
+        </div>
+        <ul class="check-list hero__checklist">
+            <li>Fortgesetzte Langzeit-Unterstützung (LTS) von Magento 1</li>
+            <li>Sicherheitspatches</li>
+            <li>Performance Optimierungen</li>
+        </ul>
+        <div class="hero__title-wrapper">
+            <h1 class="hero__title">
+                <b>Stabile und sichere </b> E-Commerce-Plattform
+            </h1>
+            <h2 class="hero__subtitle">
+                Installiere  OpenMage LTS und setze Deine E-Commerce-Reise sicher fort.
+            </h2>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="info-cards row row-cols-1 row-cols-lg-3">
+        <div class="col mt-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Einfache Migration</h5>
+                    <p class="card-text">Mit dem alleinigen Fokus auf die Verbesserung von Sicherheit, Stabilität und Leistung ist die Migration von einer bestehenden Magento 1 Installation einfach!</p>
+                </div>
+                <div class="card-footer">
+                    <a href="/de/magento-lts/migration-guide.html" class="btn btn-primary">Details anzeigen</a>
+                </div>
+            </div>
+        </div>
+        <div class="col mt-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">OpenMage LTS jetzt installieren!</h5>
+                    <p class="card-text">Mit composer ist die Installation von OpenMage schnell und einfach!</p>
+                </div>
+                <div class="card-footer">
+                    <a href="/de/magento-lts/install.html" class="btn btn-primary">Installiere OpenMage LTS</a>
+                </div>
+            </div>
+        </div>
+        <div class="col mt-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Offizielle Modul-Bibliothek</h5>
+                    <p class="card-text">OpenMage hat eine Reihe von Zusatzmodulen genehmigt, die vollständig kompatibel sind. Schaue  sie dir jetzt an!</p>
+                </div>
+                <div class="card-footer">
+                    <a href="/de/magento-lts/suggested_modules.html" class="btn btn-primary">Module überprüfen</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container pb-5 pt-5">
+    <h2 class="title text-center">Bleib auf Magento 1</h2>
+    <p class="subtitle text-center w-75 mr-auto ml-auto">OpenMage LTS ermöglicht es Magento 1.x EOL-Händlern, weiterhin eine sichere, stabile Magento-basierte Plattform zu betreiben und gleichzeitig PCI-konform zu bleiben.</p>
+    <div class="row mt-5">
+        <div class="col-md-6 col-lg-5 offset-lg-1 mb-3">
+            <h4 class="card-title">OpenMage LTS für Shopbetreiber</h4>
+            <p>
+            Stell Dir vor, Deinen Shop auf den neuesten Stand zu bringen, und bitte Deinen Entwickler, sich jetzt in unserem GitHub einzuloggen. OpenMage wird die Magento-Community regelmäßig aktualisieren und alle gefundenen kritischen Schwachstellen beheben.
+            </p>
+            <p>
+                <a href="#">Mehr lesen</a>
+	    </p>
+        </div>
+        <div class="col-md-6 col-lg-5 mb-3">
+	    <h4 class="card-title">OpenMage LTS für Entwicklung</h4>
+            <p>
+                Wir integrieren Verbesserungen direkt aus der Gemeinschaft, d. h. wenn Du irgendwelche Fehler behoben oder Verbesserungen bereit hast - reiche eine Pull-Anfrage ein. Nach einer Überprüfung wird Dein PR dazu verwendet, Magento CE in der neuen Version am Leben zu erhalten.
+            </p>
+            <p>
+                <a href="#">Mehr lesen</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="newsletter mt-3">
+    <div class="newsletter__bg bg-dark-gradient"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 text-center">
+                <img class="newsletter__image" src="/assets/images/newsletter.png" alt="Newsletter">
+            </div>
+            <div class="col-lg-8 mt-2 mt-lg-5 mb-4" id="newsletter">
+                <h2 class="newsletter__title title">Möchtest Du OpenMage in Deinem Posteingang haben?</h2>
+                <p class="newsletter__subtitle">Sei der Erste, der über neue Wege, neue Bugfixes und Kooperationsangebote informiert wird. Wir sind ein guter Brieffreund. Versprochen.</p>
+                <iframe class="mj-w-res-iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://app.mailjet.com/widget/iframe/4iX1/iBI" width="100%"></iframe>
+                <script type="text/javascript" src="https://app.mailjet.com/statics/js/iframeResizer.min.js"></script>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="roadmap">
+    <div class="container">
+        <h2 class="roadmap__title">
+            OpenMage LTS Roadmap
+        </h2>
+
+        <div class="roadmap__buttons row">
+            <div class="roadmap__button-wrapper roadmap__button-wrapper--left col-12 col-md-6">
+                <a class="roadmap__button roadmap__button--goals btn btn-light" href="https://github.com/OpenMage/magento-lts/pulls?q=is%3Apr+is%3Aclosed">{% include icons/arrow-right.svg %} Erreichte Ziele</a>
+            </div>
+
+            <div class="roadmap__button-wrapper roadmap__button-wrapper--right col-12 col-md-6">
+                <a class="roadmap__button roadmap__button--submit btn btn-light" href="https://github.com/OpenMage/magento-lts/issues/new/choose">Antrag stellen</a>
+            </div>
+        </div>
+
+        <div class="roadmap__steps row">
+            <div class="roadmap__steps-item col-6 col-md-6 col-lg-3">
+                <div class="roadmap__steps-icon-wrapper">
+                    <img class="roadmap__steps-icon" src="/assets/svg/alert.svg" alt="Alert icon" />
+                </div>
+                <div class="roadmap__steps-title">
+                    PHP 7.4 Support
+                </div>
+                <div class="roadmap__steps-text">
+                    Unterstützt PHP 7.4, das sich noch im Review befindet, aber es sollte mit der nächsten Version fertig sein.
+                </div>
+                <div class="roadmap__steps-more">
+                    <a class="roadmap__steps-link" href="/de/blog.html">Lese mehr in unserem Blog</a>
+                </div>
+            </div>
+
+            <div class="roadmap__steps-item col-6 col-md-6 col-lg-3">
+                <div class="roadmap__steps-icon-wrapper">
+                    <img class="roadmap__steps-icon" src="/assets/svg/shield.svg" alt="Shield icon" />
+                </div>
+                <div class="roadmap__steps-title">
+                    Labor für Innovationen: Sicherheit
+                </div>
+                <div class="roadmap__steps-text">
+                    Verpflichtung zu Bug-Bounty-Programmen und Sicherheitsaudits, um eine sichere Code-Basis zu gewährleisten.
+                </div>
+            </div>
+
+            <div class="roadmap__steps-item col-6 col-md-6 col-lg-3">
+                <div class="roadmap__steps-icon-wrapper">
+                    <img class="roadmap__steps-icon" src="/assets/svg/repeat.svg" alt="Repeat icon" />
+                </div>
+                <div class="roadmap__steps-title">
+                   Labor für Innovationen: Tests
+                </div>
+                <div class="roadmap__steps-text">
+                    Fortsetzung des Aufbaus einer vollständigen Testsuite für OpenMage LTS.
+                </div>
+                <div class="roadmap__steps-more">
+                    <a class="roadmap__steps-link" href="/de/blog.html">Lese mehr in unserem Blog</a>
+                </div>
+            </div>
+
+            <div class="roadmap__steps-item col-6 col-md-6 col-lg-3">
+                <div class="roadmap__steps-icon-wrapper">
+                    <img class="roadmap__steps-icon" src="/assets/svg/alert.svg" alt="Alert icon" />
+                </div>
+                <div class="roadmap__steps-title">
+                    PHP 8 Support
+                </div>
+                <div class="roadmap__steps-text">
+                    Unterstützt PHP 8.0, das sich noch im Review befindet, aber es sollte mit der nächsten Version fertig sein.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="active-info bg-dark-gradient">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <h2 class="active-info__title">
+                    <span class="active-info__title-item">100 000</span> <div class="active-info__title-separator"></div>online aktive Magento-Installationen
+                </h2>
+                <h3 class="active-info__text">
+                    OpenMage LTS soll der Magento-Community zugute kommen, in dem es eine stabile Plattform nach EOL <span class="active-info__text--badge">*</span> bietet, die mindestens <span class="active-info__text--strong">5 Jahre</span> weitergeführt werden soll.
+                </h3>
+            </div>
+        </div>
+
+        <div class="active-info__stats row">
+            <div class="active-info__stats-item col-6 col-lg-3">
+                <div id="js-active-info__stats-value--pull-requests" class="active-info__stats-value">
+                    200
+                </div>
+                <div class="active-info__stats-text">
+                    Zusammengeführte Pull-Anfragen
+                </div>
+            </div>
+
+            <div class="active-info__stats-item col-6 col-lg-3">
+                <div id="js-active-info__stats-value--contributors" class="active-info__stats-value">
+                    111
+                </div>
+                <div class="active-info__stats-text">
+                    Code-Beitragende
+                </div>
+            </div>
+
+            <div class="active-info__stats-item col-6 col-lg-3">
+                <div id="js-active-info__stats-value--forks" class="active-info__stats-value">
+		    244
+		</div>
+                <div class="active-info__stats-text">
+                    Direkte Forks auf Github
+                </div>
+            </div>
+
+            <div class="active-info__stats-item col-6 col-lg-3">
+                <div id="js-active-info__stats-value--stars" class="active-info__stats-value">
+		    505
+		</div>
+                <div class="active-info__stats-text">
+                    Sterne auf Github
+                </div>
+            </div>
+        </div>
+
+        <div class="active-info__separator"></div>
+
+        <div class="active-info__descriptions row">
+            <div class="active-info__descriptions-item col-12 col-md-6 col-lg-3">
+                <b>Open-source</b> basierend auf Magento CE mit dem Fork bei GitHub, wo Du jedes Stück Code überprüfen kannst
+            </div>
+
+            <div class="active-info__descriptions-item col-12 col-md-6 col-lg-3">
+                <b>Community getrieben</b> jede Aktualisierung und eine neue Version wurden von Fachleuten entwickelt, die jahrelang mit Magento 1 gearbeitet haben.
+            </div>
+
+            <div class="active-info__descriptions-item col-12 col-md-6 col-lg-3">
+                <b>Kostenlos</b> keine versteckten Gebühren, keine Abonnements, das einzige Ziel ist es, Magento 1 zu unterstützen und voranzutreiben
+            </div>
+
+            <div class="active-info__descriptions-item col-12 col-md-6 col-lg-3">
+                <b>Sicherheits-Patches</b> Jede Version unterstützt die neuesten Schwachstellenbehebungen und bleibt PCI-konform.
+            </div>
+        </div>
+
+        <div class="active-info__annotation">
+            <div class="active-info__annotation-text">
+                <span class="active-info__annotation-text--badge">*</span> Erfahre <span class="active-info__annotation-text--light">mehr über EOL</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="contributor">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-10 offset-xl-1">
+                <h2 class="contributor__title">
+                    Werde Mitwirkender
+                </h2>
+                <h3 class="contributor__subtitle">
+                    Schaue hinter die Kulissen, füge Deinen Baustein zu einer stabilen E-Commerce-Plattform hinzu.
+                </h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="maintainers col-xl-9">
+                <div class="maintainers__wrapper">
+                    <div class="row">
+                        <div class="col-xl-10 offset-xl-1">
+                            <div class="maintainers__title">
+                                Treffe unsere Maintainer
+                            </div>
+                            <div class="maintainers__description">
+                                Im Interesse der Förderung einer offenen und einladenden Umgebung verpflichten wir uns als Mitwirkende und Betreuer, die Teilnahme an OpenMage und unserer Gemeinschaft zu einer belästigungsfreien Erfahrung für alle zu machen.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="maintainers__box col">
+                            <div class="maintainers__person">
+                                <div class="maintainers__view">
+                                    <img class="maintainers__image" src="/assets/images/maintainers/lee.png" />
+                                    <div class="maintainers__name">
+                                        Lee Saferite
+                                    </div>
+                                </div>
+
+                                <div class="maintainers__more-info">
+                                    <div class="maintainers__stats">
+                                        <div class="maintainers__stats-item">
+                                            <img class="maintainers__stats-icon" src="/assets/svg/commit.svg" />
+                                            <span class="maintainers__stats-text">117</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="maintainers__contacts">
+                                        <div class="maintainers__contacts-item maintainers__contacts-item--name">
+                                            <a class="maintainers__contacts-link" href="https://github.com/LeeSaferite" target="_blank">LeeSaferite</a>
+                                        </div>
+                                        <div class="maintainers__contacts-item maintainers__contacts-item--location">
+                                            <span class="maintainers__contacts-text">Lake City, FL, US</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="maintainers__person">
+                                <div class="maintainers__view">
+                                    <img class="maintainers__image" src="/assets/images/maintainers/david.png" />
+                                    <div class="maintainers__name">
+                                        David Robinson
+                                    </div>
+                                </div>
+
+                                <div class="maintainers__more-info">
+                                    <div class="maintainers__stats">
+                                        <div class="maintainers__stats-item">
+                                            <img class="maintainers__stats-icon" src="/assets/svg/commit.svg" />
+                                            <span class="maintainers__stats-text">53</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="maintainers__contacts">
+                                        <div class="maintainers__contacts-item maintainers__contacts-item--name">
+                                            <a class="maintainers__contacts-link" href="https://github.com/drobinson" target="_blank">drobinson</a>
+                                        </div>
+                                        <div class="maintainers__contacts-item maintainers__contacts-item--twitter">
+                                            <a class="maintainers__contacts-link" href="https://twitter.com/d_rbn" target="_blank">twitter.com/d_rbn</a>
+                                        </div>
+                                        <div class="maintainers__contacts-item maintainers__contacts-item--location">
+                                            <span class="maintainers__contacts-text">San Francisco</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="maintainers__person">
+                                <div class="maintainers__view">
+                                    <img class="maintainers__image" src="/assets/images/maintainers/daniel.png" />
+                                    <div class="maintainers__name">
+                                        Daniel Fahlke
+                                    </div>
+                                </div>
+
+                                <div class="maintainers__more-info">
+                                    <div class="maintainers__stats">
+                                        <div class="maintainers__stats-item">
+                                            <img class="maintainers__stats-icon" src="/assets/svg/commit.svg" />
+                                            <span class="maintainers__stats-text">72</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="maintainers__contacts">
+                                        <div class="maintainers__contacts-item maintainers__contacts-item--name">
+                                            <a class="maintainers__contacts-link" href="https://github.com/Flyingmana" target="_blank">Flyingmana</a>
+                                        </div>
+                                        <div class="maintainers__contacts-item maintainers__contacts-item--twitter">
+                                            <a class="maintainers__contacts-link" href="https://twitter.com/Flyingmana" target="_blank">@Flyingmana</a>
+                                        </div>
+                                        <div class="maintainers__contacts-item maintainers__contacts-item--location">
+                                            <span class="maintainers__contacts-text">Germany - Berlin</span>
+                                        </div>
+                                        <div class="maintainers__contacts-item maintainers__contacts-item--email">
+                                            <a class="maintainers__contacts-link maintainers__contacts-link--limit" href="mailto:flyingmana@googlemail.com" title="flyingmana@googlemail.com" target="_blank">flyingmana@googlemail.com</a>
+                                        </div>
+                                        <div class="maintainers__contacts-item maintainers__contacts-item--link">
+                                            <a class="maintainers__contacts-link maintainers__contacts-link--limit" href="http://flyingmana.name" title="http://flyingmana.name" target="_blank">http://flyingmana.name</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contributor__list">
+                        <div class="row">
+                            <div class="col-xl-10 offset-xl-1">
+                                <div class="contributor__list-title">
+                                    Über 100 Beitragende
+                                </div>
+                                <div class="contributor__list-description">
+                                    Wir ermutigen nachdrücklich zur Teilnahme der Gemeinschaft! Wenn Du eine Fehlerbehebung, eine Verbesserung oder eine neue Funktion hast, die Deiner Meinung nach in den Magento-Kerncode gehört, reiche sie als eine Pull-Anfrage ein, und wir werden sie mit Dir besprechen, den Code überprüfen und Dir dabei helfen!
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <div id="js-contributor__thumbnails" class="contributor__thumbnails"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="contributor__bottom">
+                                <a class="contributor__link" href="https://github.com/OpenMage/magento-lts/graphs/contributors" role="button">Zeige mehr {% include icons/chevron-down.svg %}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="involvement col-xl-3">
+                <div class="involvement__wrapper">
+                    <div class="involvement__title">
+                        Beteilige Dich
+                    </div>
+
+                    <div class="involvement__info row">
+                        <div class="involvement__item col-md-6 col-lg-4 col-xl-12">
+                            <div class="involvement__item-wrapper">
+                                <img class="involvement__item-icon" src="/assets/svg/pull-request.svg" />
+                            </div>
+                            <div class="involvement__item-text">
+                                An Code-Reviews von Pull-Anfragen teilnehmen
+                            </div>
+                        </div>
+
+                        <div class="involvement__item col-md-6 col-lg-4 col-xl-12">
+                            <div class="involvement__item-wrapper">
+                                <img class="involvement__item-icon" src="/assets/svg/bug.svg" />
+                            </div>
+                            <div class="involvement__item-text">
+                                Bereitstellung von Fehlerberichten und Fehlerbehebungen
+                            </div>
+                        </div>
+
+                        <div class="involvement__item col-md-6 col-lg-4 col-xl-12">
+                            <div class="involvement__item-wrapper">
+                                <img class="involvement__item-icon" src="/assets/svg/tag.svg" />
+                            </div>
+                            <div class="involvement__item-text">
+                                Markiere Deine kompatiblen Module
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="involvement__description">
+                        Ja! Du kannst helfen, denn es gibt viel zu tun. Der beste Weg ist...
+                    </div>
+
+                    <div class="row">
+                        <div class="involvement__button-wrapper col">
+                            <a class="btn btn-primary" href="/de/partners/what-you-can-do.html" role="button">Starte jetzt</a>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="quotation">
+    <div class="container">
+        <div class="row">
+            <div class="quotation__wrapper col-lg-10 offset-lg-1">
+                <img class="quotation__icon" src="/assets/svg/quotation.svg" />
+                <div class="quotation__text">
+                    Es ist wahrscheinlich, dass Du mehr Zeit und Geld in Deine Magento-basierte eCommerce-Plattform investiert hast, als Du überhaupt in Betracht ziehen möchtest. Mit Deiner Hilfe möchten wir sicherstellen, dass sich diese Investition auch weiterhin auszahlt. 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="blog">
+    <div class="container">
+        <div class="row">
+            <h2 class="blog__title col">
+                Siehe unseren Blog
+            </h2>
+        </div>
+
+        <div class="blog__items row">
+            {% assign posts=site.posts | where:"lang", "de" %}
+            {% for post in posts limit:4 %}                     
+            <div class="blog__item col-sm-10 offset-sm-1 col-md-6 offset-md-0 col-xl">
+                {% if post.thumbnail %}
+                <a class="blog__item-link" href="{{ site.baseurl }}{{ post.url }}">
+                    <div class="blog__item-wrapper">
+                        <img class="blog__item-image" src="{{ post.thumbnail }}" alt="{{ post.title }}" />
+                    </div>
+                    <img class="blog__item-dots" src="/assets/svg/dots-dark.svg" alt="Dots" />
+                </a>
+                {% endif %}
+                
+                {% if post.title %}
+                <a class="blog__item-title" href="{{ site.baseurl }}{{ post.url }}">
+                    {{ post.title }}
+                </a>
+                {% endif %}
+                
+                {% if post.category %}
+                <div class="blog__item-info">                                    
+                    {{ post.category }}
+                </div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="row">
+            <div class="blog__button-wrapper col-xl-12">
+                <a class="btn btn-primary btn-lg" href="/de/blog.html" role="button">Siehe alle Blog-Beiträge</a>
+            </div>
+        </div>
+    </div>
+</div>

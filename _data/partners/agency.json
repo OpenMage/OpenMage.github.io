@@ -8,6 +8,11 @@
         "Bug Reports",
         "Modules Creator",
         "Documentation"
+    ],
+    "contributions_de": [
+      "Fehler Berichte",
+      "Module Ersteller",
+      "DoKumentation"
     ]
   },
   {
@@ -75,5 +80,29 @@
     "url": "https://www.itpdx.com",
     "img_src": "/assets/images/agencies/itpdx-logo.png",
     "classes": "itpdx"
+  },
+  {
+    "name": "eCommerceIT",
+    "url": "https://www.ecommerceit.co.uk",
+    "img_src": "/assets/images/agencies/ecommerceit-logo.png",
+    "classes": "ecommerceit"
+  },
+  {
+    "name": "Function Digital",
+    "url": "https://functiondigital.io/",
+    "img_src": "https://functiondigital.io/wp-content/uploads/2019/05/logo_with_text_no_padding.png",
+    "classes": "ecommerceit"
+  },
+  {
+    "name": "Makers",
+    "url": "https://makers.dk/",
+    "img_src": "https://makers.dk/wp-content/themes/makers/assets/images/logoM.png",
+    "classes": "makers"
+  },
+  {
+    "name": "huettenmueller.de",
+    "url": "https://www.huettenmueller.de",
+    "img_src": "/assets/images/agencies/huettenmueller-logo.png",
+    "classes": "huettenmueller"
   }
 ]
