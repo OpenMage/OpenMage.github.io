@@ -1,0 +1,51 @@
+.get-involved {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    &__title {
+        @include title();
+        text-align: center;
+        margin-bottom: 1rem;
+        position: relative;
+        z-index: 2;
+    }
+
+    &__text {
+        margin-bottom: 132px;
+        position: relative;
+        z-index: 2;
+    }
+
+    &__bg {
+        max-width: none;
+        position: absolute;
+        top: 5px;
+        left: calc(50% - 233px);
+        z-index: 1;
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .get-involved {
+        &__text {
+            margin-bottom: 142px;
+        }
+
+        &__bg {
+            top: 7px;
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .get-involved {
+        &__text {
+            margin-bottom: 135px;
+        }
+
+        &__bg {
+            top: 20px;
+        }
+    }
+}
