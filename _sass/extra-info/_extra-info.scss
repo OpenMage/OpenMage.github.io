@@ -1,0 +1,18 @@
+.extra-info {
+    background-color: #F5F1FE;
+    color: $text-dark;
+    border-left: 4px solid $primary;
+    padding: 9px 10px 9px 14px;
+}
+
+@media (min-width: 480px) {
+    .extra-info {
+        padding: 9px 15px 9px 14px;
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .extra-info {
+        padding: 9px 45px 9px 27px;
+    }
+}
