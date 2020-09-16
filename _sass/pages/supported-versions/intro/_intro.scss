@@ -1,5 +1,22 @@
 .supported-versions-intro {
+    margin-top: 3rem;
+
     &__title {
         color: $text-dark;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .supported-versions-intro {
+        margin-top: -1.5rem;
+
+        &__wrapper {
+            display: flex;
+            align-items: center;
+        }
+
+        &__info {
+            margin-top: 20px;
+        }
     }
 }
