@@ -5,6 +5,7 @@ category: Patches & addons
 thumbnail: /assets/images/blog/modules.png
 author: flyingmana
 permalink: /:year/:month/:day/:title:output_ext
+lang: en
 ---
 
 One essential part of the Magento Ecosystem are the Marketplace and the big number of Modules

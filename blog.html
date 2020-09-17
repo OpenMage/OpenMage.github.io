@@ -12,7 +12,8 @@ classes: page-blog
     </div>
 
     <div class="blog__items row">
-        {% for post in site.posts %}
+        {% assign posts=site.posts | where:"lang", "en" %}
+        {% for post in posts %}
         <div class="blog__item col-sm-10 offset-sm-1 col-md-6 offset-md-0">
             {% if post.thumbnail %}
             <a class="blog__item-link" href="{{ site.baseurl }}{{ post.url }}">
