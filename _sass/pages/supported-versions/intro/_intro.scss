@@ -1,22 +1,163 @@
 .supported-versions-intro {
     margin-top: 3rem;
+    margin-bottom: 0.9rem;
+    overflow: hidden;
+
+    &__info {
+        br {
+            display: none;
+        }
+    }
 
     &__title {
         color: $text-dark;
+    }
+
+    &__image-wrapper {
+        text-align: center;
+    }
+
+    &__image-box {
+        position: relative;
+        padding-top: 32px;
+        display: inline-block;
+        width: 297px;
+    }
+
+    &__img-computer {
+        width: 384px;
+        max-width: none;
+        position: relative;
+        left: -30px;
+    }
+
+    &__img-keybord {
+        width: 195px;
+        position: absolute;
+        top: 216px;
+        left: 25px;
+        z-index: 3;
+    }
+
+    &__img-wire {
+        position: absolute;
+        width: 145px;
+        top: 14px;
+        left: 62px;
+        transform: rotate(-38deg) scaleY(-1);
+    }
+
+    &__img-boxes {
+        width: 134px;
+        position: absolute;
+        bottom: 14px;
+        left: 162px;
+        z-index: 2;
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .supported-versions-intro {
+        &__image-box {
+            width: 362px;
+            padding-top: 47px;
+        }
+
+        &__img-computer {
+            width: 433px;
+            left: -20px;
+        }
+
+        &__img-keybord {
+            width: 219px;
+            top: 254px;
+            left: 40px;
+        }
+
+        &__img-wire {
+            width: 164px;
+            top: 27px;
+            left: 83px;
+        }
+
+        &__img-boxes {
+            width: 160px;
+            bottom: 14px;
+            left: 194px;
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .supported-versions-intro {
+        &__info {
+            br {
+                display: block;
+            }
+        }
     }
 }
 
 @include media-breakpoint-up(lg) {
     .supported-versions-intro {
-        margin-top: -1.5rem;
+        margin-top: -0.5rem;
+        overflow: visible;
 
         &__wrapper {
             display: flex;
             align-items: center;
         }
 
+        &__image-box {
+            padding-top: 0;
+        }
+
+        &__img-keybord {
+            top: 207px;
+        }
+
+        &__img-wire {
+            top: -20px;
+        }
+
         &__info {
             margin-top: 20px;
+
+            br {
+                display: none;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .supported-versions-intro {
+        &__image-box {
+            width: 480px;
+        }
+
+        &__img-computer {
+            width: auto;
+            left: 0;
+        }
+
+        &__img-keybord {
+            width: auto;
+            top: 249px;
+            left: 70px;
+        }
+
+        &__img-wire {
+            width: auto;
+            top: 1px;
+            left: 287px;
+            transform: none;
+        }
+
+        &__img-boxes {
+            width: auto;
+            bottom: 0;
+            left: 450px;
         }
     }
 }
