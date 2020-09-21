@@ -6,6 +6,7 @@ category: Patches & addons
 thumbnail: /assets/images/blog/modules.png
 author: flyingmana
 lang: de
+show_in_blog_page_normal_section: true
 ---
 
 Wesentliche Bestandteile des Magento Ökosystems sind der Marktplatz und die große Anzahl von Modulen für jeden Anwendungsfall. 
