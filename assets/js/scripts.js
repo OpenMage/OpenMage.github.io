@@ -99,7 +99,7 @@ if (jQuery('#js-blog-page').length) {
         jQuery('.blog--last .blog__item--hide').each(function() {
             jQuery(this).removeClass('blog__item--hide');
         });
-        
+
         // Hide link
         jQuery(this).hide();
     });
