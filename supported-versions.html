@@ -1,49 +1,139 @@
 ---
-layout: page
+layout: page-redesign
 title: Supported Versions
+title_thin: OpenMage LTS
 redirect_from: "/current"
 ---
-<style>
-    .supported-versions-table th {
-        text-transform: uppercase;
-        background-color: transparent;
-        color: #373737;
-        border: 1px solid #373737;
-    }
-</style>
+<div class="supported-versions-intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-10 offset-xl-1">
+                <div class="row">
+                    <div class="supported-versions-intro__wrapper col-lg-6">
+                        <div class="row">
+                            <div class="col-md-10 offset-md-1 col-lg-12 offset-lg-0">
+                                <div class="supported-versions-intro__info">
+                                    <h2 class="supported-versions-intro__title card-title">Currently Supported Versions</h2>
 
-<h2>Supported Versions</h2>
+                                    <p>
+                                        OpenMage LTS users are strongly encouraged to always follow the latest release.
+                                        Past releases will only be supported as resources are available.
+                                        <br>
+                                        If you are using a version that is not listed here, please update to a supported
+                                        version.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-<p>
-    OpenMage LTS is based on Magento Community Edition, tracking the latest official release until the EOL date on June 30, 2020.
-</p>
-<p>
-    The <a href="https://github.com/OpenMage/rfcs/blob/master/draft/0000-release-schedule.md">RFC</a> for the long-term release
-    process  is currently in <a href="https://github.com/OpenMage/rfcs/pull/2/files">Draft state</a> so participation from the
-    community is appreciated and encouraged.
-</p>
+                    <div class="col-lg-6">
+                        <div class="supported-versions-intro__image-wrapper">
+                            <div class="supported-versions-intro__image-box">
+                                <img class="supported-versions-intro__img-computer" src="/assets/svg/versions/computer.svg" />
+                                <img class="supported-versions-intro__img-keybord" src="/assets/svg/versions/keyboard.svg" />
+                                <img class="supported-versions-intro__img-wire" src="/assets/svg/versions/wire.svg" />
+                                <img class="supported-versions-intro__img-boxes" src="/assets/svg/versions/boxes.svg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-<h2>Currently Supported Versions</h2>
+<div class="supported-versions-table">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="supported-versions-table__wrapper card">
+                    <table>
+                        <thead>
+                            <th><img class="supported-versions-table__icon" src="/assets/svg/openmage.svg"><span class="supported-versions-table__label">OpenMage LTS Version</span></th>
+                            <th><img class="supported-versions-table__icon" src="/assets/svg/version.svg"><span class="supported-versions-table__label">Based on Magento Version</span></th>
+                            <th><img class="supported-versions-table__icon" src="/assets/svg/branch.svg"><span class="supported-versions-table__label">Github Branch</span></th>
+                            <th><img class="supported-versions-table__icon" src="/assets/svg/calendar.svg"><span class="supported-versions-table__label">Initial Release Date</span></th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="https://github.com/OpenMage/magento-lts/releases" target="_blank">20.0.x</a></td>
+                                <td><a href="https://github.com/OpenMage/magento-lts/releases" target="_blank">1.9.4.5</a></td>
+                                <td><a href="https://github.com/OpenMage/magento-lts/releases" target="_blank">20.0</a></td>
+                                <td><a href="https://github.com/OpenMage/magento-lts/releases" target="_blank">Jun 28, 2020</a></td>
+                            </tr>
+                            <tr>
+                                <td>19.4.x</td>
+                                <td>1.9.4.5</td>
+                                <td>1.9.4.x</td>
+                                <td>Dec 9, 2019</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-<p>
-    OpenMage LTS users are strongly encouraged to always follow the latest release. Past releases will only be supported as resources
-    are available. If you are using a version that is not listed here, please update to a supported version.
-</p>
+<div class="newsletter mt-3">
+    <div class="newsletter__bg bg-dark-gradient"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 text-center">
+                <img class="newsletter__image" src="/assets/images/newsletter.png" alt="Newsletter">
+            </div>
+            <div class="col-lg-8 mt-2 mt-lg-5 mb-4" id="newsletter">
+                <h2 class="newsletter__title title">Easy way to keep track of the latest version</h2>
+                <p class="newsletter__subtitle">We will send you a notification when a new version is available</p>
+                <iframe class="mj-w-res-iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://app.mailjet.com/widget/iframe/4iX1/iBI" width="100%"></iframe>
+                <script type="text/javascript" src="https://app.mailjet.com/statics/js/iframeResizer.min.js"></script>
+            </div>
+        </div>
+    </div>
+</div>
 
-<table class="supported-versions-table">
-    <thead>
-    <th>OpenMage LTS Version</th>
-    <th>Based on Magento Version</th>
-    <th>Github Branch</th>
-    <th rowspan="1">Initial Release Date</th>
-    </thead>
-    <tbody>
-    <tr>
-        <td>19.4.3</td>
-        <td>1.9.4.5</td>
-        <td>1.9.4.x</td>
-        <td>10 May 2020</td>
-    </tr>
-    </tbody>
-</table>
+<div class="supported-versions-info">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-10 offset-xl-1">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-md-10 offset-md-1 col-lg-12 offset-lg-0">
+                                <div class="supported-versions-info__desc">
+                                    <p>
+                                        OpenMage LTS is based on Magento Community Edition, tracking the latest official
+                                        release until the EOL date on June 30, 2020.
+                                    </p>
+                                    <p>
+                                        The <a href="https://github.com/OpenMage/rfcs/blob/master/draft/0000-release-schedule.md">RFC</a>
+                                        for the long-term release process  is currently in
+                                        <a href="https://github.com/OpenMage/rfcs/pull/2/files">Draft state</a> so
+                                        participation from the community is appreciated and encouraged.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="get-involved col-lg-6">
+                        <h2 class="get-involved__title">
+                            Get Involved
+                        </h2>
+                        <p class="get-involved__text">
+                            Participate in Code Reviews of Pull Requests. <br>
+                            Provide Bug Reports and Bug Fixes <br>
+                            Tag your compatible Modules
+                        </p>
+                        <img class="get-involved__bg" src="/assets/svg/get-involved-bg.svg" />
+                        <p>
+                            Check, what you can do <br>
+                            <a href="/partners/what-you-can-do.html">to support up</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

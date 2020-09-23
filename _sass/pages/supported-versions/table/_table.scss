@@ -1,0 +1,54 @@
+.supported-versions-table {
+    margin-bottom: 8rem;
+
+    &__wrapper {
+        padding: 18px 25px 10px;
+    }
+
+    table {
+        margin: 0;
+        border: none;
+        text-align: center;
+        width: 100%;
+
+        th {
+            background-color: transparent;
+            color: $text-dark;
+        }
+
+        td {
+            border: none;
+            border-top: 1px solid $border-dark-1;
+        }
+    }
+
+    &__icon {
+        position: relative;
+        top: -2px;
+    }
+
+    &__label {
+        display: none;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .supported-versions-table {
+        margin-bottom: 6rem;
+
+        &__label {
+            display: inline-block;
+            margin-left: 8px;
+        }
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .supported-versions-table {
+        margin-bottom: 8rem;
+
+        &__label {
+            margin-left: 14px;
+        }
+    }
+}
