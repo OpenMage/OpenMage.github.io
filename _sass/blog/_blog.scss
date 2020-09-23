@@ -13,6 +13,14 @@
 
     &__item {
         margin-bottom: 25px;
+
+        &--hide {
+            display: none;
+
+            &:nth-child(-n+6) {
+                display: block;
+            }
+        }
     }
 
     &__item-link {
@@ -57,12 +65,42 @@
     &__button-wrapper {
         @include button-at-end('large');
     }
+
+    &__show-more {
+        text-align: center;
+        margin-top: 1rem;
+
+        &--hide {
+            display: none;
+        }
+    }
+
+    &__show-more-link {
+        display: inline-block;
+        font-size: 16px;
+        text-transform: lowercase;
+        cursor: pointer;
+        color: $secondary;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+            color: $primary;
+        }
+    }
 }
 
 @include media-breakpoint-up(xl) {
     .blog {
         &__item {
-            margin-bottom: 15px;
+            margin-bottom: 50px;
+
+            &--hide {
+                display: block;
+            }
+        }
+
+        &__show-more {
+            display: none;
         }
     }
 }

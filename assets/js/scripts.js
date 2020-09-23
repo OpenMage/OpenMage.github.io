@@ -87,3 +87,20 @@ if (jQuery('#js-about-page').length) {
         jQuery(this).ekkoLightbox();
     });
 }
+
+// Blog page scripts
+if (jQuery('#js-blog-page').length) {
+    if (jQuery('.blog--last .blog__item').length > 6) {
+        jQuery('#js-blog__show-more-link').parent().removeClass('blog__show-more--hide');
+    }
+
+    jQuery('#js-blog__show-more-link').on('click', function() {
+        // Show all posts
+        jQuery('.blog--last .blog__item--hide').each(function() {
+            jQuery(this).removeClass('blog__item--hide');
+        });
+
+        // Hide link
+        jQuery(this).hide();
+    });
+}

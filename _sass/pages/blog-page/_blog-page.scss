@@ -1,0 +1,14 @@
+.blog-page {
+    .blog {
+        &--last {
+            background: none;
+            border: none;
+            margin-bottom: 2rem;
+        }
+
+        &--pinned {
+            padding-top: 3.25rem;
+            padding-bottom: 0.8rem;
+        }
+    }
+}
