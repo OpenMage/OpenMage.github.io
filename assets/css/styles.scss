@@ -38,7 +38,7 @@
 @import "blog/blog";
 
 // subpages
-@import "pages/blog/blog";
+@import "pages/blog-page/blog-page";
 @import "pages/partners/partners/partners";
 @import "pages/partners/meet-partners/meet-partners";
 @import "pages/partners/store-fronts/store-fronts";
@@ -53,3 +53,6 @@
 @import "pages/about/gallery/gallery";
 @import "pages/what-you-can-do/intro/intro";
 @import "pages/what-you-can-do/target/target";
+@import "pages/supported-versions/intro/intro";
+@import "pages/supported-versions/table/table";
+@import "pages/supported-versions/info/info";
