@@ -38,6 +38,17 @@ function getProjectStats() {
     });
 }
 
+// Detect a mobile device
+if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    jQuery('.lang-switch').addClass('mobile');
+
+    jQuery('#js-lang-switch__link--first').on('click', function() {
+        jQuery('.lang-switch__wrapper').toggleClass('active');
+    });
+} else {
+    jQuery('.lang-switch').addClass('desktop');
+}
+
 // Homepage scripts
 if (jQuery('#js-homepage').length) {
     jQuery(document).ready(function( $ ) {
