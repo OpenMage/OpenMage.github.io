@@ -104,3 +104,10 @@ if (jQuery('#js-blog-page').length) {
         jQuery(this).hide();
     });
 }
+
+// Changelog page
+if (jQuery('#js-changelog-page').length) {
+    jQuery('.changelog-item__intro').on('click', function() {
+         jQuery(this).parent().toggleClass('active');
+    });
+}
