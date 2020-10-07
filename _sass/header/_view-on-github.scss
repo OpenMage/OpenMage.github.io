@@ -1,0 +1,46 @@
+.view-on-github {
+    background-color: $primary;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: center;
+    width: 73px;
+    height: 87px;
+    color: #fff;
+    border-radius: 0 0 0 15px;
+
+    &:hover,
+    &:focus,
+    &:active,
+    &:active:focus {
+        background-color: $secondary;
+        color: #fff;
+    }
+
+    &__text {
+        font-size: 13px;
+        margin-top: -6px;
+        margin-bottom: 3px;
+    }
+
+    &__icon {
+        max-width: 53px;
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .view-on-github {
+        width: 88px;
+        height: 105px;
+
+        &__text {
+            font-size: 14px;
+            margin-top: -6px;
+            margin-bottom: 5px;
+        }
+
+        &__icon {
+            max-width: 64px;
+        }
+    }
+}
