@@ -22,7 +22,7 @@
     }
 
     &__intro:hover &__intro-label {
-        background-color: $primary;
+        background-color: #b2b2b2;
     }
 
     &__intro-label-text {
@@ -117,11 +117,56 @@
 
 @include media-breakpoint-up(lg) {
     .changelog-item {
+        display: none;
+        position: relative;
+        top: -10px;
+
+        &.active {
+            display: block;
+        }
+
+        &.active &__intro-label {
+            padding: 15px;
+        }
+
+        &__intro {
+            cursor: default;
+        }
+        
+        &__intro-text {
+            line-height: 1.2;
+        }
+
+        &__intro-label {
+            position: relative;
+            left: -1px;
+        }
+
         &__intro-label-text {
             &:before,
             &:after {
-                display: none;
+                display: none !important;
             }
+        }
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .changelog-item {
+        &__wrapper {
+            padding: 33px 25px 0 35px;
+        }
+
+        &__intro-label {
+            width: 110px;
+        }
+
+        &__intro-text {
+            line-height: 1.5;
+        }
+
+        &__button {
+            padding-top: .9rem;
         }
     }
 }

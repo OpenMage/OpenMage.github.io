@@ -18,15 +18,30 @@
 
         &__wrapper {
             margin-bottom: 0;
+
+            &--branch-20 {
+                .changelog-switcher.active {
+                    &:before {
+                        background-color: $secondary;
+                    }
+                }
+
+                .changelog-item {
+                    .changelog-item__intro:hover .changelog-item__intro-label {
+                        background-color: $secondary;
+                    }
+
+                    &.active {
+                        .changelog-item__intro-label {
+                            background-color: $secondary;
+                        }
+                    }
+                }
+            }
         }
 
         &__box {
-            background-color: #fff;
-            position: relative;
-            box-shadow: $box-shadow;
-            border: $box-border;
-            border-radius: 22px 0 0 0;
-            padding: 20px 20px 0;
+            margin-top: 2.5rem;
         }
     }
 }

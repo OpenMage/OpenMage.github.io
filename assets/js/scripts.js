@@ -118,7 +118,33 @@ if (jQuery('#js-blog-page').length) {
 
 // Changelog page
 if (jQuery('#js-changelog-page').length) {
+    // Click on tab on mobile view
     jQuery('.changelog-item__intro').on('click', function() {
-         jQuery(this).parent().toggleClass('active');
+        if (jQuery(window).width() < 992 && !(jQuery(this).parent().hasClass('active'))) {
+            let choosedItemId = jQuery(this).parent().attr('data-item');
+
+            // Activate appropriate switcher
+            jQuery(this).parents('.changelog-version__box').find('.changelog-switcher.active').removeClass('active');
+            jQuery(this).parents('.changelog-version__box').find('.changelog-switcher[data-item="'+ choosedItemId +'"]').addClass('active');
+
+            // Activate appropriate tab
+            jQuery(this).parents('.changelog-items__items-list').find('.changelog-item.active').removeClass('active');
+            jQuery(this).parent().addClass('active');
+        }
+    });
+
+    // Click on switcher on desktop view
+    jQuery('.changelog-switcher').on('click', function() {
+        if (!(jQuery(this).hasClass('active'))) {
+            let choosedItemId = jQuery(this).attr('data-item');
+
+            // Activate appropriate switcher
+            jQuery(this).parent().find('.changelog-switcher.active').removeClass('active');
+            jQuery(this).addClass('active');
+
+            // Activate appropriate tab
+            jQuery(this).parents('.changelog-version__box').find('.changelog-item.active').removeClass('active');
+            jQuery(this).parents('.changelog-version__box').find('.changelog-item[data-item="'+ choosedItemId +'"]').addClass('active');
+        }
     });
 }

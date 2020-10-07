@@ -1,0 +1,28 @@
+.changelog-items {
+    &__switchers-list {
+        display: none;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .changelog-items {
+        &__switchers-list {
+            display: block;
+            float: left;
+            width: 130px;
+
+            background-color: #fff;
+            box-shadow: 4px 4px 12px #E3EDF6BD;
+            border: 1px solid #F0F4F6;
+            border-right: none;
+            border-radius: 22px 0 0 0;
+            padding: 20px 20px 12px 20px;
+        }
+
+        &__items-list {
+            float: left;
+            width: calc(100% - 110px);
+            margin-left: -20px;
+        }
+    }
+}
