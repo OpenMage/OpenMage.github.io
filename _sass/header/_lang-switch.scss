@@ -1,0 +1,46 @@
+.lang-switch {
+    display: inline-block;
+    width: 35px;
+    background-color: #363E94;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 0 0 0 8px;
+    font-size: 14px;
+
+    &__wrapper {
+        display: none;
+        position: relative;
+
+        &.active {
+            display: block;
+        }
+    }
+
+    &.desktop:hover &__wrapper {
+        display: block;
+    }
+
+    &__link {
+        display: inline-block;
+        color: #fff;
+        padding-top: 2px;
+        padding-bottom: 2px;
+
+        &--first {
+            color: $text-highlight;
+            cursor: default;
+            user-select: none;
+        }
+    }
+
+    &__separator {
+        display: inline-block;
+        width: 12px;
+        height: 1px;
+        background-color: $text-highlight;
+        position: absolute;
+        top: 0;
+        left: calc(50% - 6px);
+    }
+}
