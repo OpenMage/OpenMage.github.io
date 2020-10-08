@@ -3,6 +3,26 @@
 
     &__wrapper {
         margin-bottom: 2rem;
+
+        &--branch-20 {
+            .changelog-switcher.active {
+                &:before {
+                    background-color: $secondary;
+                }
+            }
+
+            .changelog-item {
+                .changelog-item__intro:hover .changelog-item__intro-label {
+                    background-color: $secondary;
+                }
+
+                &.active {
+                    .changelog-item__intro-label {
+                        background-color: $secondary;
+                    }
+                }
+            }
+        }
     }
 
     &__title {
@@ -18,26 +38,6 @@
 
         &__wrapper {
             margin-bottom: 0;
-
-            &--branch-20 {
-                .changelog-switcher.active {
-                    &:before {
-                        background-color: $secondary;
-                    }
-                }
-
-                .changelog-item {
-                    .changelog-item__intro:hover .changelog-item__intro-label {
-                        background-color: $secondary;
-                    }
-
-                    &.active {
-                        .changelog-item__intro-label {
-                            background-color: $secondary;
-                        }
-                    }
-                }
-            }
         }
 
         &__box {

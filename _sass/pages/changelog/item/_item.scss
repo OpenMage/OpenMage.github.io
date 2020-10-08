@@ -52,17 +52,23 @@
     }
 
     &__intro-text {
+        width: calc(100% - 145px);
         margin-top: 2px;
         line-height: 1.2;
     }
 
     &__wrapper {
         display: none;
+    }
+
+    &__content-box {
         padding: 22px 20px 0;
+        white-space: pre-line;
     }
 
     &__button {
         padding-top: .5rem;
+        padding-left: 20px;
         margin-bottom: -1.1rem;
     }
 
@@ -115,6 +121,14 @@
     }
 }
 
+@include media-breakpoint-down(md) {
+    .changelog-item {
+        &__content-box {
+            min-height: auto !important;
+        }
+    }
+}
+
 @include media-breakpoint-up(lg) {
     .changelog-item {
         display: none;
@@ -153,7 +167,7 @@
 
 @include media-breakpoint-up(xl) {
     .changelog-item {
-        &__wrapper {
+        &__content-box {
             padding: 33px 25px 0 35px;
         }
 
@@ -162,11 +176,13 @@
         }
 
         &__intro-text {
+            width: calc(100% - 125px);
             line-height: 1.5;
         }
 
         &__button {
             padding-top: .9rem;
+            padding-left: 35px;
         }
     }
 }
