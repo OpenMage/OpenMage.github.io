@@ -63,7 +63,12 @@
 
     &__content-box {
         padding: 22px 20px 0;
+        font-size: 14px;
         white-space: pre-line;
+
+        br {
+            margin-bottom: 1rem;
+        }
     }
 
     &__button {

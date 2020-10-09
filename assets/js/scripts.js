@@ -50,9 +50,25 @@ function getReleasesInfo() {
                 let version = name.substring(1);
                 let date = (data[x].published_at).substring(0, 10);
                 let link = data[x].html_url;
+                let releaseText = "Release date";
+                let buttonText = "View on GitHub";
+
+                if (jQuery('#js-changelog-page').hasClass('changelog--de')) {
+                    releaseText = "Erscheinungstag";
+                    buttonText = "Ansicht auf GitHub";
+                }
 
                 let description = data[x].body;
-                // let descAfterSomething = description.replace(/#/gi, '<br>');
+                if (version == "19.4.0" && description == "") {
+                    // Fix for empty body content for 19.4.0 release
+                    description =   "add function to get OpenMage version (#866) <br>" +
+                                    "OpenMage follows Semantic Versioning 2.0.0 <br>" +
+                                    "Also preparation for the first 19.4.0 Release";
+                } else {
+                    description = description.replace(/##\s[v]\d\d[.]\d[.]\d\s[-]\s\d\d\d\d[-]\d\d[-]\d\d/g, '');     // removing string like '## v19.4.7 - 2020-09-15'
+                    description = description.replace(/^\s+|\s+$/g, '');                                        // removing new lines from start and end of string
+                    description = description.replace(/\r\n#\d\d\d\s|\r\n#\d\d\d\d\s/g, '<br>');                // removing strings like `#435` or '#3245' from start of new line
+                }
 
                 let switcher =  "<div class='changelog-switcher' data-item='"+ version +"'>" +
                                     "<div class='changelog-switcher__wrapper'>" +
@@ -66,14 +82,14 @@ function getReleasesInfo() {
                                         "<div class='changelog-item__intro-label'>" +
                                             "<div class='changelog-item__intro-label-text'>"+ version +"</div>" +
                                         "</div>" +
-                                        "<div class='changelog-item__intro-text'>Release date "+ date +"</div>" +
+                                        "<div class='changelog-item__intro-text'>"+ releaseText + " " + date +"</div>" +
                                     "</div>" +
                                     "<div class='changelog-item__wrapper'>" +
                                         "<div class='changelog-item__content-box'>" +
                                             "<p>"+ description +"</p>" +
                                         "</div>" +
                                         "<div class='changelog-item__button'>" +
-                                            "<a href='"+ link +"' class='btn btn-primary' target='_blank'>View on GitHub <img class='changelog-item__button-icon' src='/assets/svg/github-light.svg' alt='GitHub' /></a>" +
+                                            "<a href='"+ link +"' class='btn btn-primary' target='_blank'>"+ buttonText +" <img class='changelog-item__button-icon' src='/assets/svg/github-light.svg' alt='GitHub' /></a>" +
                                         "</div>" +
                                     "</div>" +
                                 "</div>";
@@ -87,9 +103,14 @@ function getReleasesInfo() {
                 }
             }
 
-            // Set active elements for each branch
-            jQuery('.changelog-version__wrapper .changelog-items__switchers-list .changelog-switcher:first-of-type').addClass('active');
-            jQuery('.changelog-version__wrapper .changelog-items__items-list .changelog-item:first-of-type').addClass('active');
+            // Set active elements for each branch on page load
+            if (jQuery(window).width() < 992) {
+                jQuery('.changelog-version__wrapper .changelog-items__switchers-list .changelog-switcher:first-of-type').addClass('active');
+                jQuery('.changelog-version__wrapper .changelog-items__items-list .changelog-item:first-of-type').addClass('active');
+            } else {
+                // On desktop view we need tu run click event to generate tab min-height value
+                jQuery('.changelog-version__wrapper .changelog-items__switchers-list .changelog-switcher:first-of-type').click();
+            }
         }
 
         if(statusTxt == "error") {
@@ -191,7 +212,14 @@ if (jQuery('#js-changelog-page').length) {
 
             // Activate appropriate tab
             jQuery(this).parents('.changelog-items__items-list').find('.changelog-item.active').removeClass('active');
-            jQuery(this).parent().addClass('active');
+            jQuery(this).parent().addClass('active animate');
+
+            // Scroll page to selected tab
+            jQuery('body,html').animate({
+                scrollTop: jQuery('.changelog-items__items-list .changelog-item.animate').offset().top
+            }, 500, function () {
+                jQuery('.changelog-items__items-list .changelog-item.animate').removeClass('animate');
+            });
         }
     });
 

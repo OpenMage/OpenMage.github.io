@@ -13,10 +13,11 @@
 
             .changelog-item {
                 .changelog-item__intro:hover .changelog-item__intro-label {
-                    background-color: $secondary;
+                    background-color: #b2b2b2;
                 }
 
                 &.active {
+                    .changelog-item__intro:hover .changelog-item__intro-label,
                     .changelog-item__intro-label {
                         background-color: $secondary;
                     }
