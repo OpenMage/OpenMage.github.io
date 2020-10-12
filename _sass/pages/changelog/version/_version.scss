@@ -1,0 +1,53 @@
+.changelog-version {
+    margin-bottom: 2rem;
+
+    &__wrapper {
+        margin-bottom: 2rem;
+
+        &--branch-20 {
+            .changelog-switcher.active {
+                &:before {
+                    background-color: $secondary;
+                }
+            }
+
+            .changelog-item {
+                .changelog-item__intro:hover .changelog-item__intro-label {
+                    background-color: #b2b2b2;
+                }
+
+                &.active {
+                    .changelog-item__intro:hover .changelog-item__intro-label,
+                    .changelog-item__intro-label {
+                        background-color: $secondary;
+                    }
+                }
+            }
+        }
+    }
+
+    &__title {
+        @include title('alternative');
+        color: $text-dark;
+        margin-bottom: .9rem;
+    }
+
+    &__loader {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .changelog-version {
+        margin-bottom: 4rem;
+
+        &__wrapper {
+            margin-bottom: 0;
+        }
+
+        &__box {
+            margin-top: 2.5rem;
+        }
+    }
+}

@@ -68,6 +68,7 @@ $text-highlight:                #a5cef3;
 //shadows
 $icon-shadow:                   0 0 12px #F4F7F9;
 $icon-shadow-dark-1:            0 0 12px #ECEFF1;
+$box-shadow:                    4px 4px 12px #E3EDF6BD;
 
 // card
 $card-border-radius:            0 22px 0 0;
@@ -76,3 +77,5 @@ $card-border-width:             1px;
 $card-border-color:             $border-base;
 $card-spacer-x:                 2rem;
 
+// borders
+$box-border:                    1px solid $border-base;
