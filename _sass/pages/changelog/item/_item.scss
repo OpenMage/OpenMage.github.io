@@ -65,8 +65,11 @@
         padding: 22px 20px 0;
         font-size: 14px;
         white-space: pre-line;
+        overflow: hidden;
 
         br {
+            content: '';
+            display: block;
             margin-bottom: 1rem;
         }
     }

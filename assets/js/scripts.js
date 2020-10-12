@@ -38,42 +38,126 @@ function getProjectStats() {
     });
 }
 
-function getReleasesInfo() {
+function getChangelogInfo() {
     jQuery.get("https://api.github.com/repos/OpenMage/magento-lts/releases", function(data, statusTxt, xhr){
         if(statusTxt == "success") {
-            // Do something
-            console.log(data);
-
             for (x = 0; x < data.length; x++) {
                 let name = data[x].name;
                 let branch = name.substring(0, 3);
                 let version = name.substring(1);
                 let date = (data[x].published_at).substring(0, 10);
+                let dateY = date.substring(0, 4);
+                let dateM = date.substring(5, 7);
+                let dateD = date.substring(8, 10);
                 let link = data[x].html_url;
+                let description = data[x].body;
                 let releaseText = "Release date";
                 let buttonText = "View on GitHub";
+                let pageLanguageVersion = "en";
 
                 if (jQuery('#js-changelog-page').hasClass('changelog--de')) {
+                    pageLanguageVersion = "de";
                     releaseText = "Erscheinungstag";
                     buttonText = "Ansicht auf GitHub";
                 }
 
-                let description = data[x].body;
                 if (version == "19.4.0" && description == "") {
                     // Fix for empty body content for 19.4.0 release
                     description =   "add function to get OpenMage version (#866) <br>" +
                                     "OpenMage follows Semantic Versioning 2.0.0 <br>" +
                                     "Also preparation for the first 19.4.0 Release";
                 } else {
-                    description = description.replace(/##\s[v]\d\d[.]\d[.]\d\s[-]\s\d\d\d\d[-]\d\d[-]\d\d/g, '');     // removing string like '## v19.4.7 - 2020-09-15'
-                    description = description.replace(/^\s+|\s+$/g, '');                                        // removing new lines from start and end of string
-                    description = description.replace(/\r\n#\d\d\d\s|\r\n#\d\d\d\d\s/g, '<br>');                // removing strings like `#435` or '#3245' from start of new line
+                    description = description.replace(/##\s[v]\d\d[.]\d[.]\d\s[-]\s\d\d\d\d[-]\d\d[-]\d\d/g, '');   // removing string like '## v19.4.7 - 2020-09-15'
+                    description = description.replace(/^\s+|\s+$/g, '');                                            // removing new lines from start and end of string
+                    description = description.replace(/\r\n#\d\d\d\s|\r\n#\d\d\d\d\s/g, '<br>');                    // removing strings like `#435` or '#3245' from start of new line
+                    description = description.replace(/<br>#\d\d\d\s|<br>#\d\d\d\d\s/g, '<br>');                    // if at start of oryginal row, there was two # values like '#123 #234', with this regex the second value will be removed
+                    description = description.replace(/#\d\d\d\s|#\d\d\d\d\s/g, '');                                // if at start of oryginal row, there was no new line char before # value, with this regex that # value will be removed
+                }
+
+                if (pageLanguageVersion == "en") {
+                    switch (dateM) {
+                        case "01":
+                            dateM = "Jan";
+                            break;
+                        case "02":
+                            dateM = "Feb";
+                            break;
+                        case "03":
+                            dateM = "Mar";
+                            break;
+                        case "04":
+                            dateM = "Apr";
+                            break;
+                        case "05":
+                            dateM = "May";
+                            break;
+                        case "06":
+                            dateM = "Jun";
+                            break;
+                        case "07":
+                            dateM = "Jul";
+                            break;
+                        case "08":
+                            dateM = "Aug";
+                            break;
+                        case "09":
+                            dateM = "Sep";
+                            break;
+                        case "10":
+                            dateM = "Oct";
+                            break;
+                        case "11":
+                            dateM = "Nov";
+                            break;
+                        case "12":
+                            dateM = "Dec";
+                            break;
+                    }
+                } else {
+                    switch (dateM) {
+                        case "01":
+                            dateM = "Jan.";
+                            break;
+                        case "02":
+                            dateM = "Feb.";
+                            break;
+                        case "03":
+                            dateM = "M&auml;rz";
+                            break;
+                        case "04":
+                            dateM = "Apr.";
+                            break;
+                        case "05":
+                            dateM = "Mai";
+                            break;
+                        case "06":
+                            dateM = "Jun.";
+                            break;
+                        case "07":
+                            dateM = "Jul.";
+                            break;
+                        case "08":
+                            dateM = "Aug.";
+                            break;
+                        case "09":
+                            dateM = "Sept.";
+                            break;
+                        case "10":
+                            dateM = "Okt.";
+                            break;
+                        case "11":
+                            dateM = "Nov.";
+                            break;
+                        case "12":
+                            dateM = "Dez.";
+                            break;
+                    }
                 }
 
                 let switcher =  "<div class='changelog-switcher' data-item='"+ version +"'>" +
                                     "<div class='changelog-switcher__wrapper'>" +
                                         "<div class='changelog-switcher__version'>"+ version +"</div>" +
-                                        "<div class='changelog-switcher__date'>"+ date +"</div>" +
+                                        "<div class='changelog-switcher__date'>"+ dateM + " "+ dateD + " "+ dateY +"</div>" +
                                     "</div>" +
                                 "</div>";
 
@@ -82,7 +166,7 @@ function getReleasesInfo() {
                                         "<div class='changelog-item__intro-label'>" +
                                             "<div class='changelog-item__intro-label-text'>"+ version +"</div>" +
                                         "</div>" +
-                                        "<div class='changelog-item__intro-text'>"+ releaseText + " " + date +"</div>" +
+                                        "<div class='changelog-item__intro-text'>"+ releaseText + " " + dateM + " "+ dateD+", "+ dateY +"</div>" +
                                     "</div>" +
                                     "<div class='changelog-item__wrapper'>" +
                                         "<div class='changelog-item__content-box'>" +
@@ -102,6 +186,10 @@ function getReleasesInfo() {
                     jQuery('.changelog-version__wrapper--branch-20 .changelog-items__items-list').append(tab);
                 }
             }
+
+            // Hide loaders and show tabs
+            jQuery('.changelog-version__loader').remove();
+            jQuery('.changelog-items--hidden').removeClass('changelog-items--hidden');
 
             // Set active elements for each branch on page load
             if (jQuery(window).width() < 992) {
@@ -199,7 +287,7 @@ if (jQuery('#js-blog-page').length) {
 
 // Changelog page
 if (jQuery('#js-changelog-page').length) {
-    getReleasesInfo();
+    getChangelogInfo();
 
     // Click on tab on mobile view
     jQuery('.changelog-items__items-list').on('click', '.changelog-item__intro', function() {

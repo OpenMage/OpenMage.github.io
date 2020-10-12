@@ -1,4 +1,8 @@
 .changelog-items {
+    &--hidden {
+        display: none;
+    }
+
     &__switchers-list {
         display: none;
     }
