@@ -5,6 +5,36 @@
     .get-involved {
         margin-top: 4rem;
         margin-bottom: 3.5rem;
+
+        &--de {
+            .get-involved__bg {
+                top: 35px;
+            }
+        }
+    }
+}
+
+@media (min-width: 360px) {
+    .supported-versions-info {
+        .get-involved {
+            &--de {
+                .get-involved__bg {
+                    top: 17px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 410px) {
+    .supported-versions-info {
+        .get-involved {
+            &--de {
+                .get-involved__bg {
+                    top: 5px;
+                }
+            }
+        }
     }
 }
 
