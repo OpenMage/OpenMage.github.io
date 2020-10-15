@@ -8,14 +8,6 @@ Es gibt einige Module, die im Allgemeinen oder zumindest für spezielle Anwendun
 Wir listen sie hier auf und Du kannst selbst entscheiden, welches von ihnen Du zusätzlich installierst.
 
 
-## ikonoshirt/pbkdf2
-
-[https://github.com/ikonoshirt/pbkdf2](https://github.com/ikonoshirt/pbkdf2)
-
-fügt einen verbesserten Hash-Mechanismus für Benutzer-Passwörter hinzu.
-Sei vorsichtig, es gibt noch keinen implementierten/dokumentierten Rücksprung.
-
-
 ## aschroder/smtp_pro
 
 [https://github.com/aschroder/Magento-SMTP-Pro-Email-Extension](https://github.com/aschroder/Magento-SMTP-Pro-Email-Extension)
@@ -29,7 +21,7 @@ Magento 1 SMTP Pro-Erweiterung von Ashley Schroder (aschroder.com)
 - Verbessere die Zustellbarkeit mit einem externen SMTP-Server
 
 
-## avstudnitz/scopen Mouseover, a list of all stores / websites which overwrite the setting is shown with the respective values.hint
+## avstudnitz/scopehint
 
 [https://github.com/avstudnitz/AvS_ScopeHint](https://github.com/avstudnitz/AvS_ScopeHint)
 
