@@ -42,6 +42,15 @@
       "Logos aktualisieren, backend styles",
       "https://github.com/OpenMage/magento-lts/commits?author=aterjung"
     ]
+  },
+  {
+    "name": "Milan Davídek",
+    "url": "http://milandavidek.cz",
+    "contributions": [
+      "Fehler / Performanz behebung",
+      "Fehlerberichte",
+      "https://github.com/OpenMage/magento-lts/commits?author=midlan"
+    ]
   }
 ]
 

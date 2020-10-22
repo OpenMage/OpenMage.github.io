@@ -49,6 +49,7 @@ function getChangelogInfo() {
                 let dateY = date.substring(0, 4);
                 let dateM = date.substring(5, 7);
                 let dateD = date.substring(8, 10);
+		let dateComplete = "";
                 let link = data[x].html_url;
                 let description = data[x].body;
                 let releaseText = "Release date";
@@ -113,6 +114,7 @@ function getChangelogInfo() {
                             dateM = "Dec";
                             break;
                     }
+		    dateComplete = dateM + " "+ dateD + " "+ dateY;
                 } else {
                     switch (dateM) {
                         case "01":
@@ -152,12 +154,13 @@ function getChangelogInfo() {
                             dateM = "Dez.";
                             break;
                     }
+		    dateComplete = dateD + ". "+ dateM + " "+ dateY;
                 }
 
                 let switcher =  "<div class='changelog-switcher' data-item='"+ version +"'>" +
                                     "<div class='changelog-switcher__wrapper'>" +
                                         "<div class='changelog-switcher__version'>"+ version +"</div>" +
-                                        "<div class='changelog-switcher__date'>"+ dateM + " "+ dateD + " "+ dateY +"</div>" +
+                                        "<div class='changelog-switcher__date'>"+ dateComplete +"</div>" +
                                     "</div>" +
                                 "</div>";
 
@@ -166,7 +169,7 @@ function getChangelogInfo() {
                                         "<div class='changelog-item__intro-label'>" +
                                             "<div class='changelog-item__intro-label-text'>"+ version +"</div>" +
                                         "</div>" +
-                                        "<div class='changelog-item__intro-text'>"+ releaseText + " " + dateM + " "+ dateD+", "+ dateY +"</div>" +
+                                        "<div class='changelog-item__intro-text'>"+ releaseText + " " + dateComplete +"</div>" +
                                     "</div>" +
                                     "<div class='changelog-item__wrapper'>" +
                                         "<div class='changelog-item__content-box'>" +
