@@ -1,29 +1,93 @@
 ---
-layout: partner
-title: Partner Freelancers
+layout: partner-redesign
+title: Freelancers
+title_thin: who support us
 ---
 
-<table>
-    <tr>
-        <th>Name</th>
-        <th># of contributions</th>
-        <th>contributions</th>
-    </tr>
-    {% for row in site.data.partners.freelancer %}
-    <tr>
-        <td>
-            <a href="{{row.url}}">{{ row.name }}</a>
-        </td>
-        <td>
-            {{ row.contributions | size }}
-        </td>
-        <td>
-            <ul>
-                {% for contribution in row.contributions %}
-                <li>{{ contribution }}</li>
-                {% endfor %}
-            </ul>
-        </td>
-    </tr>
-    {% endfor %}
-</table>
+<div class="freelancers">
+    <div class="container">
+        <div class="row">
+            <div class="freelancers__wrapper card col-xl-9">
+                <div class="card-intro">
+                    <div class="card-icon">
+                        <img class="card-icon__img" src="/assets/svg/shopping-bag.svg">
+                    </div>
+
+                    <h2 class="card-intro-title">Freelancers</h2>
+                </div>
+
+                <table class="freelancers__table">
+                    <tr>
+                        <th>Name</th>
+                        <th># contributions</th>
+                        <th>type of contributions</th>
+                    </tr>
+                    {% for row in site.data.partners.freelancer %}
+                    <tr>
+                        <td>
+                            <a href="{{row.url}}">{{ row.name }}</a>
+                        </td>
+                        <td>
+                            {{ row.contributions | size }}
+                        </td>
+                        <td>
+                            <ul>
+                                {% for contribution in row.contributions %}
+                                <li>{{ contribution }}</li>
+                                {% endfor %}
+                            </ul>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+
+            <div class="involvement col-xl-3">
+                <div class="involvement__wrapper">
+                    <div class="involvement__title">
+                        Get Involved
+                    </div>
+
+                    <div class="involvement__info row">
+                        <div class="involvement__item col-md-6 col-lg-4 col-xl-12">
+                            <div class="card-icon card-icon--small">
+                                <img class="card-icon__img" src="/assets/svg/pull-request.svg" />
+                            </div>
+                            <div class="involvement__item-text">
+                                Participate in Code Reviews of Pull Requests
+                            </div>
+                        </div>
+
+                        <div class="involvement__item col-md-6 col-lg-4 col-xl-12">
+                            <div class="card-icon card-icon--small">
+                                <img class="card-icon__img" src="/assets/svg/bug.svg" />
+                            </div>
+                            <div class="involvement__item-text">
+                                Provide Bug Reports and Bug Fixes
+                            </div>
+                        </div>
+
+                        <div class="involvement__item col-md-6 col-lg-4 col-xl-12">
+                            <div class="card-icon card-icon--small">
+                                <img class="card-icon__img" src="/assets/svg/tag.svg" />
+                            </div>
+                            <div class="involvement__item-text">
+                                Tag your compatible Modules
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="involvement__description">
+                        Yes! You can help, because there is a lot to do. Best way is...
+                    </div>
+
+                    <div class="row">
+                        <div class="involvement__button-wrapper col">
+                            <a class="btn btn-primary" href="/partners/what-you-can-do.html" role="button">Get details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

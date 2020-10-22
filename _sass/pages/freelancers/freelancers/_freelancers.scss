@@ -1,0 +1,16 @@
+.freelancers {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+    &__wrapper {
+        padding: 20px;
+    }
+
+    &__table {
+        margin-bottom: 0;
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    //
+}
