@@ -10,36 +10,53 @@ title_thin: who support us
             <div class="freelancers__wrapper card col-xl-9">
                 <div class="card-intro">
                     <div class="card-icon">
-                        <img class="card-icon__img" src="/assets/svg/shopping-bag.svg">
+                        <img class="card-icon__img" src="/assets/svg/coffee.svg">
                     </div>
 
                     <h2 class="card-intro-title">Freelancers</h2>
                 </div>
 
-                <table class="freelancers__table">
-                    <tr>
-                        <th>Name</th>
-                        <th># contributions</th>
-                        <th>type of contributions</th>
-                    </tr>
-                    {% for row in site.data.partners.freelancer %}
-                    <tr>
-                        <td>
-                            <a href="{{row.url}}">{{ row.name }}</a>
-                        </td>
-                        <td>
-                            {{ row.contributions | size }}
-                        </td>
-                        <td>
-                            <ul>
-                                {% for contribution in row.contributions %}
-                                <li>{{ contribution }}</li>
-                                {% endfor %}
-                            </ul>
-                        </td>
-                    </tr>
-                    {% endfor %}
-                </table>
+                <div class="freelancers__box">
+                    <table class="freelancers__table">
+                        <tr>
+                            <th>Name</th>
+                            <th>type of contributions</th>
+                        </tr>
+                        {% for row in site.data.partners.freelancer %}
+                        <tr>
+                            <td>
+                                <a class="freelancers__name" href="{{row.url}}" target="_blank">{{ row.name }}</a>
+                            </td>
+                            <td>
+                                <ul class="freelancers__contributions">
+                                    {% for contribution in row.contributions %}
+                                    <li class="freelancers__contribution">{{ contribution }}</li>
+                                    {% endfor %}
+
+                                    {% if row.show_pull_requests_info %}
+                                    <li class="freelancers__contribution freelancers__contribution--pull-requests">
+                                        {{ row.pull_requests_label }} <a class="freelancers__activity-link" href="{{ row.pull_requests_link }}" target="_blank">check on github</a>
+                                    </li>
+                                    {% endif %}
+
+                                    {% if row.show_commits_info %}
+                                    <li class="freelancers__contribution freelancers__contribution--commit">
+                                        {{ row.commits_label }} <a class="freelancers__activity-link" href="{{ row.commits_link }}" target="_blank">check on github</a>
+                                    </li>
+                                    {% endif %}
+
+                                    ***
+
+                                    {% for x in row.contributions_update %}
+                                    <li class="freelancers__contribution freelancers__contribution--{{ x.icon }}" class="freelancers__contribution">{{ x.label }}</li>
+                                    {% endfor %}
+
+                                </ul>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </table>
+                </div>
             </div>
 
             <div class="involvement col-xl-3">

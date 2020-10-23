@@ -9,8 +9,56 @@
     &__table {
         margin-bottom: 0;
     }
+
+    &__name {
+        color: #707070;
+    }
+
+    &__contributions {
+        list-style-type: none;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    &__contribution {
+        background: url('/assets/svg/code-dark.svg') left 5px no-repeat;
+        background-size: auto 17px;
+        padding-left: 30px;
+        margin-left: 8px;
+
+        &--documentation {
+            background-image: url('/assets/svg/file-plus.svg');
+            background-position-x: 2px;
+        }
+
+        &--bug {
+            background-image: url('/assets/svg/bug.svg');
+            background-size: auto 18px;
+            background-position-y: 4px;
+        }
+
+        &--pull-requests {
+            background-image: url('/assets/svg/pull-request.svg');
+            background-size: auto 14px;
+            background-position-x: 2px;
+        }
+
+        &--commit {
+            background-image: url('/assets/svg/commit.svg');
+            background-size: auto 8px;
+            background-position-y: 9px;
+        }
+    }
+
+    &__activity-link {
+        font-size: .85rem;
+    }
 }
 
-@include media-breakpoint-up(xl) {
-    //
+@include media-breakpoint-up(md) {
+    .freelancers {
+        &__activity-link {
+            font-size: .8rem;
+        }
+    }
 }
