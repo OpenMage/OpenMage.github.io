@@ -99,10 +99,7 @@
             width: 180px;
         }
 
-        &--magebinary {
-            width: 200px;
-        }
-
+        &--magebinary,
         &--burgesscommerce,
         &--smartebusiness {
             width: 200px;
@@ -142,6 +139,11 @@
         }
 
         &--paradoxlabs {
+            width: 200px;
+        }
+
+        // Hosting Provider
+        &--maxcluster {
             width: 200px;
         }
     }

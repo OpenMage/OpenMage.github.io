@@ -114,6 +114,12 @@
     .card-intro {
         margin-bottom: 1.5rem;
     }
+
+    .involvement {
+        &__title {
+            font-size: 1.25rem;
+        }
+    }
 }
 
 @media (min-width: 480px) {
@@ -182,7 +188,7 @@
         &__wrapper {
             margin-bottom: 0;
         }
-        
+
         &__table {
             th,
             td {
