@@ -20,6 +20,18 @@
         padding-top: 1.5rem;
     }
 
+    &__button-text {
+        margin-right: 8px;
+    }
+
+    &__button-icon {
+        &--edit {
+            position: relative;
+            width: 23px;
+            top: -1px;
+        }
+    }
+
     &__item {
         display: flex;
         align-items: center;

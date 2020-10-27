@@ -7,100 +7,104 @@ title_thin: who support us
 <div class="freelancers">
     <div class="container">
         <div class="row">
-            <div class="freelancers__wrapper card col-xl-9">
-                <div class="card-intro">
-                    <div class="card-icon">
-                        <img class="card-icon__img" src="/assets/svg/coffee.svg">
+            <div class="col-lg-8 col-xl-9">
+                <div class="freelancers__wrapper card">
+                    <div class="card-intro">
+                        <div class="card-icon">
+                            <img class="card-icon__img" src="/assets/svg/coffee.svg">
+                        </div>
+
+                        <h2 class="card-intro-title">Freelancers</h2>
                     </div>
 
-                    <h2 class="card-intro-title">Freelancers</h2>
-                </div>
+                    <div class="freelancers__box">
+                        <table class="freelancers__table">
+                            <tr>
+                                <th>Name</th>
+                                <th>Type of contributions</th>
+                            </tr>
+                            {% for row in site.data.partners.freelancer %}
+                            <tr>
+                                <td>
+                                    <a class="freelancers__name" href="{{row.url}}" target="_blank">{{ row.name }}</a>
+                                </td>
+                                <td>
+                                    <ul class="freelancers__contributions">
+                                        {% for contribution in row.contributions %}
+                                        <li class="freelancers__contribution">
+                                            <i class="freelancers__contribution-icon freelancers__contribution-icon--{{ contribution.icon }}"></i>
+                                            {{ contribution.label }}
+                                        </li>
+                                        {% endfor %}
 
-                <div class="freelancers__box">
-                    <table class="freelancers__table">
-                        <tr>
-                            <th>Name</th>
-                            <th>type of contributions</th>
-                        </tr>
-                        {% for row in site.data.partners.freelancer %}
-                        <tr>
-                            <td>
-                                <a class="freelancers__name" href="{{row.url}}" target="_blank">{{ row.name }}</a>
-                            </td>
-                            <td>
-                                <ul class="freelancers__contributions">
-                                    {% for contribution in row.contributions %}
-                                    <li class="freelancers__contribution">{{ contribution }}</li>
-                                    {% endfor %}
+                                        {% if row.show_pull_requests_info %}
+                                        <li class="freelancers__contribution">
+                                            <i class="freelancers__contribution-icon freelancers__contribution-icon--pull-requests"></i>
+                                            <span class="freelancers__contribution-text">{{ row.pull_requests_label }}</span> <a class="freelancers__contribution-link" href="{{ row.pull_requests_link }}" target="_blank">check on github</a>
+                                        </li>
+                                        {% endif %}
 
-                                    {% if row.show_pull_requests_info %}
-                                    <li class="freelancers__contribution freelancers__contribution--pull-requests">
-                                        {{ row.pull_requests_label }} <a class="freelancers__activity-link" href="{{ row.pull_requests_link }}" target="_blank">check on github</a>
-                                    </li>
-                                    {% endif %}
-
-                                    {% if row.show_commits_info %}
-                                    <li class="freelancers__contribution freelancers__contribution--commit">
-                                        {{ row.commits_label }} <a class="freelancers__activity-link" href="{{ row.commits_link }}" target="_blank">check on github</a>
-                                    </li>
-                                    {% endif %}
-
-                                    ***
-
-                                    {% for x in row.contributions_update %}
-                                    <li class="freelancers__contribution freelancers__contribution--{{ x.icon }}" class="freelancers__contribution">{{ x.label }}</li>
-                                    {% endfor %}
-
-                                </ul>
-                            </td>
-                        </tr>
-                        {% endfor %}
-                    </table>
+                                        {% if row.show_commits_info %}
+                                        <li class="freelancers__contribution">
+                                            <i class="freelancers__contribution-icon freelancers__contribution-icon--commit"></i>
+                                            <span class="freelancers__contribution-text">{{ row.commits_label }}</span> <a class="freelancers__contribution-link" href="{{ row.commits_link }}" target="_blank">check on github</a>
+                                        </li>
+                                        {% endif %}
+                                    </ul>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </table>
+                    </div>
                 </div>
             </div>
 
-            <div class="involvement col-xl-3">
-                <div class="involvement__wrapper">
-                    <div class="involvement__title">
-                        Get Involved
-                    </div>
+            <div class="col-lg-4 col-xl-3">
+                <div class="involvement">
+                    <div class="involvement__wrapper card">
+                        <div class="involvement__title">
+                            Get Involved
+                        </div>
 
-                    <div class="involvement__info row">
-                        <div class="involvement__item col-md-6 col-lg-4 col-xl-12">
-                            <div class="card-icon card-icon--small">
-                                <img class="card-icon__img" src="/assets/svg/pull-request.svg" />
+                        <div class="involvement__info row">
+                            <div class="involvement__item col-md-6 col-lg-12">
+                                <div class="card-icon card-icon--small">
+                                    <img class="card-icon__img" src="/assets/svg/pull-request.svg" />
+                                </div>
+                                <div class="involvement__item-text">
+                                    Participate in Code Reviews of Pull Requests
+                                </div>
                             </div>
-                            <div class="involvement__item-text">
-                                Participate in Code Reviews of Pull Requests
+
+                            <div class="involvement__item col-md-6 col-lg-12">
+                                <div class="card-icon card-icon--small">
+                                    <img class="card-icon__img" src="/assets/svg/bug.svg" />
+                                </div>
+                                <div class="involvement__item-text">
+                                    Provide Bug Reports and Bug Fixes
+                                </div>
+                            </div>
+
+                            <div class="involvement__item col-md-6 col-lg-12">
+                                <div class="card-icon card-icon--small">
+                                    <img class="card-icon__img" src="/assets/svg/tag.svg" />
+                                </div>
+                                <div class="involvement__item-text">
+                                    Tag your compatible Modules
+                                </div>
                             </div>
                         </div>
 
-                        <div class="involvement__item col-md-6 col-lg-4 col-xl-12">
-                            <div class="card-icon card-icon--small">
-                                <img class="card-icon__img" src="/assets/svg/bug.svg" />
-                            </div>
-                            <div class="involvement__item-text">
-                                Provide Bug Reports and Bug Fixes
-                            </div>
+                        <div class="involvement__description">
+                            Yes! You can help, because there is a lot to do. <a href="/partners/what-you-can-do.html" role="button">Get Details</a>
                         </div>
 
-                        <div class="involvement__item col-md-6 col-lg-4 col-xl-12">
-                            <div class="card-icon card-icon--small">
-                                <img class="card-icon__img" src="/assets/svg/tag.svg" />
+                        <div class="row">
+                            <div class="involvement__button-wrapper col">
+                                <a class="btn btn-primary" href="https://github.com/OpenMage/OpenMage.github.io/blob/master/_data/partners" role="button" target="_blank">
+                                    <span class="involvement__button-text">Get listed</span> <img class="involvement__button-icon involvement__button-icon--edit" src="/assets/svg/edit-alternative.svg" alt="Edit icon">
+                                </a>
                             </div>
-                            <div class="involvement__item-text">
-                                Tag your compatible Modules
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="involvement__description">
-                        Yes! You can help, because there is a lot to do. Best way is...
-                    </div>
-
-                    <div class="row">
-                        <div class="involvement__button-wrapper col">
-                            <a class="btn btn-primary" href="/partners/what-you-can-do.html" role="button">Get details</a>
                         </div>
                     </div>
                 </div>

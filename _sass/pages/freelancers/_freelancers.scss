@@ -1,0 +1,235 @@
+.freelancers {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+
+    &__wrapper {
+        padding: 20px 20px 25px;
+        margin-bottom: 2.5rem;
+
+        .card-intro-title {
+            color: $text-gray;
+        }
+    }
+
+    &__box {
+        width: 100%;
+        overflow-y: hidden;
+    }
+
+    &__table {
+        width: 100%;
+        margin-bottom: 0;
+        border: none;
+
+        th,
+        td {
+            vertical-align: top;
+
+            &:nth-of-type(odd) {
+                text-align: right;
+                padding-left: 0;
+                padding-right: 8px;
+            }
+
+            &:nth-of-type(even) {
+                border-left: 1px solid $border-color;
+                padding-right: 0;
+                padding-left: 8px;
+            }
+        }
+
+        th {
+            background: #fff;
+            font-weight: normal;
+            color: $text-dark;
+            border-bottom: 1px solid $border-color;
+        }
+
+        td {
+            border: none;
+            padding-bottom: 0;
+            padding-top: 20px;
+        }
+    }
+
+    &__name {
+        color: #707070;
+    }
+
+    &__contributions {
+        list-style-type: none;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    &__contribution {
+        position: relative;
+        padding-left: 25px;
+        padding-bottom: 7px;
+    }
+
+    &__contribution-icon {
+        background: url('/assets/svg/code-dark.svg') left 5px no-repeat;
+        background-size: auto 17px;
+        width: 22px;
+        height: 22px;
+        position: absolute;
+        top: -3px;
+        left: 0;
+        opacity: .65;
+
+        &--documentation {
+            background-image: url('/assets/svg/file-plus.svg');
+            background-position-x: 2px;
+            background-position-y: 4px;
+        }
+
+        &--bug {
+            background-image: url('/assets/svg/bug.svg');
+            background-size: auto 18px;
+            background-position-y: 4px;
+        }
+
+        &--pull-requests {
+            background-image: url('/assets/svg/pull-request.svg');
+            background-size: auto 14px;
+            background-position-x: 2px;
+        }
+
+        &--commit {
+            background-image: url('/assets/svg/commit.svg');
+            background-size: auto 8px;
+            background-position-y: 9px;
+        }
+    }
+
+    &__contribution-text {
+        margin-right: 4px;
+    }
+
+    &__contribution-link {
+        font-size: .85rem;
+    }
+
+    .card-intro {
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (min-width: 480px) {
+    .freelancers {
+        &__box {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        &__table {
+            th,
+            td {
+                &:nth-of-type(odd) {
+                    padding-left: 10px;
+                    padding-right: 15px;
+                }
+
+                &:nth-of-type(even) {
+                    padding-right: 10px;
+                    padding-left: 15px;
+                }
+            }
+        }
+
+        &__contribution {
+            padding-left: 30px;
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .freelancers {
+        &__table {
+            th,
+            td {
+                &:nth-of-type(odd) {
+                    padding-right: 30px;
+                }
+
+                &:nth-of-type(even) {
+                    padding-left: 30px;
+                }
+            }
+        }
+
+        &__contribution {
+            padding-bottom: 5px;
+        }
+
+        &__contribution-icon {
+            top: -1px;
+        }
+
+        &__contribution-text {
+            margin-right: 8px;
+        }
+
+        &__contribution-link {
+            font-size: .8rem;
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .freelancers {
+        &__wrapper {
+            margin-bottom: 0;
+        }
+        
+        &__table {
+            th,
+            td {
+                &:nth-of-type(odd) {
+                    padding-right: 40px;
+                }
+
+                &:nth-of-type(even) {
+                    padding-left: 40px;
+                }
+            }
+        }
+
+        .involvement {
+            position: -webkit-sticky; /* Safari */
+            position: sticky;
+            top: 0;
+        }
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .freelancers {
+        &__box {
+            padding-left: calc(1.5rem + 68px);
+            padding-right: 2rem;
+        }
+
+        &__table {
+            th,
+            td {
+                &:nth-of-type(odd) {
+                    padding-right: 60px;
+                }
+
+                &:nth-of-type(even) {
+                    padding-left: 60px;
+                }
+            }
+
+            td {
+                padding-top: 23px;
+            }
+        }
+
+        &__contribution {
+            padding-bottom: 6px;
+        }
+    }
+}
