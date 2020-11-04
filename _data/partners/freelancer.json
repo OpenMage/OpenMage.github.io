@@ -3,53 +3,99 @@
     "name": "eCommerceIT",
     "url": "https://www.ecommerceit.co.uk",
     "contributions": [
-      "documentation",
-      "bug reports"
+      {
+        "label": "documentation",
+        "icon": "documentation"
+      },
+      {
+        "label": "bug reports",
+        "icon": "bug"
+      }
     ]
   },
   {
     "name": "Kevin Krieger",
     "url": "https://kkrieger.de/",
     "contributions": [
-      "documentation",
-      "bug reports",
-      "Pull Request #612"
-    ]
+      {
+        "label": "documentation",
+        "icon": "documentation"
+      },
+      {
+        "label": "bug reports",
+        "icon": "bug"
+      }
+    ],
+    "show_pull_requests_info": true,
+    "pull_requests_label": "Pull Requests",
+    "pull_requests_link": "https://github.com/OpenMage/magento-lts/pulls?q=author%3Akkrieger85+"
   },
   {
     "name": "SN Heukels",
     "url": "https://overhemden.com",
     "contributions": [
-      "documentation",
-      "multiple bug reports",
-      "10+ Pull Requests https://github.com/OpenMage/magento-lts/pulls?q=is%3Apr+seansan+author%3Aseansan"      
-    ]
+      {
+        "label": "documentation",
+        "icon": "documentation"
+      },
+      {
+        "label": "multiple bug reports",
+        "icon": "bug"
+      }
+    ],
+    "show_pull_requests_info": true,
+    "pull_requests_label": "10+ Pull Requests",
+    "pull_requests_link": "https://github.com/OpenMage/magento-lts/pulls?q=is%3Apr+seansan+author%3Aseansan"
   },
   {
     "name": "Sven Reichel",
     "url": "github-sr@hotmail.com",
     "contributions": [
-      "documentation",
-      "multiple bug reports",
-      "https://github.com/OpenMage/magento-lts/commits?author=sreichel"
-    ]
+      {
+        "label": "documentation",
+        "icon": "documentation"
+      },
+      {
+        "label": "multiple bug reports",
+        "icon": "bug"
+      }
+    ],
+    "show_commits_info": true,
+    "commits_label": "Commits",
+    "commits_link": "https://github.com/OpenMage/magento-lts/commits?author=sreichel"
   },
   {
     "name": "Aike Kristian Terjung",
     "url": "https://akt-web.de",
     "contributions": [
-      "documentation",
-      "update logos, backend styles",
-      "https://github.com/OpenMage/magento-lts/commits?author=aterjung"
-    ]
+      {
+        "label": "documentation",
+        "icon": "documentation"
+      },
+      {
+        "label": "update logos, backend styles",
+        "icon": "default"
+      }
+    ],
+    "show_commits_info": true,
+    "commits_label": "Commits",
+    "commits_link": "https://github.com/OpenMage/magento-lts/commits?author=aterjung"
   },
   {
     "name": "Milan Davídek",
     "url": "http://milandavidek.cz",
     "contributions": [
-      "bug / performance fixes",
-      "bug reports",
-      "https://github.com/OpenMage/magento-lts/commits?author=midlan"
-    ]
+      {
+        "label": "bug / performance fixes",
+        "icon": "bug"
+      },
+      {
+        "label": "bug reports",
+        "icon": "bug"
+      }
+    ],
+    "show_commits_info": true,
+    "commits_label": "Commits",
+    "commits_link": "https://github.com/OpenMage/magento-lts/commits?author=midlan"
   }
 ]
