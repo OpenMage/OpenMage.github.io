@@ -1,8 +1,16 @@
 [
     {
-      "name": "maxcluster GmbH",
-      "url": "https://maxcluster.de/",
-      "img_src": "/assets/images/agencies/maxcluster.png",
-      "classes": "maxcluster"
+        "name": "JetRails™",
+        "url": "https://jetrails.com/magento-1-eol-end-of-life-quick-guide",
+        "url_text": "jetrails.com",
+        "img_src": "/assets/images/agencies/jetrails-logo.svg",
+        "description": "JetRails provides fully-managed Magento 1 hosting on dedicated servers and single-tenant public cloud accounts. Security services include firewalling, malware scanning, and intrusion detection solutions. By leveraging partnerships with teams such as Cloudflare, Sansec, and Sucuri, JetRails provides best-in-class security for Magento 1 stores.",
+        "classes": "jetrails"
+    },
+    {
+        "name": "maxcluster GmbH",
+        "url": "https://maxcluster.de/",
+        "img_src": "/assets/images/agencies/maxcluster.png",
+        "classes": "maxcluster"
     }
 ]
