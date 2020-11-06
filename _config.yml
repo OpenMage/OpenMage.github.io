@@ -11,9 +11,11 @@ gems:
   - jekyll-redirect-from
 exclude:
   - README.md
+  - Gemfile
+  - Gemfile.lock
 sass:
   style: compressed
-languages: 
+languages:
   de:
     baseurl: "de"
 defaults:
@@ -27,4 +29,3 @@ description: A community-driven fork of Magento Community Edition
 google_analytics: UA-62512293-1
 show_downloads: true
 theme: jekyll-theme-cayman
-

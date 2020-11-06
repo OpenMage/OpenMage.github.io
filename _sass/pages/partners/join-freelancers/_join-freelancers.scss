@@ -1,0 +1,32 @@
+.join-freelancers {
+    text-align: center;
+    padding-top: 35px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+    &__wrapper {
+        background: #FCFDFE;
+        border-top: 1px solid $border-base;
+        border-bottom: 1px solid $border-base;
+        padding-bottom: .5rem;
+    }
+
+    &__icon-wrapper {
+        margin-top: -35px;
+        margin-bottom: 16px;
+    }
+
+    &__title {
+        color: $text-dark;
+        margin-bottom: .75rem;
+    }
+
+    &__text {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .card-icon {
+        background: #fff;
+    }
+}
