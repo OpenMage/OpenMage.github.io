@@ -1,0 +1,29 @@
+.migration-switcher {
+    border-bottom: 1px solid $border-color;
+    margin-bottom: 1rem;
+
+    &--last {
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+
+    &__header {
+        position: relative;
+        padding-left: 40px;
+    }
+
+    &__header-icon {
+        width: 18px;
+        height: 18px;
+        border: 2px solid #000;
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-radius: 2px;
+    }
+
+    &__info {
+        margin-bottom: 1rem;
+        padding-left: 40px;
+    }
+}

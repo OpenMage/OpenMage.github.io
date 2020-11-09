@@ -98,8 +98,10 @@ td {
 
 pre, code {
     width: 100%;
-    background-color: #fff;
+    background-color: #303030;
     box-shadow: $icon-shadow-dark-1;
+    color: #808080;
+    font-size: 14px;
 }
 
 pre {
@@ -107,7 +109,6 @@ pre {
     padding: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,.1);
     overflow: auto;
-    border-radius: 0 22px 0 0;
 }
 
 code {
