@@ -1,11 +1,24 @@
 .migration-method {
-    margin-top: 3rem;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
 
     &--second {
+        margin-bottom: 4rem;
+
         .extra-info {
             margin-top: 1.75rem !important;
             margin-bottom: 2.5rem !important;
+        }
+    }
+
+    &__wrapper {
+        margin-bottom: 2rem;
+
+        &--info {
+            order: 2;
+        }
+
+        &--requirements {
+            order: 1;
         }
     }
 
@@ -17,7 +30,7 @@
 
     &__text {
         text-align: center;
-        margin-bottom: 3rem;
+        margin-bottom: 1.25rem;
     }
 
     &__info,
@@ -49,8 +62,8 @@
             margin-right: -30px;
             padding-right: 25px;
             margin-bottom: .5rem;
-            font-size: 14px;
-            padding-left: 20px;
+            font-size: 13px;
+            padding-left: 16px;
         }
 
         ul {
@@ -75,5 +88,38 @@
     &__text-highlighted {
         font-weight: bold;
         font-style: italic;
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .migration-method {
+        &__requirements {
+            .extra-info {
+                font-size: 14px;
+                padding-left: 20px;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .migration-method {
+        margin-bottom: 3rem;
+
+        &--second {
+            margin-bottom: 5rem;
+        }
+
+        &__wrapper {
+            margin-bottom: 0;
+
+            &--info {
+                order: 1;
+            }
+
+            &--requirements {
+                order: 2;
+            }
+        }
     }
 }

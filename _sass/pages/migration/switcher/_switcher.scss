@@ -23,7 +23,12 @@
     }
 
     &__info {
+        display: none;
         margin-bottom: 1rem;
         padding-left: 40px;
+    }
+
+    &.active {
+
     }
 }

@@ -1,6 +1,6 @@
 .migration-intro {
     margin-top: 3rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 
     &__title {
         @include title();
@@ -16,6 +16,10 @@
     &__methods {
         position: relative;
         margin-bottom: 2rem;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
 
         &--first &-wrapper {
             border: 1px solid $primary;
