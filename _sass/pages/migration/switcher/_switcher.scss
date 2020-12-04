@@ -10,16 +10,39 @@
     &__header {
         position: relative;
         padding-left: 40px;
+
+        &--show-more {
+            @include transition();
+
+            &:hover {
+                color: $secondary;
+                cursor: pointer;
+            }
+        }
     }
 
     &__header-icon {
-        width: 18px;
-        height: 18px;
-        border: 2px solid #000;
         position: absolute;
         left: 0;
         top: 0;
-        border-radius: 2px;
+
+        &--plus {
+            display: inline-block;
+        }
+
+        &--minus {
+            display: none;
+        }
+    }
+
+    &.active &__header-icon {
+        &--plus {
+            display: none;
+        }
+
+        &--minus {
+            display: inline-block;
+        }
     }
 
     &__info {
@@ -28,7 +51,25 @@
         padding-left: 40px;
     }
 
-    &.active {
+    &.active &__info {
+        display: block;
+    }
 
+    &__code-link {
+        color: #5aa1f6;
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: #5aa1f6;
+        }
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .migration-switcher {
+        &__header-icon {
+            top: 2px;
+        }
     }
 }

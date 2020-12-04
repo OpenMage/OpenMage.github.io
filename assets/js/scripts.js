@@ -341,26 +341,12 @@ if (jQuery('#js-changelog-page').length) {
 // Migration page
 if (jQuery('#js-migration-page').length) {
     // Clicks on tabs
-    jQuery('#js-migration-method__info').on('click', '.migration-switcher__header', function() {
+    jQuery('#js-migration-method__info').on('click', '.migration-switcher__header--show-more', function() {
         if (!(jQuery(this).parent().hasClass('active'))) {
             // Activate appropriate box
-            // jQuery(this).parents('.migration-method__info').find('.migration-switcher.active').removeClass('active');
-            // jQuery(this).parent().addClass('active');
-
-            jQuery(this).parents('.migration-method__info').find('.migration-switcher.active .migration-switcher__info').fadeOut();
             jQuery(this).parents('.migration-method__info').find('.migration-switcher.active').removeClass('active');
-
             jQuery(this).parent().addClass('active');
-            jQuery(this).next().fadeIn();
-
-            // if (jQuery(window).width() < 992) {
-            //     // Scroll page to selected box
-            //     jQuery('body,html').animate({
-            //         scrollTop: jQuery('#js-migration-method__info .migration-switcher.active').offset().top
-            //     }, 500);
-            // }
         } else {
-            // jQuery(this).parent().removeClass('active');
             jQuery(this).parent().removeClass('active');
         }
     })
