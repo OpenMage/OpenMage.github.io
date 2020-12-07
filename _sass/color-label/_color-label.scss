@@ -1,0 +1,13 @@
+.color-label {
+    background-color: $primary;
+    display: inline-block;
+    min-width: 145px;
+    color: #fff;
+    text-align: center;
+    padding: 3px 15px 2px;
+    font-size: 12px;
+
+    &--alternative {
+        background-color: $secondary;
+    }
+}

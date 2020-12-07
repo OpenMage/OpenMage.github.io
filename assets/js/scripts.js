@@ -337,3 +337,17 @@ if (jQuery('#js-changelog-page').length) {
         }
     });
 }
+
+// Migration page
+if (jQuery('#js-migration-page').length) {
+    // Clicks on tabs
+    jQuery('#js-migration-method__info').on('click', '.migration-switcher__header--show-more', function() {
+        if (!(jQuery(this).parent().hasClass('active'))) {
+            // Activate appropriate box
+            jQuery(this).parents('.migration-method__info').find('.migration-switcher.active').removeClass('active');
+            jQuery(this).parent().addClass('active');
+        } else {
+            jQuery(this).parent().removeClass('active');
+        }
+    })
+}
