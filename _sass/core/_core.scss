@@ -74,6 +74,15 @@ html {
     }
 }
 
+.text-no-select {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
 table {
     border: 1px solid $border-dark-1;
     margin-bottom: 20px;
@@ -98,8 +107,10 @@ td {
 
 pre, code {
     width: 100%;
-    background-color: #fff;
+    background-color: #303030;
     box-shadow: $icon-shadow-dark-1;
+    color: #808080;
+    font-size: 14px;
 }
 
 pre {
@@ -107,7 +118,6 @@ pre {
     padding: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,.1);
     overflow: auto;
-    border-radius: 0 22px 0 0;
 }
 
 code {

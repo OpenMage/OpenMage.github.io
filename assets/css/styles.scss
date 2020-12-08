@@ -34,7 +34,9 @@
 @import "info-list/info-list";
 @import "get-involved/get-involved";
 @import "code-in-text/code-in-text";
+@import "camouflage-text/camouflage-text";
 @import "extra-info/extra-info";
+@import "color-label/color-label";
 
 // homepage sections
 @import "blog/blog";
@@ -65,3 +67,6 @@
 @import "pages/changelog/switcher/switcher";
 @import "pages/changelog/items/items";
 @import "pages/freelancers/freelancers";
+@import "pages/migration/intro/intro";
+@import "pages/migration/method/method";
+@import "pages/migration/switcher/switcher";
