@@ -1,8 +1,8 @@
 .sidebar-menu {
-    padding: 27px 5px 10px;
+    padding: 22px 20px 10px;
 
     &__item {
-        margin-bottom: 1rem;
+        margin-bottom: 1.5rem;
     }
 
     &__item-title {
@@ -30,19 +30,33 @@
                 background-color: $secondary;
                 position: absolute;
                 left: -12px;
-                top: 10px;
+                top: 9px;
             }
         }
     }
 
     &__category-item {
         margin-bottom: .9rem;
+
+        &--back-link {
+            &:before {
+                display: none !important;
+            }
+        }
     }
 
     &__category-link {
         color: $gray-600;
         text-transform: uppercase;
         display: inline-block;
+
+        &.active {
+            color: $secondary;
+        }
+
+        &--back-link {
+            text-transform: none;
+        }
     }
 
     &__posts-item {
@@ -79,9 +93,8 @@
             height: calc(100% - 5px);
             position: absolute;
             left: 7px;
-            bottom: 8px;
+            bottom: 9px;
             background-color: $border-base;
-            background-color: #f00;
         }
 
         li {
@@ -95,10 +108,9 @@
                 width: 10px;
                 height: 1px;
                 position: absolute;
-                top: 12px;
+                top: 11px;
                 left: -21px;
                 background-color: $border-base;
-                background-color: #f00;
                 z-index: 1;
             }
         }
@@ -117,7 +129,11 @@
 
 @include media-breakpoint-up(sm) {
     .sidebar-menu {
-        padding: 20px 5px 10px;
+        padding: 22px 30px 10px;
+
+        &__item {
+            margin-bottom: 1.75rem;
+        }
     }
 }
 
@@ -127,12 +143,56 @@
             &:before {
                 bottom: 12px;
             }
+
+            li {
+                &:after {
+                    top: 12px;
+                }
+            }
+        }
+
+        &__category,
+        &__posts,
+        &__shortcuts-submenu {
+            li {
+                &:before {
+                    top: 10px;
+                }
+            }
         }
     }
 }
 
 @include media-breakpoint-up(lg) {
     .sidebar-menu {
-        padding: 20px 5px 10px;
+        &__item {
+            &--posts {
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .sidebar-menu {
+        padding: 22px 25px 10px;
+
+        &__item {
+            margin-bottom: 1.5rem;
+
+            &:last-of-type {
+                margin-bottom: 1rem;
+            }
+
+            &--posts {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+        }
+
+        &__shortcuts-wrapper {
+            margin-bottom: 1.75rem;
+        }
     }
 }
