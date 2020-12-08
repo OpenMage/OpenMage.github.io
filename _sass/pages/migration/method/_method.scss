@@ -1,0 +1,125 @@
+.migration-method {
+    margin-bottom: 1rem;
+
+    &--second {
+        margin-bottom: 4rem;
+
+        .extra-info {
+            margin-top: 1.75rem !important;
+            margin-bottom: 2.5rem !important;
+        }
+    }
+
+    &__wrapper {
+        margin-bottom: 2rem;
+
+        &--info {
+            order: 2;
+        }
+
+        &--requirements {
+            order: 1;
+        }
+    }
+
+    &__title {
+        @include title();
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    &__text {
+        text-align: center;
+        margin-bottom: 1.25rem;
+    }
+
+    &__info,
+    &__requirements {
+        position: relative;
+
+        .color-label {
+            position: absolute;
+            left: -74px;
+            top: 85px;
+            transform: rotate(-90deg);
+        }
+    }
+
+    &__info {
+        padding: 25px 35px 25px 45px;
+    }
+
+    &__info-title {
+        @include title('small');
+        margin-bottom: 1.5rem;
+    }
+
+    &__requirements {
+        padding: 25px 30px;
+
+        .extra-info {
+            margin-top: .25rem;
+            margin-right: -30px;
+            padding-right: 25px;
+            margin-bottom: .5rem;
+            font-size: 13px;
+            padding-left: 16px;
+        }
+
+        ul {
+            padding-left: 15px;
+            margin-bottom: 0;
+
+            li {
+                margin-bottom: 1rem;
+
+                &:last-of-type {
+                    margin-bottom: .25rem;
+                }
+            }
+        }
+    }
+
+    &__requirements-title {
+        @include title('small');
+        margin-bottom: 1.5rem;
+    }
+
+    &__text-highlighted {
+        font-weight: bold;
+        font-style: italic;
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .migration-method {
+        &__requirements {
+            .extra-info {
+                font-size: 14px;
+                padding-left: 20px;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .migration-method {
+        margin-bottom: 3rem;
+
+        &--second {
+            margin-bottom: 5rem;
+        }
+
+        &__wrapper {
+            margin-bottom: 0;
+
+            &--info {
+                order: 1;
+            }
+
+            &--requirements {
+                order: 2;
+            }
+        }
+    }
+}
