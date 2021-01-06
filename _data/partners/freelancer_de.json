@@ -97,6 +97,19 @@
     "show_commits_info": true,
     "commits_label": "Commits",
     "commits_link": "https://github.com/OpenMage/magento-lts/commits?author=midlan"
+  },
+  {
+    "name": "Luboš Hubáček",
+    "url": "https://luboshubacek.cz",
+    "contributions": [
+      {
+        "label": "Fehler Berichte",
+        "icon": "bug"
+      }
+    ],
+    "show_commits_info": true,
+    "commits_label": "Commits",
+    "commits_link": "https://github.com/OpenMage/magento-lts/commits?author=Sekiphp"
   }
 ]
 
