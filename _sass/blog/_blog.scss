@@ -86,6 +86,14 @@
         &:hover {
             color: $primary;
         }
+
+        &--on-categories {
+            margin-bottom: 2rem;
+        }
+    }
+
+    &__sidebar {
+        padding-top: 2rem;
     }
 }
 
@@ -101,6 +109,10 @@
 
         &__show-more {
             display: none;
+        }
+
+        &__sidebar {
+            padding-top: 0;
         }
     }
 }

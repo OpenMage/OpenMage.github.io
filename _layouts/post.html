@@ -1,9 +1,159 @@
 ---
-layout: page
+layout: blog-page
 ---
 
-<div class="row">
-    <div class="col-12 col-xl-10 offset-xl-1">
-        {{ content }}
+<div class="blog-single-page {% if page.classes %}{{ page.classes }} {% endif %}page-container container">
+    <div class="row">
+        <div class="col-12 col-xl-9">
+            <div class="blog-single-page__wrapper">
+                <div class="blog-single-page__intro row">
+                    {% if page.thumbnail %}
+                    <div class="blog-single-page__intro-image-wrapper col-lg-4">
+                        <img class="blog-single-page__intro-image" src="{{ page.thumbnail }}" alt="{{ post.title }}" />
+                        <img class="blog-single-page__intro-dots" src="/assets/svg/dots-dark.svg" alt="Dots">
+                    </div>
+                    {% endif %}
+
+                    <div class="blog-single-page__intro-info col-lg-8">
+                        {% if page.title %}
+                        <h2 class="blog-single-page__intro-title">
+                            {{ page.title }}
+                        </h2>
+                        {% endif %}
+
+                        {% if page.category %}
+                        <div class="blog-single-page__intro-row">
+                            <span class="blog-single-page__intro-label">category:</span> <span class="blog-single-page__intro-text">{{ page.category }}</span>
+                        </div>
+                        {% endif %}
+
+                        {% if page.date %}
+                        <div class="blog-single-page__intro-row">
+                            <span class="blog-single-page__intro-label">date:</span> <span class="blog-single-page__intro-text">{{ page.date | date_to_string }}</span>
+                        </div>
+                        {% endif %}
+
+                        {% if page.author %}
+                        <div class="blog-single-page__intro-row">
+                            <span class="blog-single-page__intro-label">author:</span> <span class="blog-single-page__intro-text">{{ page.author }}</span>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+
+                <div class="blog-single-page__content">
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+
+        <div class="blog-single-page__sidebar col-12 col-xl-3">
+            <div class="sidebar-menu card">
+                <div class="row">
+                    <div class="sidebar-menu__item sidebar-menu__item--category col-12 col-lg-3 col-xl-12">
+                        <div class="sidebar-menu__item-title">
+                            Category
+                        </div>
+
+                        <ul class="sidebar-menu__category">
+                            <li class="sidebar-menu__category-item">
+                                <a class="sidebar-menu__category-link" href="/blog-updates">Updates</a>
+                            </li>
+                            <li class="sidebar-menu__category-item">
+                                <a class="sidebar-menu__category-link" href="/blog-patches-and-addons">Patches & addons</a>
+                            </li>
+                            <li class="sidebar-menu__category-item">
+                                <a class="sidebar-menu__category-link" href="/blog-community">Community</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="sidebar-menu__item sidebar-menu__item--posts col-12 col-lg-6 col-xl-12">
+                        <div class="sidebar-menu__item-title">
+                            Last Post
+                        </div>
+
+                        <ul class="sidebar-menu__posts">
+                            {% assign posts=site.posts | where:"lang", "en" %}
+                            {% for post in posts limit:4 %}
+                                {% if post.show_in_blog_page_last_posts_section %}
+                                <li class="sidebar-menu__posts-item">
+                                    {% if post.title %}
+                                    <a class="sidebar-menu__posts-link" href="{{ site.baseurl }}{{ post.url }}">
+                                        {{ post.title }}
+                                    </a>
+                                    {% endif %}
+                                </li>
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
+                    </div>
+
+                    <div class="sidebar-menu__item sidebar-menu__item--shortcuts col-12 col-lg-3 col-xl-12">
+                        <div class="sidebar-menu__item-title">
+                            Shortcuts
+                        </div>
+
+                        <div class="sidebar-menu__shortcuts row">
+                            <div class="sidebar-menu__shortcuts-wrapper col-sm-6 col-lg-12">
+                                <div class="sidebar-menu__shortcuts-title">
+                                    Community
+                                </div>
+
+                                <ul class="sidebar-menu__shortcuts-submenu">
+                                    <li class="sidebar-menu__shortcuts-submenu-item">
+                                        <a class="sidebar-menu__shortcuts-submenu-link" href="/partners">Partners</a>
+                                    </li>
+                                    <li class="sidebar-menu__shortcuts-submenu-item">
+                                        <a class="sidebar-menu__shortcuts-submenu-link" href="/partners/freelancer.html">Freelancers</a>
+                                    </li>
+                                    <li class="sidebar-menu__shortcuts-submenu-item">
+                                        <a class="sidebar-menu__shortcuts-submenu-link" href="/partners/what-you-can-do.html">Get Involved</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="sidebar-menu__shortcuts-wrapper col-sm-6 col-lg-12">
+                                <div class="sidebar-menu__shortcuts-title">
+                                    OpenMage LTS
+                                </div>
+
+                                <ul class="sidebar-menu__shortcuts-submenu">
+                                    <li class="sidebar-menu__shortcuts-submenu-item">
+                                        <a class="sidebar-menu__shortcuts-submenu-link" href="/magento-lts/migration-guide.html">Migrate</a>
+                                    </li>
+                                    <li class="sidebar-menu__shortcuts-submenu-item">
+                                        <a class="sidebar-menu__shortcuts-submenu-link" href="/magento-lts/install.html">Install</a>
+                                    </li>
+                                    <li class="sidebar-menu__shortcuts-submenu-item">
+                                        <a class="sidebar-menu__shortcuts-submenu-link" href="/magento-lts/changelog/magento1-openmage-20_0.html">Changelog</a>
+                                    </li>
+                                    <li class="sidebar-menu__shortcuts-submenu-item">
+                                        <a class="sidebar-menu__shortcuts-submenu-link" href="/supported-versions.html">Versions</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="newsletter mt-3">
+    <div class="newsletter__bg bg-dark-gradient"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 text-center">
+                <img class="newsletter__image" src="/assets/images/newsletter.png" alt="Newsletter">
+            </div>
+            <div class="col-lg-8 mt-2 mt-lg-5 mb-4" id="newsletter">
+                <h2 class="newsletter__title title">Want OpenMage in your inbox?</h2>
+                <p class="newsletter__subtitle">Be the first to know about new paths fresh bug fixes, and co-op offers. We’re a good penpal. Promise.</p>
+                <iframe class="mj-w-res-iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://app.mailjet.com/widget/iframe/4iX1/iBI" width="100%"></iframe>
+                <script type="text/javascript" src="https://app.mailjet.com/statics/js/iframeResizer.min.js"></script>
+            </div>
+        </div>
     </div>
 </div>

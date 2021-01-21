@@ -16,6 +16,15 @@ $title-big-s-line-height:                           $title-big-sm-line-height;
 $title-big-s-font-weight:                           $title-big-sm-font-weight;
 $title-big-letter-spacing:                          -0.92px;
 
+// medium title
+$title-medium-sm-font-size:                         1.75rem;    // 28px
+$title-medium-sm-line-height:                       $title-medium-sm-font-size + .5rem;
+$title-medium-sm-font-weight:                       600;        // semi-bold
+$title-medium-s-font-size:                          1.6rem;
+$title-medium-s-line-height:                        $title-medium-s-font-size + .5rem;
+$title-medium-s-font-weight:                        600;        // semi-bold
+$title-medium-letter-spacing:                       -0.5px;
+
 // small title
 $title-small-l-font-size:                           1.375rem;   // 22px
 $title-small-l-line-height:                         1.272727273;

@@ -15,7 +15,7 @@ Aber mit dem Eol (End of Life) von Magento(1) ist zu erwarten, dass auch der Mar
 <!--more-->
 
 Um sicherzustellen, dass sie erhalten bleiben und für das OpenMage-Projekt verfügbar sind, haben wir ein Nebenprojekt gestartet.
-Das [OpenMage Module Fostering](https://github.com/OpenMageModuleFostering) ist ein Archiv aller OpenSource Magento(1)-Module, die über Magento Connect verfügbar sind. Dies wird jedoch nur der erste Schritt sein. Da sie alle auf Github verfügbar sind, kannst Du auch die Fortsetzung der Arbeit an ihnen durch die Community an einer zentralen Stelle verwalten.
+Das [OpenMage Module Fostering](https://github.com/OpenMageModuleFostering){:target="_blank"} ist ein Archiv aller OpenSource Magento(1)-Module, die über Magento Connect verfügbar sind. Dies wird jedoch nur der erste Schritt sein. Da sie alle auf Github verfügbar sind, kannst Du auch die Fortsetzung der Arbeit an ihnen durch die Community an einer zentralen Stelle verwalten.
 
 Eine Zahl: Nachdem wir einige Module mit Problemen übersprungen hatten, haben wir schließlich 2834 Module importiert.
 
@@ -25,7 +25,7 @@ Wenn Du uns bei der Wartung unterstützen möchtest, nehme Kontakt mit uns auf G
 
 Sage uns auch, was Deiner Meinung nach noch geschehen soll.
 
-Du möchtest mehr darüber erfahren, wie wir das geschafft haben? Viel Spaß beim Durchlesen des Codes über unser [Tooling](https://github.com/OpenMageModuleFostering/Tooling).
+Du möchtest mehr darüber erfahren, wie wir das geschafft haben? Viel Spaß beim Durchlesen des Codes über unser [Tooling](https://github.com/OpenMageModuleFostering/Tooling){:target="_blank"}.
 Behalte es im Auge, wir werden weiterhin Tooling hinzufügen, das uns dabei hilft, Änderungen an allen Modulen auf einmal vorzunehmen.
 
 

@@ -11,4 +11,16 @@
             padding-bottom: 0.8rem;
         }
     }
+
+    &--category-posts {
+        margin-bottom: 5rem;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .blog-page {
+        &--category-posts {
+            margin-bottom: 4rem;
+        }
+    }
 }

@@ -18,7 +18,7 @@ This already happened once a few years back, when a lot of older modules got rem
 <!--more-->
 
 To ensure they are preserved and available for the OpenMage Project, we started a side Project.
-The [OpenMage Module Fostering](https://github.com/OpenMageModuleFostering) is an Archive of
+The [OpenMage Module Fostering](https://github.com/OpenMageModuleFostering){:target="_blank"} is an Archive of
 all the OpenSource Magento(1) Modules available via Magento Connect.
 But this will only be the first step. Having them all on Github, also allows managing the continuation
 of working on them through the community on a central place.
@@ -33,7 +33,7 @@ You want support us in maintaining, get in contact with us on Github, Twitter or
 Also, tell us what else would you like to see happen?
 
 You want to know more about how we managed to do this?
-Have fun reading through the Code of our [Tooling](https://github.com/OpenMageModuleFostering/Tooling).
+Have fun reading through the Code of our [Tooling](https://github.com/OpenMageModuleFostering/Tooling){:target="_blank"}.
 Keep an eye on it, we will continue to add Tooling, helping us to script changes for all the Modules at once.
 
  

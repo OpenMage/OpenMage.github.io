@@ -12,6 +12,17 @@
             line-height: $title-standard-l-line-height;
             font-weight: $title-standard-l-font-weight;
         }
+    } @else if $type == 'medium' {
+        font-size: $title-medium-s-font-size;
+        line-height: $title-medium-s-line-height;
+        font-weight: $title-medium-s-font-weight;
+        letter-spacing: $title-medium-letter-spacing;
+
+        @include media-breakpoint-up(sm) {
+            font-size: $title-medium-sm-font-size;
+            line-height: $title-medium-sm-line-height;
+            font-weight: $title-medium-sm-font-weight;
+        }
     } @else if $type == 'big' {
         font-size: $title-big-s-font-size;
         line-height: $title-big-s-line-height;
