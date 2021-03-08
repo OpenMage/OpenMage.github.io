@@ -1,0 +1,23 @@
+[
+    {
+        "name": "JetRails™",
+        "url": "https://jetrails.com/magento-1-eol-end-of-life-quick-guide",
+        "url_text": "jetrails.com",
+        "img_src": "/assets/images/agencies/jetrails-logo.svg",
+        "description": "JetRails bietet vollständig verwaltetes Magento 1-Hosting auf dedizierten Servern und Single-Tenant-Public-Cloud-Accounts. Die Sicherheitsdienste umfassen Firewalling, Malware-Scanning und Intrusion-Detection-Lösungen. Durch die Nutzung von Partnerschaften mit Teams wie Cloudflare, Sansec und Sucuri bietet JetRails erstklassige Sicherheit für Magento-1-Shops.",
+        "classes": "jetrails"
+    },
+    {
+        "name": "maxcluster GmbH",
+        "url": "https://maxcluster.de/",
+        "img_src": "/assets/images/agencies/maxcluster.png",
+        "classes": "maxcluster"
+    },
+    {
+        "name": "Splendid Internet GmbH",
+        "url": "https://www.splendid-internet.de/",
+        "img_src": "/assets/images/agencies/splendid-logo.jpg",
+        "description": "Splendid Internet bietet Performance optimiertes Hosting für Magento seit 2011. Echte Hardware mit 5 Ghz CPU und NVMe SSD auf dedizierten Servern und Serverclustern. Full-Page Caching mit Varnish und Redis. NGINX Webserver mit Google Pagespeed Modul, 24/7 Service, MySQL oder Maria DB, Elasticsearch Suche, Überwachung mit New Relic. Security Absicherung und tägliche Malware Prüfung, DDoS Schutz, optional mit Web Application Firewall (WAF) und Content Delivery Network (CDN).",
+        "classes": "splendid"
+    }
+]
