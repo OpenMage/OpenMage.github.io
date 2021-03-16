@@ -16,6 +16,26 @@
     ]
   },
   {
+    "name": "ATELI Development, s.r.o.",
+    "url": "https://ateli.dev",
+    "img_src": "https://avatars.githubusercontent.com/u/53212327",
+    "classes": "ateli-development",
+    "contributions": [
+        "Performance improvements",
+        "Custom features",
+        "3rd party integration",
+        "Web application security",
+        "Security audits"
+    ],
+    "contributions_de": [
+      "Leistungsverbesserungen",
+      "Benutzerdefinierte Funktionen",
+      "Integration von Drittanbietern",
+      "Sicherheit von Webanwendungen",
+      "Sicherheitsüberprüfungen"
+    ]
+  },
+  {
     "name": "MageBinary",
     "url": "https://www.magebinary.com",
     "img_src": "/assets/images/agencies/magebinary-logo.jpg",
