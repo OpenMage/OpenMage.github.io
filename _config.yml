@@ -13,6 +13,7 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - docker-compose.yml
 sass:
   style: compressed
 languages:
