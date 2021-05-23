@@ -124,5 +124,11 @@
     "url": "https://www.huettenmueller.de",
     "img_src": "/assets/images/agencies/huettenmueller-logo.png",
     "classes": "huettenmueller"
+  },
+  {
+    "name": "go-services.it",
+    "url": "https://www.go-services.it/",
+    "img_src": "/assets/images/agencies/GO-SERVICES_orizzontale-full-e1497970645329.png",
+    "classes": "go-services"
   }
 ]
