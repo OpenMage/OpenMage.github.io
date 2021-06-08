@@ -2,7 +2,7 @@
 layout: post_de
 title: Ein neues Zuhause für Magento Connect-Module
 excerpt: Ein neues Zuhause für Magento Connect-Module. Hier zum Artikel!
-category: Patches & addons
+category: Patches %26 addons
 thumbnail: /assets/images/blog/modules.png
 author: flyingmana
 lang: de
