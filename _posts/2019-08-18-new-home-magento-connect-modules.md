@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A new Home for Magento Connect Modules
-category: Patches & addons
+category: Patches %26 addons
 thumbnail: /assets/images/blog/modules.png
 author: flyingmana
 permalink: /:year/:month/:day/:title:output_ext
