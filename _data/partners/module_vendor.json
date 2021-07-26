@@ -61,5 +61,12 @@
     "description": "Blackfire.io is a PHP code profiler which supports Magento 1 and 2. Offering advanced metrics capturing and visualizations, Blackfire enables Magento developers to understand how their code is executed, how it consumes server resources, and how to optimize its performance, quality and security.",
     "img_src": "/assets/images/module-vendors/blackfire-logo.png",
     "classes": "blackfire"
+  },
+  {
+    "name": "Sales Igniter",
+    "url": "https://rentalbookingsoftware.com/",
+    "description": "Sales Igniter offers a Rental Booking System for Magento 1 and 2. Features include flexible calendar and pricing setup, check-in and check-out, serial / barcode based inventory tracking, inventory reports, and support for Bundles and Configurable product types.",
+    "img_src": "/assets/images/module-vendors/salesigniter-logo.png",
+    "classes": "salesigniter"
   }
 ]
