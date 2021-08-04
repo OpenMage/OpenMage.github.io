@@ -68,5 +68,12 @@
     "description": "Sales Igniter offers a Rental Booking System for Magento 1 and 2. Features include flexible calendar and pricing setup, check-in and check-out, serial / barcode based inventory tracking, inventory reports, and support for Bundles and Configurable product types.",
     "img_src": "/assets/images/module-vendors/salesigniter-logo.png",
     "classes": "salesigniter"
+  },
+  {
+    "name": "cobby.io",
+    "url": "https://www.cobby.io/",
+    "description": "cobby Is Your PIM With Excel. cobby connects all your product data in real time with Excel. Create new products, change prices, upload images and much more – directly in Excel and with one click also in Magento 1 and 2.",
+    "img_src": "/assets/images/module-vendors/cobby-logo.png",
+    "classes": "cobby"
   }
 ]
