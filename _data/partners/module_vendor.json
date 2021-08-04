@@ -61,5 +61,12 @@
     "description": "Blackfire.io is a PHP code profiler which supports Magento 1 and 2. Offering advanced metrics capturing and visualizations, Blackfire enables Magento developers to understand how their code is executed, how it consumes server resources, and how to optimize its performance, quality and security.",
     "img_src": "/assets/images/module-vendors/blackfire-logo.png",
     "classes": "blackfire"
+  },
+  {
+    "name": "cobby.io",
+    "url": "https://www.cobby.io/",
+    "description": "cobby Is Your PIM With Excel. cobby connects all your product data in real time with Excel. Create new products, change prices, upload images and much more – directly in Excel and with one click also in Magento 1 and 2.",
+    "img_src": "/assets/images/module-vendors/cobby-logo.png",
+    "classes": "cobby"
   }
 ]
