@@ -51,7 +51,17 @@
     "name": "Splendid Internet GmbH",
     "url": "https://www.splendid-internet.de/",
     "img_src": "/assets/images/agencies/splendid-logo.jpg",
-    "classes": "splendid"
+    "classes": "splendid",
+    "contributions": [
+		"<p>As a full-service e-commerce agency since 1998, we offer our customers support in migration to OpenMage and real Magento 1 Long Term Support.</p>
+		 <p>We develop complex enterprise online stores based on Magento Open Source, Magento Commerce and see ourselves as a strong member of the community here. In addition to programming and integration of Magento Extensions, we connect merchandise management systems, payment methods and the marketplaces of eBay and Amazon.</p>
+	     <p>In addition to store support and hosting, we support you in online marketing. Our team helps to win customers and increase the conversion to orders.</p>"],
+    "contributions_de": [
+      	"<p>Als Full-Service E-Commerce-Agentur seit 1998 bieten wir unseren Kunden Unterstützung bei der Migration zu OpenMage und echten Magento 1 Long Term Support. </p>
+		 <p>Wir entwickeln komplexe Enterprise Onlineshops auf Grundlage von Magento Open Source, Magento Commerce und sehen uns hier als starkes Mitglied der Community. Neben der Programmierung und Integration von Magento Extensions, binden wir Warenwirtschaftssysteme, Paymentverfahren und die Marktplätze von eBay und Amazon an.</p>
+		 <p>Zusätzlich zu Shop-Betreuung und Hosting unterstützen wir Dich im Online Marketing. Unser Team hilft dabei, Kunden zu gewinnen und die Konversion in Aufträge zu erhöhen.</p>" 
+    ]
+
   },
   {
     "name": "The Ecommerce Workroom",

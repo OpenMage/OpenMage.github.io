@@ -212,9 +212,15 @@ title_thin: im OpenMage LTS Projekt
                         </a>
 
                         {% if row.contributions_de %}
+
+
                         <ul class="partners__description-list">
                             {% for contribution in row.contributions_de %}
-                            <li class="partners__description-list-item">{{ contribution }}</li>
+								{% if row.name == "Splendid Internet GmbH" %}
+									<li style="list-style: none; margin: 0 -45px !important;">{{ contribution }}</li>
+								{% else %}
+									<li class="partners__description-list-item">{{ contribution }}</li>
+								{% endif %}
                             {% endfor %}
                         </ul>
                         {% endif %}
