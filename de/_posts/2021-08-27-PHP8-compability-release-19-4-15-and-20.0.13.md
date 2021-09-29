@@ -1,6 +1,6 @@
 ---
 layout: post_de
-title: PHP 8 Kompatibilität mit Release 19.4.15 und 20.3.13
+title: PHP 8 Kompatibilität mit Release 19.4.15 und 20.0.13
 category: Updates
 thumbnail: /assets/images/blog/release.png
 author: robertrogge
