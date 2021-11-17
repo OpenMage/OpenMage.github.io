@@ -153,4 +153,10 @@
       "Fehlerberichte & Fix" 
     ]
   },
+  {
+    "name": "eCommerce-Werkstatt GmbH",
+    "url": "https://www.ecommerce-werkstatt.de/",
+    "img_src": "/assets/images/agencies/ecommerce-werkstatt_logo.png",
+    "classes": "ecommerce-werkstatt"
+  }
 ]
