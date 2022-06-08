@@ -110,5 +110,18 @@
     "show_commits_info": true,
     "commits_label": "Commits",
     "commits_link": "https://github.com/OpenMage/magento-lts/commits?author=Sekiphp"
+  },
+  {
+    "name": "Fabrizio Balliano",
+    "url": "https://fabrizioballiano.com",
+    "contributions": [
+      {
+        "label": "bug reports & fixes",
+        "icon": "bug"
+      }
+    ],
+    "show_pull_requests_info": true,
+    "pull_requests_label": "50+ Pull Requests",
+    "pull_requests_link": "https://github.com/OpenMage/magento-lts/pulls?q=is%3Apr+author%3Afballiano"
   }
 ]
