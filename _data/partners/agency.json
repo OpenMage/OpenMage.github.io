@@ -153,4 +153,16 @@
       "Fehlerberichte & Fix" 
     ]
   },
+  {
+    "name": "Openstream Internet Solutions",
+    "url": "https://www.openstream.ch",
+    "img_src": "/assets/images/agencies/openstream-logo.png",
+    "classes": "openstream",
+    "contributions": [
+        "Team of experienced web developers, ecommerce project managers and online marketing specialists. Company founded in Zürich/Switzerland in 2004."
+    ],
+    "contributions_de": [
+      "Team aus erfahrenen Web Entwickler:innen, E-Commerce Projektleiter:innen und Online Marketing Spezialist:innen. Firmengründung 2004 in Zürich/Schweiz."
+    ]
+  },
 ]
