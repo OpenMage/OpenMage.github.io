@@ -63,11 +63,11 @@ As an example, Magento store owners have to deal with:
 
 - new PHP versions (PHP is in version 8.2 as I write these lines)
 - libraries getting deprecated (did you know that several libraries used by Magento are unmaintained by their initial owners, and are now part of the Magento core?)
-- open-source projects die (do you remember OSCommerce? Also, the “Magento 1” project is now dead… but open-source allows projects such as Magento-LTS to write a new story on top of this legacy)
+- software projects die (do you remember OSCommerce? Also, the “Magento 1” project was declared dead… but open-source enables projects such as OpenMage to write a new story on top of this legacy)
 
 Some of these technology changes are welcome (i.e: new PHP versions bring better performance and code maintainability for PHP projects) but others are seen as a burden (i.e: a JS dependency is so entangled in many different parts of the frontend that replacing it with another is a huge task to undertake).
 
-**This is where I see the interest of a solution such as MagentoLTS.**
+**This is where I see the benefits of a solution such as OpenMage LTS.**
 It is a lighthouse that remains stable (in terms of features) while following the needed technology changes from the underlying ecosystem.
 Thanks to the OpenMage community, merchants can maintain their fully tailored online shop up-to-date without having to recreate their custom features on a new foundation.
 
@@ -78,8 +78,8 @@ But for features that must evolve with users standards and usage, I think it oft
 
 External services rise and disappear. Embracing this fact is a key factor allowing merchants to innovate and grow faster than their competitors.
 
-Do you want to grow internationally? Support new payment and shipping methods used by customers from different countries.
-Do you want to sell on a marketplace? Export your catalog to the marketplace your targeted customers visit daily.
+Do you want to grow internationally? Support new payment and shipping methods used by customers from different countries.<br>
+Do you want to sell on a marketplace? Export your catalog to the marketplace your targeted customers visit daily.<br>
 Do you want to engage your community? Embed widgets from your main social media platforms on your website, and optimize your pages for sharing and reposting.
 
 Plus, there are many more features that may be relevant in a specific context but are impossible to have in a single platform by default:
@@ -106,23 +106,23 @@ This is the use-case that a new generation of solutions can solve.
 
 Headless commerce and composable storefronts offer **an alternative way to move forward**. Merchants can begin by relocating parts of their monolith to external services for specific tasks.
 
-For example, merchants can use a headless CMS to manage their store's content, and use a composable storefront to build a custom user interface with modern technologies, while keeping the same underlying platform (Magento) for the tasks it already handles.
+For example, merchants can use a headless CMS to manage their store's content and use a composable storefront to build a custom user interface with modern technologies, while keeping the same underlying platform (Magento since 2007 and now OpenMage LTS) for the tasks it already handles.
 
 **This approach allows merchants to keep their existing features while gaining access to features provided by external services.** It also makes it easier and faster for developers to integrate new services.
 
-We have seen in recent years that projects have experienced **a "second life" by using their OpenMage instance as a headless commerce backend**. In a few months, they were able to deliver a new frontend based on more maintainable technologies (allowing them to more easily hire web developers).
+We have seen in recent years that projects have experienced **a "second life" by using their Magento instance upgraded to OpenMage LTS as a headless commerce backend**. In a few months, they were able to deliver a new frontend based on more maintainable technologies (allowing them to more easily hire web developers).
 
-For some of them, Magento's responsibilities were reduced to the essentials: catalog management, user management, and transactional commerce. Search and content management were migrated to other best-of-breed services, and unused features were removed. This resulted in a simpler and more stable codebase!
+For some of them, OpenMage's responsibilities were reduced to the essentials: catalog management, user management, and transactional commerce. Search and content management were migrated to other best-of-breed services, and unused features were removed. This resulted in a simpler and more stable codebase!
 
 Later, some projects continued this journey even further: they replatformed their commerce platform to Magento2 (or other solutions).
 
-These examples all shared **one key enabler: the addition of a REST API adapted to the use of the storefront in Magento1**. It made this transition less risky and faster. We believed in this approach very early in the Front-Commerce team, and **our partner [PH2M](https://www.ph2m.com/) managed to make it a reality** by adding a wide range of REST APIs to bring headless feature coverage at a higher level than what Magento2 supports as of today!
+These examples all shared **one key enabler: the addition of a REST API adapted to the use of the storefront**. It made this transition faster and cheaper and therefore less risky. We believed in this approach very early in the Front-Commerce team, and **our partner [PH2M](https://www.ph2m.com/) managed to make it a reality** by adding a wide range of REST APIs to bring headless feature coverage at a higher level than what even Magento 2 supports as of today!
 
 ### Conclusion
 
 Do you need to go through all these additional steps?
 It depends on your context, your customers and their usage.
 
-For incremental improvements it you can keep investing in your current frontend theme.
+You could keep investing in incremental improvements of your current frontend theme.
 
 But if you aim at differentiating your brand from competitors thanks to innovative commerce practices (adapted to *your* customers and *your* company), it may be worth it!
