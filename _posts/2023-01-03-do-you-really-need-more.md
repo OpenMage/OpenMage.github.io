@@ -126,3 +126,7 @@ It depends on your context, your customers and their usage.
 You could keep investing in incremental improvements of your current frontend theme.
 
 But if you aim at differentiating your brand from competitors thanks to innovative commerce practices (adapted to *your* customers and *your* company), it may be worth it!
+
+---
+
+If you want to help us with maintenance, contact us on [Github](https://github.com/OpenMage/magento-lts), [Twitter](https://twitter.com/OpenMageProject) or via [Discord](https://discord.gg/EV8aNbU).

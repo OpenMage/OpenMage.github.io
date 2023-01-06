@@ -36,5 +36,6 @@ You want to know more about how we managed to do this?
 Have fun reading through the Code of our [Tooling](https://github.com/OpenMageModuleFostering/Tooling){:target="_blank"}.
 Keep an eye on it, we will continue to add Tooling, helping us to script changes for all the Modules at once.
 
- 
+---
 
+If you want to help us with maintenance, contact us on [Github](https://github.com/OpenMage/magento-lts), [Twitter](https://twitter.com/OpenMageProject) or via [Discord](https://discord.gg/EV8aNbU).
