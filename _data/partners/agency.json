@@ -16,10 +16,10 @@
     ]
   },
   {
-    "name": "ATELI Development, s.r.o.",
-    "url": "https://ateli.dev",
+    "name": "AITI Software s.r.o.",
+    "url": "https:/aiti.cz",
     "img_src": "https://avatars.githubusercontent.com/u/53212327",
-    "classes": "ateli-development",
+    "classes": "aiti",
     "contributions": [
         "Performance improvements",
         "Custom features",
@@ -59,7 +59,7 @@
     "contributions_de": [
       	"<p>Als Full-Service E-Commerce-Agentur seit 1998 bieten wir unseren Kunden Unterstützung bei der Migration zu OpenMage und echten Magento 1 Long Term Support. </p>
 		 <p>Wir entwickeln komplexe Enterprise Onlineshops auf Grundlage von Magento Open Source, Magento Commerce und sehen uns hier als starkes Mitglied der Community. Neben der Programmierung und Integration von Magento Extensions, binden wir Warenwirtschaftssysteme, Paymentverfahren und die Marktplätze von eBay und Amazon an.</p>
-		 <p>Zusätzlich zu Shop-Betreuung und Hosting unterstützen wir Dich im Online Marketing. Unser Team hilft dabei, Kunden zu gewinnen und die Konversion in Aufträge zu erhöhen.</p>" 
+		 <p>Zusätzlich zu Shop-Betreuung und Hosting unterstützen wir Dich im Online Marketing. Unser Team hilft dabei, Kunden zu gewinnen und die Konversion in Aufträge zu erhöhen.</p>"
     ]
 
   },
@@ -139,12 +139,12 @@
     "name": "Digital-Free",
     "url": "https://www.digital-free.net",
     "img_src": "/assets/images/agencies/digital-free-logo.png",
-    "classes": "digital-free", 
+    "classes": "digital-free",
     "contributions": [
-        "Bug Reports & Fix" 
+        "Bug Reports & Fix"
     ],
     "contributions_de": [
-      "Fehlerberichte & Fix" 
+      "Fehlerberichte & Fix"
     ]
   },
   {
