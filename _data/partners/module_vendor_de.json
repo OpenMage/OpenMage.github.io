@@ -68,5 +68,12 @@
     "description": "cobby ist dein PIM-System mit Excel. cobby verbindet alle Produktdaten in Echtzeit mit Excel. Neue Produkte anlegen, Preise ändern, Bilder hochladen und vieles mehr – direkt in Excel und mit einem Klick auch sofort in Magento 1 oder 2.",
     "img_src": "/assets/images/module-vendors/cobby-logo.png",
     "classes": "cobby"
+  },
+  {
+    "name": "Omny Checkout",
+    "url": "https://omny.com.br/",
+    "description": "Introducing our keyless checkout service for OpeMage. With just a few clicks, your customers can complete their purchase quickly and easily. With our keyless checkout service, you can increase conversions, reduce abandoned carts, and provide a seamless checkout experience for your customers. Don’t let checkout be a source of stress for you or your customers. Try Omny Checkout today!",
+    "img_src": "/assets/images/module-vendors/omny-logo.png",
+    "classes": "omny"
   }
 ]
