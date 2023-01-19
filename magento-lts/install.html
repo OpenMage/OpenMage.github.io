@@ -73,11 +73,23 @@ title_thin: OpenMage LTS
         "openmage/magento-lts": "{{ site.data.versions.composer.latestStableBranch }}"
     },
     "extra": {
+        "enable-patching": true,
         "magento-core-package-type": "magento-source",
         "magento-root-dir": "htdocs"
     }
 }</code></pre>
                 </div>
+                
+                <p class="install-instructions__warning">
+                    <strong>Warning</strong>
+                    Note: If you are using PHP 7, you should use <code>"aydin-hassan/magento-core-composer-installer": ">=1.0.0 <2.1.0"</code>
+                    as newer versions are compatible with PHP 8 only.
+                </p>
+                <p class="install-instructions__warning">
+                    <strong>Warning</strong>
+                    Note: Starting with magento-lts versions 19.5.X and 20.0.X you must set <code>"enable-patching": true</code> to 
+                    ensure all security patches are applied.
+                </p>
             </div>
         
             <div class="install-instructions__item col-lg-10 offset-lg-1 col-xl-6 offset-xl-0">
