@@ -14,6 +14,13 @@
         "classes": "maxcluster"
     },
     {
+        "name": "rackSPEED GmbH",
+        "url": "https://rackspeed.de/",
+        "img_src": "/assets/images/agencies/rackspeed-logo.jpg",
+        "description": "rackSPEED GmbH, owner-managed provider of managed server solutions in the heart of Düsseldorf. Known for ultra-fast, scalable solutions and unique customer support since 2008. The range of services extends from simple shared hosting for small projects to managed servers of any size and up to redundant clusters. If required, clusters are set up geo-redundantly across 2 or more fully self-sufficient datacentre locations to achieve 100% uptime.",
+        "classes": "rackspeed"
+    },    
+    {
         "name": "Splendid Internet GmbH",
         "url": "https://www.splendid-internet.de/",
         "img_src": "/assets/images/agencies/splendid-logo.jpg",
