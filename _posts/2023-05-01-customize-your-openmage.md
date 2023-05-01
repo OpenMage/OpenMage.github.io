@@ -45,7 +45,7 @@ Here's an example `composer.json` file with a patch defined:
 
 In this example, we're requiring the `vendor/package` package at version `1.0.0`, and applying a patch named "Fix Bug \#1234" located in the `patches/fix-bug-1234.patch` file.
 
-To apply the patch, simply run `composer update` and Composer will automatically download the package and apply the patch.
+To apply the patch, simply run `composer update` and Composer will apply the patch and maintain the state of whether the patch has been applied or not.
 
 # Generating patch files
 
@@ -53,9 +53,10 @@ There are many ways to do this, but here are a few common ones:
 
 ### Github Pull Requests
 
-If a Github PR already contains the code changes you need, simply download a patch file from Github by appending `.patch` to the filename. You gotta love Github!
-For example: `https://github.com/OpenMage/magento-lts/pull/3146.patch`. This url will result in a redirect so download it with your browser or a client that
-follows redirect such as `wget` or `curl -L`.
+If a Github PR already contains the code changes you need, simply download a patch file from Github by appending `.patch` to the PR url. You gotta love Github!
+
+For example, the patch URL for PR #3146 is: `https://github.com/OpenMage/magento-lts/pull/3146.patch`. This url will result in a redirect so download it with your
+browser or a client that follows redirects (Location header) such as `wget` or `curl -L`.
 
 ```
 mkdir -p patches
@@ -96,14 +97,14 @@ To get a single patch with the changes from the `some-feature` branch:
 git format-patch origin/main...some-feature --stdout > patches/some-feature.patch
 ```
 
-Notice the three `...` which gets all changes. If you used `..` you would get one file per commit.
+Notice the three `...` which gets all changes as one patch. If you used `..` you would get one file per commit.
 
-Use `git show <commit>` to show a single commit or `git diff <base>..<commit>` to get all changes between two commits. Consult the interwebs for more info.
+Use `git show <commit>` to show a single commit or `git diff <base>...<commit>` to get all changes between two commits. Consult the interwebs for more info.
 
 ### Testing patches
 
-Use `git apply` to test applying the patches to your working copy or just `composer install`.
+Use `git apply` or `patch` to test applying the patches to your working copy or just go for it with `composer install`.
 
 Use `composer update --lock` to save the state of the applied patches to your `composer.lock` file.
 
-Give it a try and see how it can benefit your project!
+Give it a try and see how privately maintained patches can benefit your project!
