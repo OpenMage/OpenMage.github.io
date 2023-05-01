@@ -81,6 +81,22 @@ Note, you can also have the patch downloaded at runtime by defining it as a url 
 
 If it doesn't apply cleanly, apply the patch using `git apply` and fix the conflicts and then output the changes as a local patch file using one of the methods below.
 
+### symplify/vendor-patches
+
+If you are using OpenMage as a project dependency, you can use `symplify/vendor-patches` to generate a patch file easily. This tool automatically
+updates your composer.json for you. Note, in the case of modifying OpenMage core code installed as a project dependency you will need to modify the
+files in the "vendor" directory rather than the `magento-root-dir` directory (e.g. "htdocs").
+
+Here is an example generating patches for `app/Mage.php`:
+
+```sh
+composer require symplify/vendor-patches --dev
+cp vendor/app/Mage.php vendor/app/Mage.php.old
+# modify app/Mage.php to your liking
+vendor/bin/vendor-patches generate
+composer install
+```
+
 ### Git with dirty working copy
 
 If you have local changes on a git working copy you can simply use `git diff > patches/my-changes.patch`.
