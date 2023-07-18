@@ -17,44 +17,6 @@ title_thin: from Magento 1 to OpenMage
                     </p>
                 </div>
             </div>
-
-            <div class="row">
-                <div class="migration-intro__methods migration-intro__methods--first col-lg-5 offset-lg-1">
-                    <div class="migration-intro__methods-wrapper">
-                        <div class="migration-intro__methods-title">
-                            Quick job with One Step Migration Script
-                        </div>
-                        <p>
-                            We have prepared the One Step Migration Script to allow you to move quickly all of your
-                            products, customers, order data, store configurations, promotions, and more to OpenMage LTS.
-                        </p>
-                        <p class="migration-intro__methods-link-wrapper">
-                            <a class="migration-intro__methods-link" href="#first-method">Go to first method</a>
-                        </p>
-                        <div class="color-label">
-                            first method
-                        </div>
-                    </div>
-                </div>
-
-                <div class="migration-intro__methods migration-intro__methods--second col-lg-5">
-                    <div class="migration-intro__methods-wrapper">
-                        <div class="migration-intro__methods-title">
-                            Git based migration
-                        </div>
-                        <p>
-                            It’s a lightweight, branch-based workflow that supports teams and projects where deployments
-                            are made regularly. Use this method if you are familiar with git.
-                        </p>
-                        <p class="migration-intro__methods-link-wrapper">
-                            <a class="migration-intro__methods-link" href="#second-method">Go to second method</a>
-                        </p>
-                        <div class="color-label color-label--alternative">
-                            second method
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 
@@ -63,62 +25,7 @@ title_thin: from Magento 1 to OpenMage
             <div class="row">
                 <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
                     <h2 class="migration-method__title">
-                        First method
-                    </h2>
-                    <p class="migration-method__text">
-                        We are proud to present the quickest migration script, which you can download and execute with
-                        one command. Use this tool and get started right away with OpenMage LTS.
-                    </p>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="migration-method__wrapper migration-method__wrapper--info col-lg-8 col-xl-9">
-                    <div class="migration-method__info card">
-                        <div class="migration-method__info-title">
-                            One Step Migration Script
-                        </div>
-                        <p>
-                            This command starts the download of the script, and when it's finished script will be
-                            executed automatically.
-                        </p>
-                        <pre><code>$ curl -fsSL https://migrate.openmage.org | sh</code></pre>
-                        <p>
-                            ...and that's all. Enjoy a new e-commerce experience.
-                        </p>
-                        <div class="color-label">
-                            first method
-                        </div>
-                    </div>
-                </div>
-
-                <div class="migration-method__wrapper migration-method__wrapper--requirements col-lg-4 col-xl-3">
-                    <div class="migration-method__requirements card">
-                        <div class="migration-method__requirements-title">
-                            Requirements
-                        </div>
-                        <p>
-                            Migration script will work with any version of Magento CE newer than and including 1.3.3.0
-                        </p>
-                        <p class="extra-info">
-                            excluding alphas, betas, and RCs.
-                        </p>
-
-                        <div class="color-label">
-                            first method
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="second-method" class="migration-method migration-method--second">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
-                    <h2 class="migration-method__title">
-                        Second method
+                        Composer
                     </h2>
                     <p class="migration-method__text">
                         Github methodology - This guide provides information on the workflow and best practices for
@@ -299,11 +206,12 @@ From https://github.com/OpenMage/magento-lts
                                 <img class="migration-switcher__header-icon migration-switcher__header-icon--plus" src="/assets/svg/plus.svg" />
                                 <img class="migration-switcher__header-icon migration-switcher__header-icon--minus" src="/assets/svg/minus.svg" />
                                 <p class="migration-switcher__header-text">
-                                    5. Rebase with latest Openamge branch (1.9.4.x currently)
+                                    5. Rebase with OpenMage branch (here: main)
                                 </p>
                             </div>
                             <div class="migration-switcher__info">
-                                <pre><code>git rebase -X theirs upstream/1.9.4.x</code></pre>
+                                We go in more detail about other versions <a href="/supported-versions.html">here</a>.<br><br>
+                                <pre><code>git rebase -X theirs upstream/main</code></pre>
                             </div>
                         </div>
 
@@ -312,7 +220,7 @@ From https://github.com/OpenMage/magento-lts
                                 <img class="migration-switcher__header-icon migration-switcher__header-icon--plus" src="/assets/svg/plus.svg" />
                                 <img class="migration-switcher__header-icon migration-switcher__header-icon--minus" src="/assets/svg/minus.svg" />
                                 <p class="migration-switcher__header-text">
-                                    6. How to proceed when problem appears.<br>
+                                    6. How to proceed when problem appears.<br>
                                 </p>
                             </div>
                             <div class="migration-switcher__info">
@@ -372,7 +280,7 @@ git commit</code></pre>
                             code into the Magento root directory:
                         </p>
                         <ul>
-                            <li>access to all commits of OpanMage project in git log</li>
+                            <li>access to all commits of OpenMage project in git log</li>
                             <li>
                                 possibility to use git tools to manually compare some of the crucial files and decide
                                 what changes should be merged into our project (like Mage.php. Index.php, .htacces etc.)
