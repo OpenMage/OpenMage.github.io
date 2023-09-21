@@ -6,3 +6,4 @@ _site
 *.swp
 *.swo
 .ftpconfig
+.idea/
