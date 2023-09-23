@@ -18,9 +18,5 @@
     {
         "label": "About Project",
         "url": "/magento-lts/about.html"
-    },
-    {
-        "label": "Newsletter",
-        "url": "/#newsletter"
     }
 ]
