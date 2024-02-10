@@ -14,6 +14,13 @@
         "classes": "maxcluster"
     },
     {
+        "name": "rackSPEED GmbH",
+        "url": "https://rackspeed.de/",
+        "img_src": "/assets/images/agencies/rackspeed-logo.png",
+        "description": "Die rackSPEED GmbH, Inhaber-geführter Anbieter von Managed Server-Lösungen im Herzen von Düsseldorf. Seit 2008 bekannt für ultraschnelle, skalierbare Lösungen und einzigartigen Kundensupport. Die Angebote reichen vom einfachen Shared-Hosting für kleine Projekte über Managed-Server jeglicher Größenordnung bis hin zu redundanten Clustern. Cluster werden auf Wunsch geo-redundant über 2 oder mehr völlig autarke Rechenzentrumsstandorte hinweg aufgebaut und erreichen so eine Uptime von 100%.",
+        "classes": "rackspeed"
+    },
+    {
         "name": "Splendid Internet GmbH",
         "url": "https://www.splendid-internet.de/",
         "img_src": "/assets/images/agencies/splendid-logo.jpg",
