@@ -33,3 +33,4 @@ show_downloads: true
 theme: jekyll-theme-cayman
 
 github: [metadata]
+repository: OpenMage/OpenMage.github.io
