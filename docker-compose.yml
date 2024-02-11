@@ -9,4 +9,4 @@ services:
     volumes:
       - ./:/app
     working_dir: /app
-    command: "jekyll serve --livereload --host=0.0.0.0 --force_polling"
+    command: "bundle exec jekyll serve --livereload --host=0.0.0.0 --force_polling"
