@@ -31,3 +31,5 @@ description: A community-driven fork of Magento Community Edition
 google_analytics: UA-62512293-1
 show_downloads: true
 theme: jekyll-theme-cayman
+
+github: [metadata]
