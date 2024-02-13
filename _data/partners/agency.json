@@ -165,5 +165,11 @@
     "contributions_de": [
       "Team aus erfahrenen Web Entwickler:innen, E-Commerce Projektleiter:innen und Online Marketing Spezialist:innen. Firmengründung 2004 in Zürich/Schweiz."
     ]
+  },
+  {
+    "name": "Linajex",
+    "url": "https://linajex.com/index_en.html",
+    "img_src": "/assets/images/agencies/linajex.png",
+    "classes": "linajex"
   }
 ]
