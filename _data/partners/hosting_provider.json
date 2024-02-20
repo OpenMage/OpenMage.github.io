@@ -26,5 +26,11 @@
         "img_src": "/assets/images/agencies/splendid-logo.jpg",
         "description": "Splendid Internet offers performance optimized hosting for Magento since 2011. Real hardware with 5 Ghz CPU and NVMe SSD on dedicated servers and server clusters. Full-page caching with Varnish and Redis. NGINX web server with Google Pagespeed module, 24/7 service, MySQL or Maria DB, Elasticsearch search, monitoring with New Relic. Security protection and daily malware check, DDoS protection, optional with Web Application Firewall (WAF) and Content Delivery Network (CDN).",
         "classes": "splendid"
+    },
+    {
+        "name": "Vicus eBusiness Solutions B.V.",
+        "url": "https://www.vicus.nl",
+        "img_src": "/assets/images/agencies/Vicus-Logo.png",
+        "classes": "vicus"
     }
 ]
