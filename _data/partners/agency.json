@@ -171,5 +171,19 @@
     "url": "https://linajex.com/index_en.html",
     "img_src": "/assets/images/agencies/linajex.png",
     "classes": "linajex"
+  },
+  {
+    "name": "Inchweb",
+    "url": "https://www.inchweb.de/magento-paypal-checkout.html",
+    "img_src": "https://www.inchweb.de/files/inchweb/img/logo_inchweb.png",
+    "classes": "inchweb",
+    "contributions": [
+      "<p>Full-Service-Agency for Magento LTS and other Ecommerce Platforms.</p>
+      <p>Available Modules: Paypal Checkout for Magento LTS, Cookie-Manager for Magento LTS and more.</p>"
+    ],
+    "contributions_de": [
+      "<p>Full-Service-Agentur für Magento LTS und andere Ecommerce-Plattformen.</p>
+      <p>Verfügbare Module: Paypal Checkout für Magento LTS, Cookie-Manager für Magento LTS und mehr.</p>"
+    ]
   }
 ]
