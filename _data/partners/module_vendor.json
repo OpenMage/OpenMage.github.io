@@ -76,4 +76,10 @@
     "img_src": "/assets/images/module-vendors/cobby-logo.png",
     "classes": "cobby"
   }
+  {
+    "name": "Insights Ready",
+    "url": "https://insightsready.com/",
+    "description": "Count on Insights Ready as your go-to partner for next-level e-commerce analytics. We've made Power BI the heart of our cutting-edge solution for Magento and Adobe Commerce!",
+    "classes": "insightsready"
+  }
 ]
