@@ -175,7 +175,7 @@
   {
     "name": "Inchweb",
     "url": "https://www.inchweb.de/magento-paypal-checkout.html",
-    "img_src": "https://www.inchweb.de/files/inchweb/img/logo_inchweb.png",
+    "img_src": "/assets/images/agencies/inchweb-logo.png",
     "classes": "inchweb",
     "contributions": [
       "<p>Full-Service-Agency for Magento LTS and other Ecommerce Platforms.</p>
