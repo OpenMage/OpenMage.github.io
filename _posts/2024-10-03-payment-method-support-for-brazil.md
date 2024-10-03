@@ -29,7 +29,7 @@ Brazil has a unique payment landscape with several popular methods:
 - **Installment Payments**: Allows customers to pay in multiple installments, making it easier to afford higher-priced items.
 - **Lowest Fees**: When you use this official partner module, you get one of the lowest fees in the market and pay less than official rates, while support the project.
 
-<img src="/images//blog/post/brazilian-payments-banner.png" />
+<img src="/assets/images/blog/post/brazilian-payments-banner.png" />
 
 With PagBank Integrações, you can provide your customers with a seamless and secure payment experience, tailored to the unique needs of the Brazilian market. Stay tuned for more updates and enhancements to this essential module for OpenMage.
 
