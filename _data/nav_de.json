@@ -5,7 +5,7 @@
     },
     {
         "label": "Installation",
-        "url": "/de/magento-lts/install.html"
+        "url": "/de/openmage/install.html"
     },
     {
         "label": "Blog",
@@ -17,6 +17,6 @@
     },
     {
         "label": "Das Projekt",
-        "url": "/de/magento-lts/about.html"
+        "url": "/de/openmage/about.html"
     }
 ]
