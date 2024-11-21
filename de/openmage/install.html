@@ -62,39 +62,11 @@ excerpt: Installation von Magento LTS. Der vorgeschlagene Weg, diesen Magento 1 
 <div class="install-instructions">
     <div class="container">
         <div class="row">
-            <div class="install-instructions__item col-lg-10 offset-lg-1 col-xl-6 offset-xl-0">
-                <h3 class="install-instructions__title">aydin-hassan/magento-core-composer-installer</h3>
-                <div class="install-instructions__code">
-<pre><code>{
-    "require": {
-        "aydin-hassan/magento-core-composer-installer": "*",
-        "openmage/magento-lts": "{{ site.data.versions.composer.latestStableBranch }}"
-    },
-    "extra": {
-        "magento-core-package-type": "magento-source",
-        "magento-root-dir": "htdocs"
-    }
-}</code></pre>
-                </div>
-            </div>
-        
-            <div class="install-instructions__item col-lg-10 offset-lg-1 col-xl-6 offset-xl-0">
-                <h3 class="install-instructions__title">aoepeople/composer-installers</h3>
-                <div class="install-instructions__code">
-<pre><code>{
-    "require": {
-        "aoepeople/composer-installers": "*",
-        "openmage/magento-lts": "{{ site.data.versions.composer.latestStableBranch }}"
-    }
-}
-</code></pre>
-                </div>
-                
+            <div class="install-instructions__item">
+                <h4 class="card-title">Installations-Anleitung</h4>
                 <p class="install-instructions__warning">
-                    <strong>Warnhinweis:</strong> 
-                    Der Wechsel zum AOEs Composer-Installationsprogramm löscht Deinen htdocs-Ordner, es werden nicht nur
-                    die magento-lts-Dateien kopiert. Wenn Du bereits symlinks auf local.xml, media und var-Ordner
-                    hast - dann mache einfach weiter.
+                    Hier weiterlesen:
+                    <a href="https://docs.openmage.org/users/install/_use-composer/">https://docs.openmage.org/users/install/use-composer/</a>
                 </p>
             </div>
         </div>
