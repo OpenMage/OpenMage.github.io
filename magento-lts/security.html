@@ -1,0 +1,122 @@
+---
+layout: page
+title: Vulnerability Disclosure Program
+title_thin:
+---
+
+<h1 class="section-header"> Security Policy</h1>
+
+<p>OpenMage LTS is a fork of Magento CE 1.9 which provides a place for the Magento community to continue to contribute to the Magento 1 code base. We appreciate you disclosing important security vulnerabilities responsibly and privately by following the easy process defined below.</p>
+
+<p>We will keep the details of your security vulnerability report private and only share it with verified members of our organization or our partner organizations and only on an as-needed basis.</p>
+
+<h2 class="section-header"> Supported Versions</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>OpenMage LTS Tag</th>
+            <th>Magento Version</th>
+            <th>Branch</th>
+            <th>Supported</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>~19.4.3</td>
+            <td>1.9.4.5</td>
+            <td>1.9.4.x</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>-</td>
+            <td><= 1.9.4.4</td>
+            <td>multiple</td>
+            <td>No</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2 class="section-header"> Reporting a Vulnerability</h2>
+
+<p>To report a vulnerability, please *DO NOT* open a public Issue or Pull Request.</p>
+
+<p>Please email your security vulnerability report to
+    <a href="mailto:security@openmage.org">security@openmage.org</a> along with your Github user name so that once we create a security advisory you may be added to it as a collaborator for further review.
+</p>
+
+<p>We will review the advisory and work with you to find a suitable solution. We will publicly disclose the vulnerability once a patch is prepared and our community and partners have an easy path forward to apply the patch promptly. We will be sure to give you credit for the vulnerability discovery unless you request otherwise.</p>
+
+
+<h3>Example submission form</h3>
+<div class="example">
+    <p><strong>Title:</strong> [Please add a one line description of the issue, e.g. "XSS in mail.example.com
+        results in session theft"]</p>
+    <p><strong>Summary:</strong> [Please add a brief description of the vulnerability and why it matters, e.g. Due to a lack of escaping, you can send an email to another user containing an XSS payload that would enable an attacker to steal another user's cookies containing session information. This would allow the attacker to login to the victim's account.]</p>
+
+    <p><strong>Reproduction Steps:</strong> [Please add step by step instructions on how to reproduce the vulnerability.]</p>
+    <ol>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+
+    <p><strong>Attack Scenario and Impact:</strong> [How could this be exploited? What security impact does this issue have?]</p>
+    <p><strong>Remediation Advice:</strong> [Optionally, if you have any advice on how this issue could be fixed or remediated, add it here.]</p>
+</div>
+
+<h2 class="section-header">Severity and Remediation Timelines</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Severity</th>
+            <th>Description</th>
+            <th>Timeline</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+
+<h2 class="section-header">Testing guidelines</h2>
+
+<p>When performing security testing, please adhere to the following guidelines:</p>
+
+<p>Only test against your own accounts and data (e.g. create test accounts). If you identify a vulnerability that may result in access to other users' data, please check with us first before testing further. If you inadvertently access other users' data in your testing, please let us know, and do not store any such user data. Do not perform testing that results in denial of service conditions or degradation of our production services. Social engineering is out of scope for this program; do not attempt to socially engineer our organization or our users.</p>
+
+
+<p>We're particularly interested in the following types of vulnerabilities and impacts:</p>
+
+<ul>
+    <li>Remote code execution</li>
+    <li>XSS resulting in access to sensitive data (e.g. session info)</li>
+    <li>SQL injection resulting in access to sensitive data or functionality</li>
+    <li>Business logic flaws that result in access to sensitive data or functionality</li>
+</ul>
+
+
+<p>We are less interested in the following types of vulnerabilities, which are more likely to get rejected as false positives or accepted risks:</p>
+
+<ul>
+    <li>Lack of the X-Frame-Options header on pages without state-changing functionality</li>
+    <li>Unverified automated scanner results</li>
+    <li>Issues that are unlikely to be exploitable and/or that do not have realistic security impact</li>
+</ul>
+
+<h2 class="section-header">Limitation of Liability</h2>
+
+<p>As per section 8 of the
+    <a href="https://opensource.org/licenses/OSL-3.0" target="_blank">[OSL 3.0 license]</a> by which this source code is made available to the general public, we offer this source code only on a "use at your own risk" basis.
+</p>
+
+<blockquote>
+    8) Limitation of Liability. Under no circumstances and under no legal theory, whether in tort (including negligence), contract, or otherwise, shall the Licensor be liable to anyone for any indirect, special, incidental, or consequential damages of any character arising as a result of this License or the use of the Original Work including, without limitation, damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses. This limitation of liability shall not apply to the extent applicable law prohibits such limitation.
+</blockquote>
+
+<div class="clearfix" style="padding: 20px 0;"></div>
