@@ -191,6 +191,11 @@
     "url": "https://www.vicus.nl",
     "img_src": "/assets/images/agencies/Vicus-Logo.png",
     "classes": "vicus"
-
+  },
+  {
+    "name": "410 Gone",
+    "url": "https://www.410-gone.fr/",
+    "img_src": "/assets/images/agencies/410gone-logo.png",
+    "classes": "410gone"
   }
 ]
