@@ -192,5 +192,11 @@
     "img_src": "/assets/images/agencies/Vicus-Logo.png",
     "classes": "vicus"
 
+  },
+  {
+    "name": "kodet.io",
+    "url": "https://www.kodet.io",
+    "img_src": "/assets/images/agencies/kodet-logo.png",
+    "classes": "kodet"
   }
 ]
