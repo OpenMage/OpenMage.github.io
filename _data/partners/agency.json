@@ -197,5 +197,10 @@
     "url": "https://www.410-gone.fr/",
     "img_src": "/assets/images/agencies/410gone-logo.png",
     "classes": "410gone"
+  },
+  {
+    "name": "FrontLineDev",
+    "url": "https://www.frontlinedev.com/",
+    "classes": "frontlinedev"
   }
 ]
