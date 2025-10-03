@@ -123,5 +123,19 @@
     "show_pull_requests_info": true,
     "pull_requests_label": "50+ Pull Requests",
     "pull_requests_link": "https://github.com/OpenMage/magento-lts/pulls?q=is%3Apr+author%3Afballiano"
+  },
+  {
+    "name": "Sean Breeden",
+    "url": "https://www.seanbreeden.com",
+    "contributions": [
+      {
+        "label": "documentation",
+        "icon": "documentation"
+      },
+      {
+        "label": "bug reports",
+        "icon": "bug"
+      }
+    ]
   }
 ]
