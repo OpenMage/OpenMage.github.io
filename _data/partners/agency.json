@@ -16,6 +16,36 @@
     ]
   },
   {
+    "name": "Purpletree Software",
+    "url": "https://www.purpletreesoftware.com",
+    "img_src": "https://www.purpletreesoftware.com/assets/images/logo_icon/logo_dark.png",
+    "classes": "purpletree",
+    "contributions": [
+	    "Extension Development",
+	    "Multi-vendor marketplace solutions",
+	    "Booking & reservation system development",
+	    "Custom module & feature development",
+	    "3rd party API integrations (CRM, ERP, payment gateways)",
+	    "Performance optimization & scalability improvements",
+	    "Web application security & compliance",
+	    "Code audits & security assessments",
+	    "UI/UX enhancements for stores",
+	    "Maintenance & technical support"
+	],
+	"contributions_de": [
+	    "Erweiterungsentwicklung",
+	    "Multi-Vendor-Marktplatzlösungen",
+	    "Entwicklung von Buchungs- und Reservierungssystemen",
+	    "Entwicklung kundenspezifischer Module und Funktionen",
+	    "Integration von Drittanbieter-APIs (CRM, ERP, Zahlungsgateways)",
+	    "Leistungsoptimierung und Skalierbarkeitsverbesserungen",
+	    "Sicherheit von Webanwendungen und Compliance",
+	    "Code-Audits und Sicherheitsbewertungen",
+	    "UI/UX-Verbesserungen für Online-Shops",
+	    "Wartung und technischer Support"
+	]
+  },
+  {
     "name": "AITI Software s.r.o.",
     "url": "https://aiti.cz",
     "img_src": "https://avatars.githubusercontent.com/u/53212327",
